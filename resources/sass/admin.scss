@@ -1,0 +1,9 @@
+// resources/css/admin.css
+// Entry ของหลังบ้าน (admin) - AdminLTE v4 (Bootstrap 5)
+// ห้าม import ไฟลของหน้าบ้าน (web.css) เข้ามาในไฟลนี้ (แยก bundle คนละชุดตาม design.md หัวข้อ 1.3)
+
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+/* AdminLTE v4 precompiled CSS (ทับ/เสริม Bootstrap ด้วย component ของ AdminLTE) */
+@import 'admin-lte/dist/css/adminlte.css';

@@ -1,0 +1,5 @@
+// resources/css/web.css
+// Entry ของหน้าบ้าน (public site) — ใช้ Bootstrap 5 เท่านั้น
+// ห้าม import ไฟลของหลังบ้าน (admin.css/AdminLTE) เข้ามาในไฟลนี้
+
+@import 'bootstrap/scss/bootstrap';
