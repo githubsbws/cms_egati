@@ -68,4 +68,50 @@ return [
         'route' => null,
     ],
 
+    [
+        'id' => 9,
+        'key' => 'contact_us',
+        'icon' => 'bi-send',
+        'route' => null,
+    ],
+
+    [
+        'id' => 10,
+        'key' => 'permission',
+        'icon' => 'bi-shield-lock',
+        'route' => null,
+        'children' => [
+            ['key' => 'admin_group','name' => 'กลุ่มผู้ใช้งาน', 'route' => null],
+        ],
+    ],
+
+    [
+        'id' => 11,
+        'key' => 'about_us',
+        'icon' => 'bi-send',
+        'route' => null,
+    ],
+
+    [
+        'id' => 12,
+        'key' => 'business',
+        'icon' => 'bi-send',
+        'route' => null,
+    ],
+
+    [
+        'id' => 13,
+        'key' => 'document',
+        'icon' => 'bi-send',
+        'route' => null,
+    ],
+
+    [
+        'id' => 14,
+        'key' => 'work_us',
+        'icon' => 'bi-send',
+        'route' => null,
+    ],
+
+
 ];

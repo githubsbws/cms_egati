@@ -10,9 +10,9 @@
 <body class="layout-fixed sidebar-expand-lg bg-body-tertiary">
     <div class="app-wrapper">
 
-        @include('layouts.partials.header')
+        @include('admin.layouts.partials.header')
 
-        @include('layouts.partials.menu-left')
+        @include('admin.layouts.partials.menu-left')
 
         {{-- Main content --}}
         <main class="app-main">
@@ -29,7 +29,7 @@
             </div>
         </main>
 
-        @include('layouts.partials.footer')
+        @include('admin.layouts.partials.footer')
     </div>
 </body>
 </html>

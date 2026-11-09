@@ -13,21 +13,21 @@ inclusion: always
 ทุกครั้งที่ต้องรันคำสั่ง `php` หรือ `php artisan ...` ในโปรเจกต์นี้ (composer, artisan, php -v, php -l ฯลฯ) ให้ใช้ path เต็มนี้แทนคำว่า `php` เปล่าๆ:
 
 ```
-C:\php-8.5.10\php.exe
+C:\php-8.5.12\php.exe
 ```
 
 ตัวอย่าง:
 
 ```powershell
-C:\php-8.5.10\php.exe artisan migrate
-C:\php-8.5.10\php.exe artisan route:list
-C:\php-8.5.10\php.exe -v
+C:\php-8.5.12\php.exe artisan migrate
+C:\php-8.5.12\php.exe artisan route:list
+C:\php-8.5.12\php.exe -v
 ```
 
 หากต้องรัน Composer ก็ให้สั่งผ่าน PHP ตัวนี้เช่นกัน เพื่อให้ resolve platform requirement (`php": "^8.3"`) ถูกต้อง:
 
 ```powershell
-C:\php-8.5.10\php.exe C:\path\to\composer.phar install
+C:\php-8.5.12\php.exe C:\path\to\composer.phar install
 ```
 
 หรือถ้าใช้ `composer` แบบ global ให้เช็คว่า composer เองใช้ PHP ตัวไหนรันอยู่ก่อน (composer -v) ถ้าไม่ตรงให้แจ้งผู้ใช้แทนที่จะเดา

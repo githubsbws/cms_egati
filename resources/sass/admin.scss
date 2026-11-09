@@ -7,3 +7,24 @@
 
 /* AdminLTE v4 precompiled CSS (ทับ/เสริม Bootstrap ด้วย component ของ AdminLTE) */
 @import 'admin-lte/dist/css/adminlte.css';
+
+/*
+ * AdminLTE v4 ตัดชื่อเมนู sidebar ด้วย ellipsis (...) เมื่อยาวเกินพื้นที่
+ * (.sidebar-wrapper .nav-link p { white-space: nowrap; text-overflow: ellipsis; })
+ * ชื่อเมนูภาษาไทยมักยาวกว่าภาษาอังกฤษ จึงให้ขึ้นบรรทัดใหม่แทนการตัดคำ
+ */
+.app-sidebar .sidebar-wrapper .nav-link {
+    align-items: flex-start;
+}
+
+.app-sidebar .sidebar-wrapper .nav-link p {
+    overflow: visible;
+    white-space: normal;
+    text-overflow: unset;
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.app-sidebar .sidebar-wrapper .nav-icon {
+    margin-top: 0.15rem;
+}
