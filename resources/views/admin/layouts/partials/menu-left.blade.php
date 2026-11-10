@@ -1,8 +1,21 @@
 {{-- resources/views/layouts/partials/menu-left.blade.php --}}
+@php
+    $menuConfig = collect(config('admin_menu'))->keyBy('id');
+
+    $adminMenus = \App\Models\AdminMenu::active()->orderBy('sort_order')->get()->map(function ($menu) use ($menuConfig) {
+        $meta = $menuConfig->get($menu->id);
+
+        $menu->icon = $meta['icon'] ?? 'bi-dot';
+        $menu->route_name = $meta['route'] ?? null;
+        $menu->children = $meta['children'] ?? [];
+
+        return $menu;
+    });
+@endphp
 <aside class="app-sidebar bg-dark-subtle shadow" data-bs-theme="dark">
     <div class="sidebar-brand">
-        <a href="{{ route('admin.dashboard') }}" class="brand-link">
-            <span class="brand-text fw-light">{{ config('app.name') }} Admin</span>
+        <a href="{{ route('admin.home') }}" class="brand-link">
+            <span class="brand-text fw-light">Egati Admin</span> {{-- {{ config('app.name') }} --}}
         </a>
     </div>
 
@@ -18,7 +31,7 @@
                     @endphp
 
                     <li class="nav-item {{ $isOpen ? 'menu-open' : '' }}">
-                        <a href="{{ ! $hasChildren && $menu->route_name ? route($menu->route_name) : '#' }}"
+                        <a href="{{ ! $hasChildren && $menu->route_name ? (str_starts_with($menu->route_name, '/') ? url($menu->route_name) : route($menu->route_name)) : '#' }}"
                            class="nav-link {{ $isOpen ? 'active' : '' }}">
                             <i class="nav-icon bi {{ $menu->icon }}"></i>
                             <p>

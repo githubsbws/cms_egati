@@ -11,7 +11,7 @@ return [
         'id' => 1,
         'key' => 'home',
         'icon' => 'bi-house-door',
-        'route' => 'admin.dashboard',
+        'route' => '/admin',
     ],
 
     [
@@ -20,9 +20,9 @@ return [
         'icon' => 'bi-file-text',
         'route' => null,
         'children' => [
-            ['key' => 'landing_page_structure','name' => 'โครงสร้างหน้าเว็บ', 'route' => null],
-            ['key' => 'top_cover','name' => 'รูปปกบนสุดของเว็บ', 'route' => null],
-            ['key' => 'infographic','name' => 'ภาพinfographic', 'route' => null],
+            ['key' => 'landing_page_structure', 'name' => 'โครงสร้างหน้าเว็บ', 'route' => null],
+            ['key' => 'top_cover', 'name' => 'รูปปกบนสุดของเว็บ', 'route' => null],
+            ['key' => 'infographic', 'name' => 'ภาพinfographic', 'route' => null],
         ],
     ],
 
@@ -81,7 +81,7 @@ return [
         'icon' => 'bi-shield-lock',
         'route' => null,
         'children' => [
-            ['key' => 'admin_group','name' => 'กลุ่มผู้ใช้งาน', 'route' => null],
+            ['key' => 'admin_group', 'name' => 'กลุ่มผู้ใช้งาน', 'route' => null],
         ],
     ],
 
@@ -112,6 +112,5 @@ return [
         'icon' => 'bi-send',
         'route' => null,
     ],
-
 
 ];

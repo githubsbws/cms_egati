@@ -1,4 +1,4 @@
-@extends('admin.layouts.admin')
+@extends('admin.layouts.mainlayout')
 
 @section('title', 'หน้าหลัก')
 

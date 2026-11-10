@@ -11,11 +11,16 @@
         <ul class="navbar-nav ms-auto">
             <li class="nav-item dropdown">
                 <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown">
-                    <i class="bi bi-person-circle"></i> ผู้ดูแล (ตัวอย่าง)
+                    <i class="bi bi-person-circle"></i> {{ auth()->user()->profile->fullname() }} 
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end">
                     <li><a class="dropdown-item" href="#">โปรไฟล์</a></li>
-                    <li><a class="dropdown-item" href="#">ออกจากระบบ</a></li>
+                    <li>
+                        <form method="POST" action="{{ route('logout') }}">
+                            @csrf
+                            <button type="submit" class="dropdown-item">ออกจากระบบ</button>
+                        </form>
+                    </li>
                 </ul>
             </li>
         </ul>
