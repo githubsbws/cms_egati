@@ -28,3 +28,178 @@
 .app-sidebar .sidebar-wrapper .nav-icon {
     margin-top: 0.15rem;
 }
+
+/*
+ * หน้า Login (resources/views/admin/auth/login.blade.php)
+ * การ์ดแบ่ง 2 ส่วน: header สีเข้มพร้อมชื่อระบบ/หน่วยงาน + body ขาวสำหรับฟอร์ม
+ * พื้นหลังเป็นไล่สีฟ้าอ่อนนวล ๆ ให้ความรู้สึกเรียบ สบายตา
+ */
+$login-navy: #0e3b5f;
+$login-navy-dark: #0a2c47;
+$login-gold: #e3a92f;
+$login-field-bg: #eef3f9;
+
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at 15% 15%, rgba(14, 59, 95, 0.06), transparent 45%),
+        radial-gradient(circle at 85% 85%, rgba(14, 59, 95, 0.08), transparent 50%),
+        linear-gradient(180deg, #f3f6fa 0%, #e7edf3 100%);
+    padding: 1.5rem;
+}
+
+.login-wrapper {
+    width: 100%;
+    max-width: 420px;
+}
+
+.login-card {
+    border: none;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.login-card-header {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    background: linear-gradient(135deg, #07417a 0%, #0a5c93 55%, #0a7ba3 100%);
+    border-bottom: 4px solid #fdc82f;
+    padding: 2rem 1.75rem 1.75rem;
+    text-align: center;
+}
+
+/* วงกลมจาง ๆ และเส้นคลื่นตกแต่งพื้นหลัง header (SVG inline, ไม่โหลดไฟล์ภายนอก) */
+.login-card-header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 150' preserveAspectRatio='xMidYMid slice'%3E%3Cg fill='none'%3E%3Ccircle cx='-10' cy='-20' r='90' stroke='%23ffffff' stroke-opacity='.10' stroke-width='14'/%3E%3Ccircle cx='400' cy='150' r='80' stroke='%23ffffff' stroke-opacity='.10' stroke-width='14'/%3E%3Cpath d='M0 105 C60 75 110 135 190 110 S320 70 420 105' stroke='%23ffffff' stroke-opacity='.35' stroke-width='1'/%3E%3Cpath d='M0 118 C70 90 120 145 200 122 S330 85 420 118' stroke='%23ffffff' stroke-opacity='.22' stroke-width='1'/%3E%3Cpath d='M0 128 C80 104 130 150 210 132 S340 100 420 128' stroke='%23fdc82f' stroke-opacity='.45' stroke-width='1'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.login-brand-title {
+    color: #fff;
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.login-brand-subtitle {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.login-card-body {
+    padding: 1.75rem;
+}
+
+.login-intro {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+}
+
+.login-intro-text {
+    min-width: 0;
+}
+
+.login-icon {
+    flex: 0 0 auto;
+    width: 2.75rem;
+    height: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(14, 59, 95, 0.1);
+    color: $login-navy;
+    border-radius: 0.65rem;
+    font-size: 1.25rem;
+}
+
+.login-heading {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: $login-navy-dark;
+    margin-bottom: 0.2rem;
+}
+
+.login-subheading {
+    font-size: 0.82rem;
+    color: #6c7a89;
+    margin-bottom: 0;
+}
+
+.login-label {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #35414d;
+}
+
+.login-input {
+    background-color: $login-field-bg;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    padding: 0.55rem 0.85rem;
+}
+
+.login-input:focus {
+    background-color: $login-field-bg;
+    border-color: $login-navy;
+    box-shadow: 0 0 0 0.2rem rgba(14, 59, 95, 0.15);
+}
+
+.login-password-group .login-input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.login-password-toggle {
+    background-color: $login-field-bg;
+    border: 1px solid transparent;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    color: #6c7a89;
+}
+
+.login-password-toggle:hover,
+.login-password-toggle:focus {
+    color: $login-navy;
+    background-color: $login-field-bg;
+}
+
+.login-remember .form-check-label {
+    font-size: 0.85rem;
+    color: #35414d;
+}
+
+.login-submit {
+    background-color: $login-navy;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 0.6rem 1rem;
+}
+
+.login-submit:hover,
+.login-submit:focus {
+    background-color: $login-navy-dark;
+    color: #fff;
+}
+
+.login-footer-text {
+    text-align: center;
+    color: #8491a0;
+    font-size: 0.78rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0;
+}

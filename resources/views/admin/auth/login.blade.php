@@ -7,55 +7,87 @@
     <title>{{ __('auth.login.title') }} - {{ config('app.name') }}</title>
     @vite(['resources/sass/admin.scss', 'resources/js/admin.js'])
 </head>
-<body class="login-page bg-body-secondary">
-    <div class="login-box">
-        <div class="login-logo">
-            <span class="fw-light">Egati</span>
-        </div>
+<body class="login-page">
+    <div class="login-wrapper">
+        <div class="login-box">
+            <div class="card login-card shadow-sm">
+                <div class="login-card-header">
+                    <h1 class="login-brand-title">ระบบผู้ดูแลเว็บไซต์</h1>
+                    <p class="login-brand-subtitle">บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด</p>
+                </div>
 
-        <div class="card">
-            <div class="card-body login-card-body">
-                <p class="login-box-msg">เข้าสู่ระบบ Admin</p>
-
-                @if (session('idle_timeout_message'))
-                    <div class="alert alert-warning" role="alert">{{ session('idle_timeout_message') }}</div>
-                @endif
-                <form method="POST" action="{{ route('login.attempt') }}" novalidate>
-                    @csrf
-
-                    <div class="input-group mb-3">
-                        <input type="email"
-                               name="email"
-                               value="{{ old('email', $email ?? '') }}"
-                               class="form-control @error('email') is-invalid @enderror"
-                               placeholder="{{ __('auth.login.email') }}"
-                               autocomplete="username"
-                               required
-                               autofocus>
-                        <div class="input-group-text"><span class="bi bi-envelope"></span></div>
+                <div class="card-body login-card-body">
+                    <div class="login-intro">
+                        <div class="login-icon" aria-hidden="true">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <div class="login-intro-text">
+                            <h2 class="login-heading">เข้าสู่ระบบ</h2>
+                            <p class="login-subheading">กรุณาป้อนบัญชีผู้ใช้และรหัสผ่านเพื่อดำเนินการต่อ</p>
+                        </div>
                     </div>
-                    @error('email')
-                        <div class="text-danger small mb-3" role="alert">{{ $message }}</div>
-                    @enderror
 
-                    <div class="input-group mb-3">
-                        <input type="password"
-                               name="password"
-                               class="form-control @error('password') is-invalid @enderror"
-                               placeholder="{{ __('auth.login.password') }}"
-                               autocomplete="current-password"
-                               required>
-                        <div class="input-group-text"><span class="bi bi-lock-fill"></span></div>
-                    </div>
-                    @error('password')
-                        <div class="text-danger small mb-3" role="alert">{{ $message }}</div>
-                    @enderror
+                    @if (session('idle_timeout_message'))
+                        <div class="alert alert-warning" role="alert">{{ session('idle_timeout_message') }}</div>
+                    @endif
 
-                    <div class="d-grid">
-                        <button type="submit" class="btn btn-primary">{{ __('auth.login.submit') }}</button>
-                    </div>
-                </form>
+                    <form method="POST" action="{{ route('login.attempt') }}" novalidate>
+                        @csrf
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label login-label">Email</label>
+                            <input type="email"
+                                   id="email"
+                                   name="email"
+                                   value="{{ old('email', $email ?? '') }}"
+                                   class="form-control login-input @error('email') is-invalid @enderror"
+                                   autocomplete="username"
+                                   required
+                                   autofocus>
+                            @error('email')
+                                <div class="invalid-feedback">{{ $message }}</div>
+                            @enderror
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="password" class="form-label login-label">Password</label>
+                            <div class="input-group login-password-group">
+                                <input type="password"
+                                       id="password"
+                                       name="password"
+                                       class="form-control login-input @error('password') is-invalid @enderror"
+                                       autocomplete="current-password"
+                                       required>
+                                <button type="button"
+                                        class="btn login-password-toggle"
+                                        data-password-toggle="#password"
+                                        aria-label="แสดง/ซ่อนรหัสผ่าน">
+                                    <i class="bi bi-eye"></i>
+                                </button>
+                            </div>
+                            @error('password')
+                                <div class="invalid-feedback d-block">{{ $message }}</div>
+                            @enderror
+                        </div>
+
+                        <div class="form-check login-remember mb-4">
+                            <input class="form-check-input" type="checkbox" value="1" id="remember" name="remember">
+                            <label class="form-check-label" for="remember">จดจำฉันไว้</label>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn login-submit">
+                                {{ __('auth.login.submit') }}
+                                <i class="bi bi-arrow-right ms-1"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
             </div>
+
+            <p class="login-footer-text">
+                ระบบบริหารจัดการเว็บไซต์ &middot; สงวนสิทธิ์สำหรับผู้ดูแลระบบ
+            </p>
         </div>
     </div>
 </body>

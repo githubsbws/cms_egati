@@ -11,6 +11,21 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach((el) => new bootstrap.Tooltip(el));
     document.querySelectorAll('[data-bs-toggle="popover"]').forEach((el) => new bootstrap.Popover(el));
 
+    // ปุ่มแสดง/ซ่อนรหัสผ่าน (เช่นในหน้า admin.auth.login)
+    document.querySelectorAll('[data-password-toggle]').forEach((button) => {
+        const input = document.querySelector(button.dataset.passwordToggle);
+        if (!input) {
+            return;
+        }
+
+        button.addEventListener('click', () => {
+            const showing = input.type === 'text';
+            input.type = showing ? 'password' : 'text';
+            button.querySelector('i')?.classList.toggle('bi-eye', showing);
+            button.querySelector('i')?.classList.toggle('bi-eye-slash', !showing);
+        });
+    });
+
     if (document.querySelector('.rich-editor')) {
         import('tinymce/tinymce').then(async ({ default: tinymce }) => {
             await import('tinymce/icons/default');
