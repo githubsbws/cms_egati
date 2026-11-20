@@ -1,6 +1,6 @@
 @extends('admin.layouts.mainlayout')
 
-@section('title', 'หน้าหลัก')
+@section('title', __('admin/menuleft.home'))
 
 @section('content')
     <div class="row">
@@ -8,7 +8,7 @@
             <div class="card">
                 <div class="card-body">
                     <p class="mb-0">
-                        ตัวอย่างหลังบ้านของ Egati โครงสร้างหลังบ้านของ CMS
+                        {{ __('admin/common.dashboard_intro') }}
                     </p>
                 </div>
             </div>

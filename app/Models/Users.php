@@ -42,6 +42,11 @@ class Users extends Authenticatable
         ];
     }
 
+    public function adminGroup()
+    {
+        return $this->belongsTo(AdminGroup::class, 'group_id', 'id');
+    }
+
     public function profile()
     {
         return $this->hasOne(Profiles::class, 'user_id', 'id');

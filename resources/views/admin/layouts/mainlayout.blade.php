@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex,nofollow">
-    <title>@yield('title', 'หลังบ้าน') - {{ config('app.name') }}</title>
+    <title>@yield('title', __('admin/menuleft.home')) - {{ config('app.name') }}</title>
     @vite(['resources/sass/admin.scss', 'resources/js/admin.js'])
 </head>
 <body class="layout-fixed sidebar-expand-lg bg-body-tertiary">
@@ -18,7 +18,10 @@
         <main class="app-main">
             <div class="app-content-header">
                 <div class="container-fluid">
-                    <h3 class="mb-0">@yield('title', 'หน้าหลัก')</h3>
+                    <h3 class="mb-0">@yield('title', __('admin/menuleft.home'))</h3>
+                    <ol class="breadcrumb float-sm-end mb-0">
+                        @yield('breadcrumb')
+                    </ol>
                 </div>
             </div>
 
@@ -31,5 +34,7 @@
 
         @include('admin.layouts.partials.footer')
     </div>
+
+    @stack('scripts')
 </body>
 </html>

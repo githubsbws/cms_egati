@@ -1,0 +1,21 @@
+<?php
+
+return [
+    'no' => 'No.',
+    'save' => 'Save',
+    'cancel' => 'Cancel',
+    'back' => 'Back',
+    'delete' => 'Delete',
+    'manage' => 'Manage',
+    'fullname' => 'Full name',
+    'no_data' => 'No data',
+    'search_placeholder' => 'Search...',
+    'cannot_edit' => 'Cannot edit',
+    'cannot_delete' => 'Cannot delete',
+    'confirm_delete' => 'Confirm delete',
+    'confirm_delete_message' => 'Are you sure you want to delete this item?',
+    'profile' => 'Profile',
+    'logout' => 'Sign out',
+    'copyright_note' => 'CMS admin sample, not the final version',
+    'dashboard_intro' => 'Egati admin sample. This is the structure of the CMS admin.',
+];

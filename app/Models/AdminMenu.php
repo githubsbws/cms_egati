@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Helpers\MenuLabel;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 
@@ -44,5 +45,16 @@ class AdminMenu extends Model
     public function scopeActive(Builder $query): Builder
     {
         return $query->where('active', 'y');
+    }
+
+    /**
+     * Menu label for the current language, found by this menu's `key` in config/admin_menu.php.
+     * Falls back to the menu_name column when no translation exists.
+     */
+    public function getLabelAttribute(): string
+    {
+        $key = collect(config('admin_menu'))->firstWhere('id', $this->id)['key'] ?? null;
+
+        return $key !== null ? MenuLabel::for($key, $this->menu_name) : $this->menu_name;
     }
 }

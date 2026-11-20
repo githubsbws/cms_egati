@@ -2,7 +2,9 @@
 
 use App\Http\Middleware\CheckIdleTimeout;
 // use App\Http\Middleware\EnsureIsAdmin;
+use App\Http\Middleware\EnsureMenuPermission;
 use App\Http\Middleware\EnsureSingleSession;
+use App\Http\Middleware\SetAdminLocale;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
@@ -16,6 +18,7 @@ return Application::configure(basePath: dirname(__DIR__))
     )
     ->withMiddleware(function (Middleware $middleware): void {
         $middleware->web(append: [
+            SetAdminLocale::class,
             CheckIdleTimeout::class,
             EnsureSingleSession::class,
         ]);
@@ -23,6 +26,7 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->alias([
             'checkIdleTimeout' => CheckIdleTimeout::class,
             // 'ensureIsAdmin' => EnsureIsAdmin::class,
+            'menu.permission' => EnsureMenuPermission::class,
         ]);
 
         $middleware->redirectGuestsTo('/login');

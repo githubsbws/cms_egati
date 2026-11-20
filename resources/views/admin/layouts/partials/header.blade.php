@@ -9,16 +9,23 @@
             </li>
         </ul>
         <ul class="navbar-nav ms-auto">
+            <li class="nav-item d-flex align-items-center me-2">
+                <div class="btn-group btn-group-sm" role="group" aria-label="Language">
+                    <a href="{{ route('lang.switch', 'th') }}" class="btn btn-outline-secondary {{ app()->getLocale() === 'th' ? 'active' : '' }}">ไทย</a>
+                    <a href="{{ route('lang.switch', 'en') }}" class="btn btn-outline-secondary {{ app()->getLocale() === 'en' ? 'active' : '' }}">EN</a>
+                </div>
+            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown">
-                    <i class="bi bi-person-circle"></i> {{ auth()->user()->profile->fullname() }} 
+                    <i class="bi bi-person-circle"></i> {{ auth()->user()->profile?->fullname() ?: auth()->user()->email }} 
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end">
-                    <li><a class="dropdown-item" href="#">โปรไฟล์</a></li>
+                    <li><a class="dropdown-item" href="#">{{ __('admin/common.profile') }}</a></li>
+                    <li><hr class="dropdown-divider"></li>
                     <li>
                         <form method="POST" action="{{ route('logout') }}">
                             @csrf
-                            <button type="submit" class="dropdown-item">ออกจากระบบ</button>
+                            <button type="submit" class="dropdown-item">{{ __('admin/common.logout') }}</button>
                         </form>
                     </li>
                 </ul>

@@ -89,6 +89,9 @@
                 ระบบบริหารจัดการเว็บไซต์ &middot; สงวนสิทธิ์สำหรับผู้ดูแลระบบ
             </p>
         </div>
+        <div class="text-center mt-3 small">
+            <a href="{{ route('lang.switch', 'th') }}">ไทย</a> | <a href="{{ route('lang.switch', 'en') }}">English</a>
+        </div>
     </div>
 </body>
 </html>

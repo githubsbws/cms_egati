@@ -16,7 +16,7 @@
     <main class="container py-5">
         <div class="p-5 mb-4 bg-light rounded-3">
             <h1 class="display-5 fw-bold">{{ config('app.name', 'Laravel') }}</h1>
-            <p class="col-md-8 fs-4">Website is running (Laravel {{ app()->version() }} / Bootstrap 5)</p>
+            <p class="col-md-8 fs-4">Website is running Laravel</p>
         </div>
     </main>
 

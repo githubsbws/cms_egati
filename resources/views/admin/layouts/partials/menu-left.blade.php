@@ -30,12 +30,13 @@
                         );
                     @endphp
 
+                    @canmenu($menu->id)
                     <li class="nav-item {{ $isOpen ? 'menu-open' : '' }}">
                         <a href="{{ ! $hasChildren && $menu->route_name ? (str_starts_with($menu->route_name, '/') ? url($menu->route_name) : route($menu->route_name)) : '#' }}"
                            class="nav-link {{ $isOpen ? 'active' : '' }}">
                             <i class="nav-icon bi {{ $menu->icon }}"></i>
                             <p>
-                                {{ $menu->menu_name }}
+                                {{ $menu->label }}
                                 @if ($hasChildren)
                                     <i class="nav-arrow bi bi-chevron-right"></i>
                                 @endif
@@ -49,13 +50,14 @@
                                         <a href="{{ ! empty($child['route']) ? route($child['route']) : '#' }}"
                                            class="nav-link {{ ! empty($child['route']) && request()->routeIs($child['route']) ? 'active' : '' }}">
                                             {{-- <i class="nav-icon bi bi-circle"></i> --}}
-                                            <p>{{ $child['name'] }}</p>
+                                            <p>{{ \App\Helpers\MenuLabel::for($child['key']) }}</p>
                                         </a>
                                     </li>
                                 @endforeach
                             </ul>
                         @endif
                     </li>
+                    @endcanmenu
                 @endforeach
             </ul>
         </nav>
