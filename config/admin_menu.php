@@ -75,7 +75,7 @@ return [
         'route' => 'null',
         'children' => [
             ['key' => 'admin_group', 'route' => 'admin.permission.group'],
-            ['key' => 'admin_list', 'route' => null],
+            ['key' => 'admin_list', 'route' => 'admin.permission.user'],
         ],
     ],
 

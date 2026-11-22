@@ -29,7 +29,7 @@
 
                         <div class="mb-3">
                             <label class="form-label">
-                                {{ __('admin/permission.field_group_name') }}<span class="text-danger">*</span>
+                                {{ __('admin/permission.group_name') }}<span class="text-danger">*</span>
                             </label>
                             <input type="text" class="form-control bg-light" value="{{ $adminGroup->group_name }}" readonly>
                         </div>

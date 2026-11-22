@@ -5,6 +5,7 @@ use App\Http\Middleware\CheckIdleTimeout;
 use App\Http\Middleware\EnsureMenuPermission;
 use App\Http\Middleware\EnsureSingleSession;
 use App\Http\Middleware\SetAdminLocale;
+use App\Http\Middleware\SetWebLocale;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
@@ -27,6 +28,7 @@ return Application::configure(basePath: dirname(__DIR__))
             'checkIdleTimeout' => CheckIdleTimeout::class,
             // 'ensureIsAdmin' => EnsureIsAdmin::class,
             'menu.permission' => EnsureMenuPermission::class,
+            'web.locale' => SetWebLocale::class,
         ]);
 
         $middleware->redirectGuestsTo('/login');

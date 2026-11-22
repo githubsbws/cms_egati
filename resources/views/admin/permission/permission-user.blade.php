@@ -16,92 +16,177 @@
         </div>
     @endif
 
+    @if ($errors->any())
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <ul class="mb-0">
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    @endif
+
     <div class="card">
         <div class="card-body">
 
-            <div class="mb-2 d-flex justify-content-end">
-                <input
-                    type="text"
-                    id="adminUserSearch"
-                    class="form-control"
-                    style="max-width: 260px;"
-                    placeholder="{{ __('admin/common.search_placeholder') }}">
+            <div class="d-flex flex-wrap justify-content-between gap-2 mb-3">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addAdminUserModal">
+                    <i class="bi bi-plus-lg me-1"></i>
+                    {{ __('admin/permission.add_user') }}
+                </button>
+
+                <form method="GET" action="{{ route('admin.permission.user') }}" class="d-flex flex-wrap gap-2">
+                    <input type="text" name="q" value="{{ request('q') }}" class="form-control" style="width: 260px;"
+                           placeholder="{{ __('admin/permission.search_name_placeholder') }}">
+                    <select name="group" class="form-select" style="width: 220px;">
+                        <option value="">{{ __('admin/permission.all_groups') }}</option>
+                        @foreach ($adminGroups as $adminGroup)
+                            <option value="{{ $adminGroup->id }}" {{ (int) request('group') === $adminGroup->id ? 'selected' : '' }}>{{ $adminGroup->group_name }}</option>
+                        @endforeach
+                    </select>
+                    <button type="submit" class="btn btn-outline-primary"><i class="bi bi-search"></i> {{ __('admin/common.search') }}</button>
+                    @if (request()->hasAny(['q', 'group']))
+                        <a href="{{ route('admin.permission.user') }}" class="btn btn-outline-secondary">{{ __('admin/common.reset') }}</a>
+                    @endif
+                </form>
             </div>
 
-            <div id="adminUserTable"></div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle mb-0">
+                    <thead>
+                        <tr>
+                            <th style="width: 80px;">{{ __('admin/common.no') }}</th>
+                            <th>{{ __('admin/common.fullname') }}</th>
+                            <th style="width: 20%;">Email</th>
+                            <th style="width: 20%;">{{ __('admin/common.created_date') }}</th>
+                            <th>{{ __('admin/permission.group_name') }}</th>
+                            <th style="width: 90px;">{{ __('admin/common.manage') }}</th>
+                            <th style="width: 90px;">{{ __('admin/permission.cancel_permission') }}</th>
+                        </tr>
+                    </thead>                    <tbody>
+                        @forelse ($adminUsers as $adminUser)
+                            <tr>
+                                <td>{{ $adminUsers->firstItem() + $loop->index }}</td>
+                                <td>{{ $adminUser->profile?->fullname() ?: '-' }}</td>
+                                <td>{{ $adminUser->email }}</td>
+                                <td>{{ App\Helpers\DateHelper::formatThaiDate($adminUser->created_at) }}</td>
+                                <td>{{ $adminUser->adminGroup?->group_name ?? __('admin/permission.no_group') }}</td>                                <td>
+                                    <a href="{{ route('admin.permission.user.edit', $adminUser) }}" class="btn btn-sm btn-warning"><i class="bi bi-pencil"></i></a>
+                                </td>
+                                <td>
+                                    @if ($adminUser->is(auth()->user()))
+                                        <span class="text-muted">-</span>
+                                    @else
+                                        <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#cancelAdminUserModal{{ $adminUser->id }}">
+                                            <i class="bi bi-x-circle"></i>
+                                        </button>
+                                    @endif
+                                </td>
+                            </tr>                        @empty
+                            <tr>
+                                <td colspan="7" class="text-center text-muted py-4">{{ __('admin/common.no_data') }}</td>
+                            </tr>
+                        @endforelse
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="mt-3 d-flex justify-content-end">
+                {{ $adminUsers->links() }}
+            </div>
+        </div>
+    </div>
+
+    @foreach ($adminUsers as $adminUser)
+        @if (! $adminUser->is(auth()->user()))
+            <div class="modal fade" id="cancelAdminUserModal{{ $adminUser->id }}" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">{{ __('admin/permission.cancel_permission') }}</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            {{ __('admin/permission.confirm_cancel_permission_message') }}
+                            <div class="fw-bold mt-2">{{ $adminUser->profile?->fullname() ?: $adminUser->email }}</div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">{{ __('admin/common.cancel') }}</button>
+                            <form method="POST" action="{{ route('admin.permission.user.cancel', $adminUser) }}">
+                                @csrf
+                                @method('PUT')
+                                <button type="submit" class="btn btn-danger">{{ __('admin/permission.cancel_permission') }}</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        @endif
+    @endforeach
+
+    <div class="modal fade" id="addAdminUserModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <form method="POST" action="{{ route('admin.permission.user.store') }}">
+                    @csrf
+                    <div class="modal-header">
+                        <h5 class="modal-title">{{ __('admin/permission.modal_add_user_title') }}</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label class="form-label">{{ __('admin/common.username') }}<span class="text-danger">*</span></label>
+                                <input type="text" name="username" class="form-control" value="{{ old('username') }}" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">{{ __('admin/common.email') }}<span class="text-danger">*</span></label>
+                                <input type="email" name="email" class="form-control" value="{{ old('email') }}" required>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label class="form-label">{{ __('admin/common.firstname') }}<span class="text-danger">*</span></label>
+                                <input type="text" name="firstname" class="form-control" value="{{ old('firstname') }}" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">{{ __('admin/common.lastname') }}<span class="text-danger">*</span></label>
+                                <input type="text" name="lastname" class="form-control" value="{{ old('lastname') }}" required>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label class="form-label">{{ __('admin/common.phone') }}</label>
+                                <input type="text" name="phone" class="form-control" value="{{ old('phone') }}">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">{{ __('admin/permission.group_name') }}<span class="text-danger">*</span></label>
+                                <select name="group_id" class="form-select" required>
+                                    <option value="">{{ __('admin/permission.select_group') }}</option>
+                                    @foreach ($adminGroups as $adminGroup)
+                                        <option value="{{ $adminGroup->id }}" {{ (int) old('group_id') === $adminGroup->id ? 'selected' : '' }}>{{ $adminGroup->group_name }}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                        </div>                        <div class="row">
+                            <div class="col-md-6">
+                                <label class="form-label">{{ __('admin/common.password') }}<span class="text-danger">*</span></label>
+                                <input type="password" name="password" class="form-control" autocomplete="new-password" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">{{ __('admin/common.password_confirmation') }}<span class="text-danger">*</span></label>
+                                <input type="password" name="password_confirmation" class="form-control" autocomplete="new-password" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">{{ __('admin/common.cancel') }}</button>
+                        <button type="submit" class="btn btn-primary">{{ __('admin/common.save') }}</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 
 @endsection
-
-@push('scripts')
-<script>
-    // ปุ่มยกเลิกสิทธิ์ของแต่ละแถว — ยืนยันแล้ว submit form ไป route cancel
-    function cancelPermission(userId, fullname) {
-        if (! confirm(@json(__('admin/permission.confirm_cancel_permission_message')) + '\n' + fullname)) {
-            return;
-        }
-
-        const form = document.createElement('form');
-        form.method = 'POST';
-        form.action = '{{ url('admin/permission/user') }}/' + userId + '/cancel';
-        form.innerHTML = '@csrf @method('PUT')';
-        document.body.appendChild(form);
-        form.submit();
-    }
-
-    function initAdminUserTable() {
-        const table = new Tabulator('#adminUserTable', {
-            data: @json($adminUsers),
-            layout: 'fitColumns',
-            pagination: true,
-            paginationSize: 10,
-            placeholder: @json(__('admin/common.no_data')),
-            columns: [
-                {
-                    // เลขลำดับรันต่อเนื่องข้ามหน้า (หน้า 1 = 1-10, หน้า 2 = 11-20, ...)
-                    // ต่างจาก formatter: 'rownum' ที่นับใหม่ 1 ทุกหน้า
-                    title: @json(__('admin/common.no')),
-                    width: 70,
-                    hozAlign: 'center',
-                    headerSort: false,
-                    formatter: (cell) => (table.getPage() - 1) * table.getPageSize() + cell.getRow().getPosition(true),
-                },
-                { title: @json(__('admin/common.fullname')), field: 'fullname', formatter: (cell) => cell.getValue() ?? '-' },
-                { title: 'Email', field: 'email' },
-                { title: @json(__('admin/permission.permission_group_name')), field: 'group_name', formatter: (cell) => cell.getValue() ?? @json(__('admin/permission.no_group')) },
-                {
-                    title: @json(__('admin/permission.cancel_permission')),
-                    hozAlign: 'center',
-                    headerSort: false,
-                    formatter: () => '<button type="button" class="btn btn-sm btn-danger"><i class="bi bi-x-circle"></i></button>',
-                    cellClick: (e, cell) => {
-                        const row = cell.getRow().getData();
-                        cancelPermission(row.id, row.fullname ?? row.email);
-                    },
-                },
-            ],
-        });
-
-        // ช่อง search เดียว ค้นทุกคอลัมน์พร้อมกัน (เหมือน DataTables global search)
-        document.getElementById('adminUserSearch').addEventListener('input', function (e) {
-            const keyword = e.target.value.toLowerCase();
-
-            table.setFilter((row) => {
-                return Object.values(row).some((value) =>
-                    String(value ?? '').toLowerCase().includes(keyword)
-                );
-            });
-        });
-    }
-
-    // admin.js (module) โหลดแบบ deferred — ไม่การันตีว่าจะเสร็จก่อน
-    // script ตรงนี้รัน จึงเช็คว่า Tabulator พร้อมหรือยัง ถ้ายังให้รอ
-    // event 'admin-scripts-ready' ที่ admin.js ยิงออกมาตอนโหลดเสร็จ
-    if (window.Tabulator) {
-        initAdminUserTable();
-    } else {
-        window.addEventListener('admin-scripts-ready', initAdminUserTable);
-    }
-</script>
-@endpush

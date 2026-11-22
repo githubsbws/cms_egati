@@ -6,10 +6,15 @@ use App\Http\Controllers\Controller;
 use App\Models\AdminGroup;
 use App\Models\AdminMenu;
 use App\Models\Permission;
+use App\Models\Profiles;
 use App\Models\Users;
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Str;
+use Illuminate\Validation\Rule;
+use Illuminate\Validation\Rules\Password;
 
 class PermissionController extends Controller
 {
@@ -120,35 +125,142 @@ class PermissionController extends Controller
     }
 
     /**
-     * List admin users: users that belong to an admin group.
-     * The data goes straight into the view for Tabulator, no JSON endpoint needed.
+     * List admin users (users that belong to an admin group), 10 per page.
+     * Filters: q = full name (first + last), group = admin_group id.
      */
-    public function adminUser(): View
+    public function adminUser(Request $request): View
     {
+        $filters = $request->validate([
+            'q' => ['nullable', 'string', 'max:100'],
+            'group' => ['nullable', 'integer'],
+        ]);
+
         $adminUsers = Users::with(['profile', 'adminGroup'])
             ->where('del_status', 0)
             ->whereNotNull('group_id')
-            ->orderBy('id')
-            ->get()
-            ->map(fn (Users $user) => [
-                'id' => $user->id,
-                'fullname' => trim(($user->profile->firstname ?? '').' '.($user->profile->lastname ?? '')) ?: null,
-                'email' => $user->email,
-                'group_name' => $user->adminGroup?->group_name,
-            ]);
+            ->when($filters['q'] ?? null, function ($query, $keyword) {
+                $like = '%'.addcslashes(trim($keyword), '%_\\').'%';
 
-        return view('admin.permission.permission-user', compact('adminUsers'));
+                $query->whereHas('profile', fn ($profile) => $profile->whereRaw("(firstname || ' ' || lastname) ILIKE ?", [$like]));
+            })
+            ->when($filters['group'] ?? null, fn ($query, $groupId) => $query->where('group_id', $groupId))
+            ->orderBy('id')
+            ->paginate(10)
+            ->withQueryString();
+
+        $adminGroups = AdminGroup::where('active', 'y')->orderBy('id')->get();
+
+        return view('admin.permission.permission-user', compact('adminUsers', 'adminGroups'));
     }
 
     /**
-     * Remove admin access from a user without deleting the user:
-     * superuser = 0 and group_id = null.
+     * Create an admin user: the account, its profile and the permission group in one transaction.
+     */
+    public function storeAdminUser(Request $request): RedirectResponse
+    {
+        $validated = $request->validate([
+            'username' => ['required', 'string', 'max:255', 'unique:users,username'],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:users,email'],
+            'password' => ['required', 'confirmed', Password::min(8)],
+            'firstname' => ['required', 'string', 'max:255'],
+            'lastname' => ['required', 'string', 'max:255'],
+            'phone' => ['nullable', 'string', 'max:50'],
+            'group_id' => ['required', 'integer', Rule::exists('admin_group', 'id')->where('active', 'y')],
+        ]);
+
+        DB::transaction(function () use ($validated) {
+            $user = Users::create([
+                'username' => $validated['username'],
+                'email' => Str::lower($validated['email']),
+                'password' => $validated['password'],
+                'group_id' => $validated['group_id'],
+                'superuser' => 0,
+                'del_status' => 0,
+            ]);
+
+            Profiles::create([
+                'user_id' => $user->id,
+                'firstname' => $validated['firstname'],
+                'lastname' => $validated['lastname'],
+                'phone' => $validated['phone'] ?? null,
+            ]);
+        });
+
+        return redirect()
+            ->route('admin.permission.user')
+            ->with('success', __('admin/common.save'));
+    }
+
+    public function editAdminUser(Users $user): View
+    {
+        $user->load('profile');
+
+        $adminGroups = AdminGroup::where('active', 'y')->orderBy('id')->get();
+
+        return view('admin.permission.permission-user-edit', [
+            'user' => $user,
+            'profile' => $user->profile,
+            'adminGroups' => $adminGroups,
+        ]);
+    }
+
+    /**
+     * Update an admin user. The password only changes when a new one is typed.
+     */
+    public function updateAdminUser(Request $request, Users $user): RedirectResponse
+    {
+        $validated = $request->validate([
+            'username' => ['required', 'string', 'max:255', Rule::unique('users', 'username')->ignore($user->id)],
+            'password' => ['nullable', 'confirmed', Password::min(12)],
+            'firstname' => ['required', 'string', 'max:255'],
+            'lastname' => ['required', 'string', 'max:255'],
+            'phone' => ['nullable', 'string', 'max:50'],
+            'group_id' => ['required', 'integer', Rule::exists('admin_group', 'id')->where('active', 'y')],
+        ]);
+
+        DB::transaction(function () use ($validated, $user) {
+            $account = [
+                'username' => $validated['username'],
+                'group_id' => $validated['group_id'],
+            ];
+
+            if (! empty($validated['password'])) {
+                $account['password'] = $validated['password'];
+            }
+
+            $user->update($account);
+
+            Profiles::updateOrCreate(
+                ['user_id' => $user->id],
+                [
+                    'firstname' => $validated['firstname'],
+                    'lastname' => $validated['lastname'],
+                    'phone' => $validated['phone'] ?? null,
+                ]
+            );
+        });
+
+        return redirect()
+            ->route('admin.permission.user')
+            ->with('success', __('admin/common.save'));
+    }
+
+    /**
+     * Remove admin access and disable the account: superuser = 0, group_id = null, del_status = 1.
+     * Nobody can do this to their own account, that would lock them out.
      */
     public function cancelAdminUserPermission(Users $user): RedirectResponse
     {
+        if ($user->is(auth()->user())) {
+            return redirect()
+                ->route('admin.permission.user')
+                ->withErrors(['cancel' => __('admin/permission.cannot_cancel_self')]);
+        }
+
         $user->update([
             'superuser' => 0,
             'group_id' => null,
+            'del_status' => 1,
         ]);
 
         return redirect()

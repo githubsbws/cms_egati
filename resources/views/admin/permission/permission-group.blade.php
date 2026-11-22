@@ -35,7 +35,7 @@
                     <thead>
                         <tr>
                             <th style="width: 80px;">{{ __('admin/common.no') }}</th>
-                            <th>{{ __('admin/permission.table_name') }}</th>
+                            <th>{{ __('admin/permission.group_name') }}</th>
                             <th>{{ __('admin/common.manage') }}</th>
                             <th>{{ __('admin/common.delete') }}</th>
                         </tr>
@@ -99,7 +99,7 @@
                     </div>
                     <div class="modal-body">
                         <div class="mb-3">
-                            <label for="group_name" class="form-label">{{ __('admin/permission.field_group_name_th') }}</label>
+                            <label for="group_name" class="form-label">{{ __('admin/permission.group_name_th') }}</label>
                             <input type="text" class="form-control" id="group_name" name="group_name" required>
                         </div>
                     </div>
