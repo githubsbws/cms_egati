@@ -1,2 +1,6 @@
 *
 !.gitignore
+# Front office language files (th.json, en.json) are part of the project
+!localization/
+!localization/web/
+!localization/web/*.json
