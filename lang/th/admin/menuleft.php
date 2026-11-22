@@ -28,6 +28,8 @@ return [
     ],
     'news_sub' => [
         'news' => 'ระบบข่าวสาร',
+        'news_list' => 'รายการข่าว',
+        'news_category' => 'หมวดหมู่ข่าว',
     ],
     'doc_sub' => [
         'document' => 'เอกสารเผยแพร่',

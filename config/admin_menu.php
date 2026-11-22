@@ -59,6 +59,11 @@ return [
         'key' => 'news',
         'icon' => 'bi-newspaper',
         'route' => null,
+        'children' => [
+            // 'active' lists every route name that should highlight the item (create/edit pages too)
+            ['key' => 'news_list', 'route' => 'admin.news.index', 'active' => ['admin.news.index', 'admin.news.create', 'admin.news.edit']],
+            ['key' => 'news_category', 'route' => 'admin.news.category.index', 'active' => ['admin.news.category.*']],
+        ],
     ],
 
     [

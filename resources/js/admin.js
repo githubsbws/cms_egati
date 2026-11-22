@@ -40,10 +40,33 @@ document.addEventListener('DOMContentLoaded', () => {
             tinymce.init({
                 selector: '.rich-editor',
                 license_key: 'gpl',
-                height: 400,
+                height: 420,
                 menubar: false,
+                // Skin files are copied to public/tinymce (copied from node_modules/tinymce/skins), loaded by URL
+                skin_url: '/tinymce/skins/ui/oxide',
+                content_css: ['/tinymce/skins/content/default/content.min.css', '/tinymce/noto-sans-thai.css'],
+                content_style: "body { font-family: 'Noto Sans Thai', system-ui, sans-serif; }",
+                branding: false,
+                promotion: false,
+                // Images inserted in the editor are uploaded to the feature folder (data-upload-feature on the textarea)
+                automatic_uploads: true,
+                images_upload_handler: (blobInfo, progress) => new Promise((resolve, reject) => {
+                    const body = new FormData();
+                    body.append('file', blobInfo.blob(), blobInfo.filename());
+                    body.append('feature', document.querySelector('.rich-editor')?.dataset.uploadFeature ?? '');
+                    fetch('/admin/editor/image', {
+                        method: 'POST',
+                        headers: { 'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]')?.content ?? '', Accept: 'application/json' },
+                        body,
+                        credentials: 'same-origin',
+                    })
+                        .then((response) => (response.ok ? response.json() : Promise.reject(new Error('Upload failed (' + response.status + ')'))))
+                        .then((json) => resolve(json.location))
+                        .catch((error) => reject({ message: error.message, remove: true }));
+                }),                relative_urls: false,
+                convert_urls: false,
                 plugins: 'link lists table image code',
-                toolbar: 'undo redo | bold italic | bullist numlist | link image table | code',
+                toolbar: 'undo redo | blocks | bold italic | bullist numlist | link image table | code',
             });
         });
     }

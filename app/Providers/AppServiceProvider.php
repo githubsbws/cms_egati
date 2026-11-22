@@ -34,7 +34,7 @@ class AppServiceProvider extends ServiceProvider
 
         // Front office language dropdown: every web.* view gets the active
         // languages and the current one, without each controller passing them in.
-        View::composer('web.layouts.main', function ($view) {
+        View::composer('web.layouts.mainlayout', function ($view) {
             $webLanguages = Language::active()->orderBy('sort_order')->get();
 
             $view->with([

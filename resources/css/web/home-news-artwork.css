@@ -1,0 +1,25 @@
+/* News: animated editorial grid and travelling signals, distinct from the film's waves. */
+#home-news{position:relative;isolation:isolate;overflow:hidden;padding-bottom:102px}
+#home-news::before,#home-news::after{display:none}
+#home-news .home-news-artwork{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+#home-news .home-news-artwork>svg{position:absolute;inset:0;display:block;width:100%;height:100%;opacity:.85}
+#home-news .home-news-artwork path,#home-news .home-news-artwork rect{vector-effect:non-scaling-stroke}
+#home-news .journal-header,#home-news .news-cards{position:relative;z-index:1}
+#home-news .home-news-motion-toggle{position:absolute;z-index:1;right:var(--page);bottom:26px;display:flex;align-items:center;gap:8px;padding:8px 12px;background:#03345fa6;color:#dcedfa;border:1px solid #8fc3e466;border-radius:22px;font-size:14px;line-height:1.6;cursor:pointer}
+#home-news .home-news-motion-toggle:hover{background:#0b598d;color:#fff;border-color:#b3e0f4}
+#home-news .home-news-motion-toggle:focus-visible{outline:3px solid #ffdc67;outline-offset:5px}
+#home-news .home-news-motion-toggle>span{display:grid;place-items:center;width:18px;font-size:15px;color:#ffdc67}
+.news-data-trace{opacity:.6;animation:news-signal-travel 24s linear infinite}
+.news-data-trace--gold{animation-duration:32s;animation-delay:-14s;opacity:.5}
+.news-data-trace--vertical{animation-duration:29s;animation-delay:-8s;opacity:.4}
+.news-editorial-frame{animation:news-frame-float 16s ease-in-out infinite alternate}
+.news-editorial-frame--two{animation-name:news-frame-rise;animation-duration:20s;animation-delay:-9s}
+.news-editorial-frame--three{animation-duration:23s;animation-delay:-7s;opacity:.75}
+.news-network-node{animation:news-node-glow 9s ease-in-out infinite}
+#home-news.is-news-art-paused .home-news-artwork *{animation-play-state:paused!important}
+@keyframes news-signal-travel{from{stroke-dashoffset:0}to{stroke-dashoffset:-2200}}
+@keyframes news-frame-float{from{transform:translate(-8px,7px)}to{transform:translate(9px,-9px)}}
+@keyframes news-frame-rise{from{transform:translate(7px,10px)}to{transform:translate(-7px,-12px)}}
+@keyframes news-node-glow{0%,100%{opacity:.2}50%{opacity:.75}}
+@media(max-width:760px){#home-news{padding-bottom:94px}#home-news .home-news-artwork>svg{opacity:.65}#home-news .home-news-motion-toggle{bottom:24px}}
+@media(prefers-reduced-motion:reduce){#home-news .home-news-artwork *{animation:none!important}#home-news .home-news-motion-toggle{display:none}}

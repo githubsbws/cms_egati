@@ -7,6 +7,7 @@
 
 /* AdminLTE v4 precompiled CSS (ทับ/เสริม Bootstrap ด้วย component ของ AdminLTE) */
 @import 'admin-lte/dist/css/adminlte.css';
+@import '../css/admin-fonts.css';
 
 /*
  * AdminLTE v4 ตัดชื่อเมนู sidebar ด้วย ellipsis (...) เมื่อยาวเกินพื้นที่
@@ -202,4 +203,19 @@ $login-field-bg: #eef3f9;
     font-size: 0.78rem;
     margin-top: 1.25rem;
     margin-bottom: 0;
+}
+
+/* Back office font: Noto Sans Thai (also covers Latin), then system fonts */
+:root,
+[data-bs-theme] {
+    --bs-body-font-family: 'Noto Sans Thai', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+body,
+.app-wrapper,
+button,
+input,
+select,
+textarea {
+    font-family: var(--bs-body-font-family);
 }

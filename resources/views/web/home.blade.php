@@ -1,11 +1,7 @@
-@extends('web.layouts.main')
+@extends('web.layouts.mainlayout')
 
-@section('title', __web('home.welcome'))
+@section('body_class', 'home-video')
 
 @section('content')
-    <div class="p-5 mb-4 bg-light rounded-3">
-        <h1 class="display-5 fw-bold">{{ __web('home.welcome') }}</h1>
-        <p class="col-md-8 fs-4">{{ config('app.name', 'Laravel') }}</p>
-        <a href="#" class="btn btn-primary">{{ __web('common.read_more') }}</a>
-    </div>
+@include('web.home.content')
 @endsection

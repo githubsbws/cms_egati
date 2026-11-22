@@ -1,0 +1,281 @@
+/* Shared EGAT3 spacing system — based on the Procurement content rhythm. */
+:root{--egati-section-top:60px;--egati-section-bottom:90px}
+
+/* Transparent header brand with the artwork using the full available width. */
+#site-header .brand,body.home-video>#site-header .brand,body.about-overview-color>#site-header .brand{display:flex;align-items:center;justify-content:center;width:180px;max-width:180px;height:60px;padding:0;border:0;border-radius:7px;background:transparent;box-shadow:none;filter:none;backdrop-filter:none}
+#site-header .brand img,body.home-video>#site-header .brand img,body.about-overview-color>#site-header .brand img{width:180px;height:60px;object-fit:contain;filter:drop-shadow(0px 0 2px #fff) drop-shadow(0px 0 0 #fff) drop-shadow(0 1px 0 #fff) drop-shadow(0 -1px 0 #fff)}
+.footer-bottom>div:first-child>img{width:150px;padding:8px 10px;border-radius:7px;background:#fff}
+
+/* Homepage. Full-screen video hero and pinned story are intentionally excluded. */
+.quick-access,.journal,.portfolio,#presentation,.knowledge-hub,.stakeholder-showcase{padding-top:var(--egati-section-top);padding-bottom:var(--egati-section-bottom)}
+
+/* About company content. */
+.ac-page>section:not(.ac-page-header){padding-top:var(--egati-section-top);padding-bottom:var(--egati-section-bottom)}
+.about-page-layout{padding-top:var(--egati-section-top);padding-bottom:var(--egati-section-bottom)}
+.about-page .about-next-step{padding-top:var(--egati-section-top);padding-bottom:var(--egati-section-bottom)}
+
+/* Business pages. Cinematic and detail heroes retain their designed dimensions. */
+.biz-page .biz-portfolio,.biz-page .biz-end,.biz-detail-body{padding-top:var(--egati-section-top);padding-bottom:var(--egati-section-bottom)}
+
+/* Newsroom. Mastheads and video theatre retain their designed dimensions. */
+.nr-page .nr-featured,.nr-page .nr-archive,.nr-page .nr-video-next,.nr-reading-layout{padding-top:var(--egati-section-top);padding-bottom:var(--egati-section-bottom)}
+
+/* Publication collections and archives. Page headers are excluded. */
+.pub-page .pub-overview,.pub-page .pub-overview-annual,.pub-page .pub-table-section,.pub-page .pub-annual-intro,.pub-page .pub-report-archive{padding-top:var(--egati-section-top);padding-bottom:var(--egati-section-bottom)}
+
+/* Careers. Hero and job detail masthead remain compact. */
+.cr-page .cr-opportunities,.cr-page .cr-process,.cr-page .cr-learning,.cr-page .cr-faq,.cr-page .cr-contact{padding-top:var(--egati-section-top);padding-bottom:var(--egati-section-bottom)}
+
+/* Contact. */
+.ct-page .ct-location,.ct-page .ct-enquiry,.ct-page .ct-channels{padding-top:var(--egati-section-top);padding-bottom:var(--egati-section-bottom)}
+
+/* Long-form governance and responsibility content. */
+.gv-content{padding-bottom:var(--egati-section-bottom)}
+.rp-page{padding-bottom:var(--egati-section-bottom)}
+.rp-page .rp-gallery-band,.rp-page .rp-development-grid{padding-top:var(--egati-section-top);padding-bottom:var(--egati-section-bottom)}
+
+@media(max-width:1380px){#site-header .brand,body.home-video>#site-header .brand,body.about-overview-color>#site-header .brand{width:180px;max-width:180px;height:60px;padding:0}#site-header .brand img,body.home-video>#site-header .brand img,body.about-overview-color>#site-header .brand img{width:180px;height:60px}}
+@media(max-width:760px){:root{--egati-section-top:30px;--egati-section-bottom:60px}#site-header .brand,body.home-video>#site-header .brand,body.about-overview-color>#site-header .brand{width:140px;max-width:140px;height:48px;padding:0}#site-header .brand img,body.home-video>#site-header .brand img,body.about-overview-color>#site-header .brand img{width:140px;height:48px}}
+
+/* Unified About masthead: overview, structure, board and management. */
+.ac-page .ac-page-header{position:relative;isolation:isolate;overflow:hidden;padding-top:28px;padding-bottom:45px;background:#06477e;background-image:linear-gradient(115deg,#06477e 8%,#07549a 70%,#087985);color:#fff;border-bottom:5px solid #ffd32d}
+.ac-page .ac-page-header:before{content:'';position:absolute;right:5%;top:-210px;width:520px;height:520px;border:1px solid #ffffff1d;border-radius:50%;box-shadow:0 0 0 55px #ffffff06,0 0 0 110px #ffffff03;z-index:-1;pointer-events:none}
+.ac-page .ac-page-header:after{content:'';position:absolute;right:13%;bottom:34px;width:10px;height:10px;border-radius:50%;background:#ffd32d;box-shadow:0 0 0 8px #ffd32d1f;z-index:-1;pointer-events:none}
+.ac-page .ac-page-header h1{color:#fff}
+.ac-page .ac-page-header .ac-kicker{color:#ffdc61}
+.ac-page .ac-page-header .ac-breadcrumb{color:#d4e5f1}
+.ac-page .ac-page-header .ac-breadcrumb a{color:#fff}
+.ac-page .ac-page-header .ac-breadcrumb a:hover{color:#ffdc61}
+.ac-page .ac-page-header .ac-title-row>p{color:#d7e7f2}
+
+/* Contact: breadcrumb and location share one continuous blue hero. */
+.ct-page .ct-hero-location{position:relative;isolation:isolate;overflow:hidden;padding:28px var(--page) var(--egati-section-bottom);background:linear-gradient(120deg,#06477e 0%,#07549a 62%,#087985 100%);color:#fff;border-bottom:5px solid #ffd32d}
+.ct-page .ct-hero-location:before{content:'';position:absolute;right:-120px;top:-250px;width:650px;height:650px;border:1px solid #ffffff20;border-radius:50%;box-shadow:0 0 0 58px #ffffff06,0 0 0 115px #ffffff03;z-index:-1;pointer-events:none}
+.ct-page .ct-hero-location:after{content:'';position:absolute;left:var(--page);right:var(--page);bottom:35px;height:1px;background:linear-gradient(90deg,#ffd32d,transparent 48%,#89dce1);opacity:.65;z-index:-1;pointer-events:none}
+.ct-page .ct-hero-location .ct-crumb{color:#d4e5f1;margin-bottom:18px}
+.ct-page .ct-hero-location .ct-crumb a{color:#fff}
+.ct-page .ct-hero-location .ct-crumb a:hover{color:#ffdc61}
+.ct-page .ct-hero-location .ct-location{position:relative;padding:25px 0 0;background:transparent;color:#fff}
+.ct-hero-location .ct-location-heading h1{color:#fff}
+.ct-hero-location .ct-location-heading h1 em{color:#ffdc61}
+.ct-hero-location .ct-kicker{color:#8ee0df}
+.ct-hero-location .ct-outline{color:#fff;background:#ffffff12;border-color:#ffffff78;backdrop-filter:blur(8px)}
+.ct-hero-location .ct-outline:hover{color:#06477e;background:#fff;border-color:#fff}
+.ct-hero-location .ct-location-grid{border-color:#ffffff45;box-shadow:0 22px 55px #00274435}
+.ct-hero-location .ct-address{background:#fff;color:#173956}
+
+/* Careers: blue brand hero continuous with the fixed header. */
+.cr-page .cr-hero{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(120deg,#06477e 0%,#07549a 62%,#087985 100%);color:#fff;border-bottom:5px solid #ffd32d}
+.cr-page .cr-hero:before{content:'';position:absolute;left:-230px;bottom:-360px;width:620px;height:620px;border:1px solid #ffffff18;border-radius:50%;box-shadow:0 0 0 55px #ffffff05,0 0 0 110px #ffffff03;z-index:-1;pointer-events:none}
+.cr-page .cr-hero:after{content:'';position:absolute;right:5%;top:-240px;width:560px;height:560px;border:1px solid #ffffff20;border-radius:50%;box-shadow:0 0 0 48px #ffffff05;z-index:-1;pointer-events:none}
+.cr-page .cr-hero>*{position:relative;z-index:1}
+.cr-page .cr-hero .cr-crumb{color:#d4e5f1}
+.cr-page .cr-hero .cr-crumb a{color:#fff}
+.cr-page .cr-hero .cr-crumb a:hover{color:#ffdc61}
+.cr-page .cr-hero .cr-kicker{color:#ffdc61}
+.cr-page .cr-hero .cr-kicker i{background:#8ee0df}
+.cr-page .cr-hero h1{color:#fff}
+.cr-page .cr-hero h1 em{color:#ffdc61}
+.cr-page .cr-hero h1 em:after{background:#ffffff1c}
+.cr-page .cr-hero .cr-hero-copy>p{color:#d9e8f3}
+.cr-page .cr-hero .cr-primary{background:#ffd32d;color:#06477e}
+.cr-page .cr-hero .cr-primary:hover{background:#ffe27a;color:#06477e}
+.cr-page .cr-hero .cr-text-button{color:#fff;border-bottom:1px solid #ffffff80}
+.cr-page .cr-hero .cr-text-button:hover{color:#ffdc61}
+.cr-page .cr-hero .cr-hero-photo{border:1px solid #ffffff50;box-shadow:0 24px 60px #0027444d}
+.cr-page .cr-hero .cr-hero-spark{color:#ffdc61}
+.cr-page .cr-hero .cr-hero-word{color:#ffffff35}
+
+@media(max-width:800px){.ac-page .ac-page-header{padding-bottom:32px}.ct-page .ct-hero-location{padding-bottom:60px}.ct-page .ct-hero-location .ct-location{padding-top:20px}.ct-page .ct-hero-location:after{bottom:24px}.cr-page .cr-hero{padding-bottom:60px}}
+
+/* Footer — EGATi blue gradient aligned with the global header. */
+#site-footer{position:relative;isolation:isolate;overflow:hidden;padding:72px var(--page) 24px;background:linear-gradient(132deg,#06477e 0%,#07549a 38%,#05426f 66%,#031528 100%);color:#e8f2f8;border-top:4px solid #ffd32d;box-shadow:inset 0 1px 0 #ffffff1f}
+#site-footer:before{content:'';position:absolute;z-index:-1;width:620px;height:620px;right:-230px;top:-360px;border:1px solid #ffffff1c;border-radius:50%;box-shadow:0 0 0 62px #ffffff06,0 0 0 124px #ffffff04;pointer-events:none}
+#site-footer:after{content:'';position:absolute;z-index:-1;left:-120px;bottom:-270px;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,#1da7b52b 0%,#1da7b50d 42%,transparent 70%);pointer-events:none}
+#site-footer .footer-bottom{position:relative;z-index:1;padding:0 0 54px;grid-template-columns:minmax(300px,1.35fr) minmax(210px,.8fr) minmax(190px,.7fr);gap:clamp(32px,5vw,78px)}
+#site-footer .footer-bottom:before{content:'';position:absolute;left:0;right:0;top:-30px;height:1px;background:linear-gradient(90deg,#ffd32d 0 10%,#8ee0df 34%,#ffffff2b 68%,transparent)}
+#site-footer .footer-bottom h3{color:#fff;font-size:18px;font-weight:650;letter-spacing:.01em;margin-bottom:14px}
+#site-footer .footer-bottom p{max-width:520px;color:#d3e4ef;font-size:15px;line-height:1.9}
+#site-footer .footer-bottom>div:first-child>img{width:156px;margin-bottom:26px;padding:9px 11px;border:1px solid #ffffff70;border-radius:9px;background:#fff;box-shadow:0 14px 35px #001a333d}
+#site-footer .contact-details,#site-footer .footer-links{align-self:start;padding:24px 24px 14px;border:1px solid #ffffff21;border-radius:16px;background:linear-gradient(145deg,#ffffff14,#ffffff08);box-shadow:0 18px 45px #00233d26;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+#site-footer .contact-details{padding-top:24px}
+#site-footer .contact-details a,#site-footer .footer-links a{position:relative;display:flex;align-items:center;min-height:38px;margin:0;padding:8px 25px 8px 0;color:#f2f8fb;border-bottom:1px solid #ffffff17;font-size:15px;transition:color .2s ease,padding-left .2s ease,border-color .2s ease}
+#site-footer .contact-details a:last-child,#site-footer .footer-links a:last-child{border-bottom:0}
+#site-footer .contact-details a:after,#site-footer .footer-links a:after{content:'→';position:absolute;right:0;color:#8ee0df;font-size:15px;transition:transform .2s ease,color .2s ease}
+#site-footer .contact-details a:hover,#site-footer .footer-links a:hover{padding-left:6px;color:#ffdc61;border-color:#ffd32d55}
+#site-footer .contact-details a:hover:after,#site-footer .footer-links a:hover:after{color:#ffd32d;transform:translate(3px,-3px)}
+#site-footer>small{position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:22px;border-top:1px solid #ffffff25;color:#bfd1dd;font-size:14px;letter-spacing:.02em}
+#site-footer>small a{display:inline-flex;align-items:center;min-height:38px;padding:8px 15px;border:1px solid #ffffff2f;border-radius:999px;color:#fff;background:#ffffff0d;transition:background .2s ease,color .2s ease,border-color .2s ease}
+#site-footer>small a:hover{background:#ffd32d;border-color:#ffd32d;color:#06477e}
+@media(max-width:900px){#site-footer .footer-bottom{grid-template-columns:1fr 1fr}#site-footer .footer-bottom>div:first-child{grid-column:1/-1}#site-footer .contact-details,#site-footer .footer-links{height:100%}}
+@media(max-width:600px){#site-footer{padding-top:58px}#site-footer .footer-bottom{grid-template-columns:1fr;gap:18px;padding-bottom:38px}#site-footer .footer-bottom>div:first-child{grid-column:auto;margin-bottom:14px}#site-footer .contact-details,#site-footer .footer-links{padding:18px 20px 10px}#site-footer>small{align-items:flex-start;flex-direction:column}#site-footer:before{right:-390px}}
+
+
+
+/* Native MP4 video hero fills the viewport without player chrome. */
+.video-hero>#hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:0}
+.video-hero>.video-shade{z-index:1}
+.video-hero>.video-hero-copy,.video-hero>.video-hero-bottom{z-index:2}
+
+/*
+ * Global content frame
+ * --------------------
+ * One horizontal grid now drives the masthead, page headers, content sections
+ * and footer.  The frame grows fluidly on smaller screens and stops at 1320px
+ * on wide screens, preventing individual routes from drifting left or right.
+ */
+:root{
+  --egati-content-max:1320px;
+  --egati-fluid-gutter:clamp(22px,6vw,94px);
+  --page:max(var(--egati-fluid-gutter),calc((100vw - var(--egati-content-max))/2));
+  --egati-section-top:60px;
+  --egati-section-bottom:80px;
+}
+
+/* Route-specific legacy gutters all resolve to the same global frame. */
+.about-page{--about-space:var(--page)}
+.nr-page{--nr-space:var(--page)}
+.pub-page{--pub-space:var(--page)}
+
+/* The masthead uses the same outer edge as every page body at all breakpoints. */
+#site-header{
+  padding-left:var(--page);
+  padding-right:var(--page);
+}
+
+/* Wrappers that previously combined their own max-width with page padding. */
+.about-page-layout,
+.gv-page .gv-content,
+.rp-page .rp-wrap,
+.biz-page .biz-portfolio,
+.biz-page .biz-detail-body{
+  width:100%;
+  max-width:none;
+  margin-left:0;
+  margin-right:0;
+}
+
+/* Business routes historically used a separate 6vw gutter. */
+.biz-page .biz-hero,
+.biz-page .biz-portfolio,
+.biz-page .biz-end,
+.biz-page .biz-detail-hero,
+.biz-page .biz-detail-body{
+  padding-left:var(--page);
+  padding-right:var(--page);
+}
+
+/* Keep standard page sections on the same vertical rhythm as Procurement. */
+.procurement-workspace,
+.ac-page>section:not(.ac-page-header),
+.about-page-layout,
+.biz-page .biz-portfolio,
+.biz-page .biz-end,
+.biz-page .biz-detail-body,
+.nr-page .nr-featured,
+.nr-page .nr-archive,
+.nr-page .nr-video-next,
+.pub-page .pub-overview,
+.pub-page .pub-overview-annual,
+.pub-page .pub-table-section,
+.pub-page .pub-annual-intro,
+.pub-page .pub-report-archive,
+.cr-page .cr-opportunities,
+.cr-page .cr-process,
+.cr-page .cr-learning,
+.cr-page .cr-faq,
+.cr-page .cr-contact,
+.ct-page .ct-enquiry,
+.ct-page .ct-channels{
+  padding-top:var(--egati-section-top);
+  padding-bottom:var(--egati-section-bottom);
+}
+
+/* Full-screen and cinematic sections intentionally keep their own dimensions. */
+@media(max-width:760px){
+  :root{
+    --egati-fluid-gutter:clamp(20px,6vw,32px);
+    --egati-section-top:40px;
+    --egati-section-bottom:56px;
+  }
+}
+
+/*
+ * About-family alignment lock
+ * ---------------------------
+ * These six routes share two older layout systems. Force every outer wrapper
+ * onto the same frame so nested max-width rules cannot create a second gutter.
+ */
+.ac-page .ac-page-header,
+.ac-page>section,
+.rp-page .rp-heading>.rp-wrap,
+.rp-page>.rp-wrap,
+.rp-page .rp-gallery-band>.rp-wrap{
+  width:100%;
+  max-width:none;
+  margin-left:0;
+  margin-right:0;
+  padding-left:var(--page);
+  padding-right:var(--page);
+}
+
+.ac-page .ac-chart-section,
+.ac-page .ac-board-section,
+.ac-page .ac-company-background,
+.rp-page .rp-document,
+.rp-page .rp-development-grid{
+  min-width:0;
+}
+
+.ac-page .ac-people-chart{
+  width:100%;
+  max-width:none;
+}
+
+/*
+ * Governance-style reading width for the six About-family routes.
+ * Page mastheads stay on the Navbar grid; body content is slightly narrower
+ * and centred, matching the comfortable proportion of Corporate Governance.
+ */
+.ac-page,
+.rp-page{
+  --about-reading-gutter:max(var(--page),calc((100vw - 1200px)/2));
+}
+
+/*
+ * about-refresh.css historically widens --page above 1600px. Reset it on
+ * these four routes so their masthead edge stays identical to the fixed
+ * Navbar's 1320px frame at every desktop width.
+ */
+.ac-page{
+  --page:max(var(--egati-fluid-gutter),calc((100vw - var(--egati-content-max))/2));
+  --about-reading-gutter:max(var(--page),calc((100vw - 1200px)/2));
+}
+
+/* Careers and Contact carry the same legacy 1450px desktop override.
+ * Keep their heroes and every following section on the Navbar's 1320px grid.
+ */
+.cr-page,
+.ct-page{
+  --page:max(var(--egati-fluid-gutter),calc((100vw - var(--egati-content-max))/2));
+}
+
+.ac-page>section:not(.ac-page-header),
+.rp-page>.rp-wrap,
+.rp-page .rp-gallery-band>.rp-wrap{
+  padding-left:var(--about-reading-gutter)!important;
+  padding-right:var(--about-reading-gutter)!important;
+}
+
+.ac-page .ac-page-header,
+.rp-page .rp-heading>.rp-wrap{
+  padding-left:var(--page)!important;
+  padding-right:var(--page)!important;
+}
+
+@media(max-width:760px){
+  .ac-page,
+  .rp-page{
+    --about-reading-gutter:var(--page);
+  }
+}

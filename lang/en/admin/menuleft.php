@@ -28,6 +28,8 @@ return [
     ],
     'news_sub' => [
         'news' => 'News',
+        'news_list' => 'News List',
+        'news_category' => 'News Category',
     ],
     'doc_sub' => [
         'document' => 'Document',

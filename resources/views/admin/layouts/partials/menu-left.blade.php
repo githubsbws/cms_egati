@@ -26,14 +26,17 @@
                     @php
                         $hasChildren = count($menu->children) > 0;
                         $isOpen = $hasChildren && collect($menu->children)->contains(
-                            fn ($child) => ! empty($child['route']) && request()->routeIs($child['route'])
+                            fn ($child) => ! empty($child['route']) && request()->routeIs(...($child['active'] ?? [$child['route']]))
                         );
+                        // Top-level item with a named route stays highlighted on its sub pages (admin.news.* for admin.news.index)
+                        $isCurrent = ! $hasChildren && $menu->route_name && ! str_starts_with($menu->route_name, '/')
+                            && request()->routeIs(\Illuminate\Support\Str::beforeLast($menu->route_name, '.').'.*');
                     @endphp
 
                     @canmenu($menu->id)
                     <li class="nav-item {{ $isOpen ? 'menu-open' : '' }}">
                         <a href="{{ ! $hasChildren && $menu->route_name ? (str_starts_with($menu->route_name, '/') ? url($menu->route_name) : route($menu->route_name)) : '#' }}"
-                           class="nav-link {{ $isOpen ? 'active' : '' }}">
+                           class="nav-link {{ $isOpen || $isCurrent ? 'active' : '' }}">
                             <i class="nav-icon bi {{ $menu->icon }}"></i>
                             <p>
                                 {{ $menu->label }}
@@ -48,7 +51,7 @@
                                 @foreach ($menu->children as $child)
                                     <li class="nav-item">
                                         <a href="{{ ! empty($child['route']) ? route($child['route']) : '#' }}"
-                                           class="nav-link {{ ! empty($child['route']) && request()->routeIs($child['route']) ? 'active' : '' }}">
+                                           class="nav-link {{ ! empty($child['route']) && request()->routeIs(...($child['active'] ?? [$child['route']])) ? 'active' : '' }}">
                                             {{-- <i class="nav-icon bi bi-circle"></i> --}}
                                             <p>{{ \App\Helpers\MenuLabel::for($child['key']) }}</p>
                                         </a>

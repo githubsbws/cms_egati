@@ -76,4 +76,24 @@ class WebTranslator
             'direction' => $language->direction,
         ];
     }
+
+    /**
+     * All strings that start with a prefix (e.g. "js."), keyed without the prefix.
+     * Used to hand labels to front office scripts. Falls back to the default language.
+     *
+     * @return array<string, string>
+     */
+    public static function group(string $prefix, string $locale): array
+    {
+        $default = Language::active()->where('is_default', 'y')->value('code');
+        $merged = array_merge(self::strings($default), self::strings($locale));
+        $out = [];
+        foreach ($merged as $key => $value) {
+            if (str_starts_with($key, $prefix)) {
+                $out[substr($key, strlen($prefix))] = $value;
+            }
+        }
+
+        return $out;
+    }
 }

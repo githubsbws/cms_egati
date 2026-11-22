@@ -6,7 +6,7 @@ export default defineConfig({
         laravel({
             input: [
                 // หน้าบ้าน (public site) — Bootstrap 5 เท่านั้น
-                'resources/sass/web.scss',
+                'resources/css/web.css',
                 'resources/js/web.js',
                 // หลังบ้าน (admin) — AdminLTE v4 (Bootstrap 5), คนละ bundle จากหน้าบ้าน
                 'resources/sass/admin.scss',

@@ -1,0 +1,1172 @@
+{
+ "categories": [
+  {
+   "code": "corporate",
+   "color": "#0756a0",
+   "sort": 1,
+   "th": "ข่าวองค์กร",
+   "en": "Corporate"
+  },
+  {
+   "code": "partnership",
+   "color": "#007e82",
+   "sort": 2,
+   "th": "ความร่วมมือ",
+   "en": "Partnerships"
+  },
+  {
+   "code": "community",
+   "color": "#bc4b3d",
+   "sort": 3,
+   "th": "เพื่อสังคม",
+   "en": "Community"
+  }
+ ],
+ "items": [
+  {
+   "id": 11747,
+   "date": "2026-10-09",
+   "category": "corporate",
+   "title": "EGATi ร่วมแสดงความยินดีเนื่องในโอกาสวันคล้ายวันสถาปนา สบน. ครบรอบ 24 ปี",
+   "titleEn": "EGATi congratulates PDMO on its 24th anniversary",
+   "summaryEn": "EGATi marked the Public Debt Management Office’s anniversary and contributed to its welfare fund.",
+   "body": [
+    "วันที่ 9 ตุลาคม 2569 นางสาวรังสิมา พักเกาะ กรรมการผู้จัดการใหญ่ ในนามบริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) เข้าร่วมแสดงความยินดีกับผู้บริหารและบุคลากรของ สำนักงานบริหารหนี้สาธารณะ (สบน.) เนื่องในโอกาสวันคล้ายวันสถาปนา สบน. ครบรอบ 24 ปี ณ ห้องประชุม 1201-1203 ชั้น 12 อาคาร 150 ปี กระทรวงการคลัง กรุงเทพมหานคร",
+    "ในโอกาสดังกล่าว EGATi ได้ร่วมบริจาคเงินสมทบทุนเข้ากองทุนสวัสดิการ สบน. เพื่อสนับสนุนกิจกรรมสาธารณกุศลและการจัดสวัสดิการแก่บุคลากรของหน่วยงาน อันเป็นการส่งเสริมความร่วมมือและความสัมพันธ์อันดีระหว่างองค์กร",
+    "การเข้าร่วมกิจกรรมครั้งนี้สะท้อนถึงความมุ่งมั่นของ EGATi ในการเสริมสร้างความร่วมมือกับหน่วยงานภาครัฐ ตลอดจนสนับสนุนกิจกรรมเพื่อสังคมและสาธารณประโยชน์ อันจะนำไปสู่การพัฒนาประเทศอย่างยั่งยืนต่อไป."
+   ],
+   "bodyEn": [
+    "On 9 October 2026, EGATi’s President joined the Public Debt Management Office (PDMO) to celebrate its 24th anniversary at the Ministry of Finance in Bangkok.",
+    "EGATi also contributed to PDMO’s welfare fund, supporting staff welfare and charitable activities. The participation reflects the company’s commitment to public-sector cooperation and initiatives that benefit society."
+   ],
+   "images": [
+    "web-assets/news/11747-0.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/11747/"
+  },
+  {
+   "id": 11710,
+   "date": "2026-09-30",
+   "category": "community",
+   "title": "กรรมการผู้จัดการใหญ่ ในนามบริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) พร้อมด้วยผู้บริหารการไฟฟ้าฝ่ายผลิตแห่งประเทศไทย (กฟผ.) เข้าเฝ้าทูลละอองพระบาท สมเด็จพระกนิษฐาธิราชเจ้า กรมสมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี เพื่อถวายเงินบำรุงสภากาชาดไทย ณ วังสระปทุม",
+   "titleEn": "EGATi contributes to the Thai Red Cross Society at Sra Pathum Palace",
+   "summaryEn": "EGATi joined EGAT executives in presenting a contribution to Her Royal Highness Princess Maha Chakri Sirindhorn in support of the Thai Red Cross Society.",
+   "body": [
+    "เมื่อวันที่ 29 กันยายน 2569 กรรมการผู้จัดการใหญ่ ในนามบริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) พร้อมด้วยผู้บริหารการไฟฟ้าฝ่ายผลิตแห่งประเทศไทย (กฟผ.) เข้าเฝ้าทูลละอองพระบาท สมเด็จพระกนิษฐาธิราชเจ้า กรมสมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี เพื่อถวายเงินบำรุงสภากาชาดไทย ณ วังสระปทุม",
+    "บริษัท EGATi ร่วมสนับสนุนการดำเนินงานของสภากาชาดไทยอย่างต่อเนื่อง เป็นประจำทุกปี เพื่อสนับสนุนการดำเนินงานด้านสาธารณกุศล การช่วยเหลือประชาชน ตลอดจนการดำเนินงานด้านมนุษยธรรมและการบรรเทาทุกข์แก่ผู้ประสบความเดือดร้อน อันเป็นส่วนหนึ่งของการสร้างประโยชน์และคุณค่าให้แก่สังคม พร้อมทั้งส่งเสริมการดำเนินกิจกรรมเพื่อสาธารณประโยชน์ควบคู่ไปกับการดำเนินธุรกิจของบริษัทอย่างยั่งยืน"
+   ],
+   "bodyEn": [
+    "On 29 September 2026, EGATi’s President joined EGAT executives in an audience with Her Royal Highness Princess Maha Chakri Sirindhorn at Sra Pathum Palace to present a contribution to the Thai Red Cross Society.",
+    "EGATi supports the society annually, contributing to charitable work, humanitarian assistance and relief for people in need alongside its business activities."
+   ],
+   "images": [
+    "web-assets/news/11710-0.webp"
+   ],
+   "videos": [
+    "https://egati.co.th/wp-content/uploads/2026/09/ถวายเงินบำรุงสภากาชาด.mp4"
+   ],
+   "url": "https://egati.co.th/th/11710/"
+  },
+  {
+   "id": 10581,
+   "date": "2026-03-04",
+   "category": "corporate",
+   "title": "บริษัท กฟผ. อินเตอร์เนชั่นแนล จํากัด อวยพรปีใหม่ พ.ศ. 2569 คณะกรรมการกํากับกิจการพลังงานและเลขาธิการสํานักงานคณะกรรมการกํากับกิจการพลังงาน",
+   "titleEn": "EGATi extends New Year greetings to the Energy Regulatory Commission",
+   "summaryEn": "Company executives shared EGATi’s international investment direction and exchanged views on Thailand’s energy future.",
+   "body": [
+    "คุณรังสิมา พักเกาะ กรรมการผู้จัดการใหญ่ บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด พร้อมผู้บริหารระดับสูง เข้าอวยพรปีใหม่คณะกรรมการกำกับกิจการพลังงาน นำโดย คุณพิทักษ์ จรรยพงษ์, คุณบัณฑูร เศรษฐศิโรตม์, คุณนรินทร์ โอภามุรธาวงศ์ และคุณวรวิทย์ ศรีอนันต์รักษา พร้อมด้วย ดร.พูลพัฒน์ ลีสมบัติไพบูรณ์ เลขาธิการสำนักงานคณะกรรมการกำกับกิจการพลังงาน เมื่อวันที่ 7 มกราคม 2569",
+    "ในโอกาสนี้ บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด ได้สรุปภาพรวมภารกิจและทิศทางการดำเนินงานในการขยายการลงทุนในธุรกิจพลังงานในต่างประเทศ พร้อมทั้งแลกเปลี่ยนมุมมองต่อแนวโน้มของอุตสาหกรรมพลังงาน การกำกับดูแลกิจการพลังงาน และการสนับสนุนการดำเนินงานของบริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด เพื่อเสริมความมั่นคงด้านพลังงานของประเทศ ควบคู่ไปกับการขับเคลื่อนการพัฒนาพลังงานอย่างยั่งยืนในระยะยาว ผ่านการร่วมมือกับหน่วยงานกำกับดูแลและภาคส่วนที่เกี่ยวข้องอย่างเข้มแข็ง เพื่อให้เกิดประโยชน์สูงสุดต่อระบบพลังงานของไทย"
+   ],
+   "bodyEn": [
+    "On 7 January 2026, EGATi’s President and senior executives extended New Year greetings to members of the Energy Regulatory Commission and the Secretary-General of its office.",
+    "EGATi presented an overview of its mission and international energy investment direction. Participants exchanged views on industry trends, energy regulation and cooperation to support Thailand’s energy security and long-term sustainable development."
+   ],
+   "images": [
+    "web-assets/news/10581-0.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/10581/"
+  },
+  {
+   "id": 10134,
+   "date": "2025-10-29",
+   "category": "partnership",
+   "title": "EGATi เข้าร่วมคณะนักธุรกิจไทย (Business Mission) เยือนสาธารณรัฐฟิลิปปินส์เพื่อส่งเสริมความร่วมมือด้านพลังงานและการลงทุน",
+   "titleEn": "EGATi joins a Thai business mission to the Philippines",
+   "summaryEn": "A business matching forum offered opportunities to explore energy investment and strengthen regional partnerships.",
+   "body": [
+    "เมื่อวันที่ 17 กันยายน 2568 บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) นำโดยนางสาวรังสิมา พักเกาะ กรรมการผู้จัดการใหญ่ ได้เข้าร่วมกิจกรรม Business Matching Forum (Business Matching) เพื่อสำรวจศักยภาพด้านการค้าและการลงทุน ณ กรุงมะนิลา และเมืองดาเวา หมู่เกาะมินดาเนา ณ โรงแรมดุสิตธานี มะนิลา จัดโดยสถานเอกอัครราชทูต ณ กรุงมะนิลา โดยมีนางมาฆวดี สุมิตรเหมาะ เอกอัครราชทูต ณ กรุงมะนิลา เป็นประธานกล่าวเปิดงาน และมีผู้ประกอบการไทยและฟิลิปปินส์กว่า 30 บริษัทเข้าร่วมในสาขาที่รัฐบาลทั้งสองประเทศให้ความสำคัญ",
+    "นายธนารัตน์ สุวรรณศรี ผู้จัดการฝ่ายกฎหมาย กล่าวแนะนำบริษัทในงาน",
+    "การเข้าร่วมกิจกรรมครั้งนี้นับเป็นโอกาสสำคัญที่ EGATi จะได้ขยายเครือข่ายความร่วมมือกับพันธมิตรในภูมิภาคอาเซียน ตลอดจนศึกษาแนวนโยบายด้านพลังงานและโครงสร้างพื้นฐานของฟิลิปปินส์ ซึ่งสอดคล้องกับทิศทางการลงทุนของ EGATi ที่มุ่งเน้นโครงการพลังงานทดแทนและการพัฒนาอย่างยั่งยืนเพื่อสนับสนุนทั้งการเพิ่มความมั่นคงทางพลังงานของประเทศไทยและการพัฒนาพลังงานสะอาดในภูมิภาค",
+    "สำหรับฟิลิปปินส์ซึ่งมีประชากรกว่า 117 ล้านคน ความต้องการไฟฟ้าเพิ่มขึ้นเฉลี่ยร้อยละ 4.8 ต่อปี ทำให้รัฐบาลกำหนดนโยบายเพิ่มสัดส่วนพลังงานหมุนเวียน (Renewable Energy) ให้ได้ 35% ภายในปี 2573 และ 50% ภายในปี 2583 ควบคู่ไปกับการพัฒนาโครงสร้างพื้นฐานไฟฟ้าในภูมิภาคหลักทั้งลูซอน วิซายาส และมินดาเนา ปัจจุบันฟิลิปปินส์ยังคงพึ่งพาการนำเข้าถ่านหินกว่าร้อยละ 97 แต่ก็เป็นผู้ผลิตพลังงานความร้อนใต้พิภพรายใหญ่อันดับ 3 ของโลกและมีศักยภาพสูงด้านพลังงานลมและแสงอาทิตย์"
+   ],
+   "bodyEn": [
+    "On 17 September 2025, an EGATi delegation led by its President joined a Business Matching Forum organized by the Royal Thai Embassy in Manila. More than 30 Thai and Philippine companies participated.",
+    "The mission provided an opportunity to build ASEAN partnerships and explore Philippine energy policy and infrastructure. EGATi’s legal division introduced the company at the event.",
+    "The source article describes the Philippines’ renewable energy ambitions and demand growth as a context for exploring investment. EGATi’s participation aligned with its focus on renewable energy and sustainable development in the region."
+   ],
+   "images": [
+    "web-assets/news/10134-0.webp",
+    "web-assets/news/10134-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/10134/"
+  },
+  {
+   "id": 10062,
+   "date": "2025-10-22",
+   "category": "corporate",
+   "title": "EGATi ร่วมแสดงความยินดีในโอกาสครบรอบ 135 ปี กรมบัญชีกลาง",
+   "titleEn": "EGATi celebrates the Comptroller General’s Department’s 135th anniversary",
+   "summaryEn": "EGATi contributed to the department’s welfare fund to support staff welfare and charitable activities.",
+   "body": [
+    "เมื่อวันที่ 14 ตุลาคม 2568 ผู้แทนบริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) ร่วมแสดงความยินดีในโอกาสวันสถาปนากรมบัญชีกลาง ครบรอบ 135 ปี ณ ห้องโถงกลาง ชั้น 21 อาคาร 150 ปี กระทรวงการคลังและได้ร่วมบริจาคเงินจำนวน 10,000 บาท สมทบกองทุนสวัสดิการกรมบัญชีกลางเพื่อสนับสนุนการจัดสวัสดิการให้แก่บุคลากรของกรมบัญชีกลาง รวมทั้งร่วมสมทบทุนให้แก่องค์กรสาธารณกุศล มูลนิธิต่าง ๆ และกิจกรรมเพื่อสังคมอันเป็นประโยชน์ส่วนรวม"
+   ],
+   "bodyEn": [
+    "On 14 October 2025, EGATi representatives congratulated the Comptroller General’s Department on its 135th anniversary at the Ministry of Finance.",
+    "EGATi donated THB 10,000 to the department’s welfare fund to support employee welfare, charitable organizations and activities benefiting society."
+   ],
+   "images": [
+    "web-assets/news/10062-0.webp",
+    "web-assets/news/10062-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/10062/"
+  },
+  {
+   "id": 10339,
+   "date": "2025-08-25",
+   "category": "corporate",
+   "title": "การประชุมเพื่อให้ข้อมูลประกอบการทบทวนอันดับเครดิตประจำปี 2568 แก่บริษัทจัดอันดับความน่าเชื่อถือ TRIS Rating Co., Ltd. (TRIS)",
+   "titleEn": "EGATi meets TRIS Rating for its 2025 credit review",
+   "summaryEn": "The company presented its business plans, project performance, investment progress and financial policies for the annual review.",
+   "body": [
+    "เมื่อวันที่ 25 สิงหาคม 2568 นางสาวรังสิมา พักเกาะ กรรมการผู้จัดการใหญ่ บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด เป็นประธานการประชุมระหว่างบริษัทจัดอันดับความน่าเชื่อถือ TRIS Rating (TRIS) กับคณะผู้บริหารของบริษัท ณ ห้องประชุม T-Trust & Team บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด ซึ่งโดยมีวัตถุประสงค์เพื่อให้ข้อมูลประกอบการทบทวนอันดับเครดิตประจำปี 2568 ของบริษัท โดยครอบคลุมเป้าหมายในการดำเนินงาน แผนธุรกิจของบริษัท ผลการดำเนินงานของโครงการในปัจจุบัน แนวโน้มการดำเนินงานในอนาคต ความคืบหน้าการลงทุนในโครงการต่างๆของบริษัท รวมทั้งแผนการลงทุน แผนการเงิน และนโยบายการเงินที่สำคัญของบริษัท เพื่อให้การวิเคราะห์และประเมินความน่าเชื่อถือของบริษัทเป็นไปอย่างครบถ้วน และสะท้อนศักยภาพการเติบโตของบริษัทได้อย่างแท้จริง"
+   ],
+   "bodyEn": [
+    "On 25 August 2025, EGATi’s President chaired a meeting between the company’s management and TRIS Rating for the 2025 annual credit review.",
+    "The company provided information on operating targets, business plans, current project performance, future prospects and investment progress, together with financial plans and key financial policies. The meeting supported a comprehensive assessment of EGATi’s creditworthiness and growth potential."
+   ],
+   "images": [
+    "web-assets/news/10339-0.webp",
+    "web-assets/news/10339-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/10339/"
+  },
+  {
+   "id": 9464,
+   "date": "2025-06-06",
+   "category": "partnership",
+   "title": "EGATi เข้าพบผู้อำนวยการกองวิเคราะห์เรื่องเสนอคณะรัฐมนตรี สลค. เพื่อรายงานผลการดำเนินงานและขอรับการสนับสนุนในการเสนอเรื่องต่อ ครม.",
+   "titleEn": "EGATi presents its performance and business plan to the Cabinet Secretariat",
+   "summaryEn": "Executives discussed the company’s 2024 performance, its 2025–2029 plan and international energy investments.",
+   "body": [
+    "เมื่อวันศุกร์ที่ 6 มิถุนายน 2568 บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) นำโดยผู้บริหารและผู้ปฏิบัติงาน ได้เข้าพบ คุณภิวงทอง สุวรรณรัตน์ ผู้อำนวยการกองวิเคราะห์เรื่องเสนอคณะรัฐมนตรี สำนักเลขาธิการคณะรัฐมนตรี (สลค.) เพื่อรายงานผลการดำเนินงานของบริษัทใน ปี 2567 พร้อมทั้งนำเสนอแผนธุรกิจระยะ 5 ปี (พ.ศ. 2568–2572) ซึ่งครอบคลุมทิศทางการลงทุนของ EGATi ในโครงการด้านพลังงานไฟฟ้าและธุรกิจเกี่ยวเนื่องในต่างประเทศ รวมถึงแนวทางสนับสนุนความมั่นคงทางพลังงานของประเทศไทยในระยะยาว การเข้าพบครั้งนี้นับเป็นโอกาสอันดีที่ EGATi ได้สื่อสารพันธกิจ บทบาท และแนวทางการดำเนินธุรกิจต่อหน่วยงานภาครัฐที่มีบทบาทสำคัญในกระบวนการเสนอและขอรับการพิจารณาจากรัฐบาล โดยเฉพาะในด้านที่เกี่ยวข้องกับโครงการลงทุน/ร่วมทุนในต่างประเทศ",
+    "นอกจากการรายงานผลการดำเนินงานและแผนธุรกิจแล้ว คณะผู้บริหารของ EGATi ยังมีโอกาสได้หารือ แลกเปลี่ยนมุมมองและซักถามประเด็นเชิงนโยบายกับ สลค. ในหลากหลายมิติ ทั้งในด้านการลงทุนของหน่วยงานภาครัฐ การดำเนินงานของรัฐวิสาหกิจ และการสนับสนุนเป้าหมายด้านพลังงานสะอาดและความยั่งยืนของประเทศอีกด้วย"
+   ],
+   "bodyEn": [
+    "On 6 June 2025, EGATi executives and employees met the Director of the Cabinet Agenda Analysis Division at the Secretariat of the Cabinet. They presented the company’s 2024 performance and its five-year business plan for 2025–2029.",
+    "Discussions covered international electricity and related investments, Thailand’s long-term energy security and the government’s consideration of overseas investment and joint ventures. Participants also exchanged views on state enterprise policy and clean energy development."
+   ],
+   "images": [
+    "web-assets/news/9464-0.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/9464/"
+  },
+  {
+   "id": 9171,
+   "date": "2025-05-30",
+   "category": "partnership",
+   "title": "EGATi เข้าพบสำนักงานคณะกรรมการนโยบายรัฐวิสาหกิจ (สคร.)",
+   "titleEn": "EGATi visits the State Enterprise Policy Office",
+   "summaryEn": "EGATi presented its annual performance and five-year business plan, and exchanged views on state enterprise policy.",
+   "body": [
+    "เมื่อวันศุกร์ที่ 30 พฤษภาคม 2568 บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด EGATi) นำโดยคุณรังสิมา พักเกาะ กรรมการผู้จัดการใหญ่ ได้เข้าพบ คุณภูริวรรณ ทวีสิทธิ์ ผู้อำนวยการกองพัฒนารัฐวิสาหกิจ 2 สำนักงานคณะกรรมการนโยบายรัฐวิสาหกิจ (สคร.) เพื่อนำเสนอผลการดำเนินงานประจำปี 2567 และแผนธุรกิจของบริษัทใน ปี 2568–2572 รวมทั้งเป็นการพัฒนาสัมพันธภาพอันดี และยังได้ร่วมหารือ สอบถาม แลกเปลี่ยนความรู้และมุมมองด้านนโยบายของรัฐวิสาหกิจร่วมกัน"
+   ],
+   "bodyEn": [
+    "On 30 May 2025, EGATi’s President met the Director of State Enterprise Development Division 2 at the State Enterprise Policy Office.",
+    "EGATi presented its 2024 performance and 2025–2029 business plan. The meeting also strengthened relations and enabled an exchange of knowledge and perspectives on state enterprise policy."
+   ],
+   "images": [
+    "web-assets/news/9171-0.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/9171/"
+  },
+  {
+   "id": 9146,
+   "date": "2025-05-28",
+   "category": "partnership",
+   "title": "EGATi เข้าร่วมกิจกรรม “การสร้างเครือข่ายจับคู่ทางธุรกิจด้านพลังงานระหว่างไทยและฟิลิปปินส์ (Thailand- the Philippines Business Matching Forum on Energy)”",
+   "titleEn": "Connecting energy businesses in Thailand and the Philippines",
+   "summaryEn": "EGATi joined the Thailand–Philippines Business Matching Forum on Energy to explore collaboration opportunities.",
+   "body": [
+    "ขอขอบคุณกองการต่างประเทศ (กต.) สำนักงานปลัดกระทรวงพลังงาน และมหาวิทยาลัยเชียงใหม่ สำหรับการเชิญเข้าร่วมกิจกรรม “การสร้างเครือข่ายจับคู่ทางธุรกิจด้านพลังงานระหว่างไทยและฟิลิปปินส์ (Thailand- the Philippines Business Matching Forum on Energy)” ระหว่างวันที่ 27-28 พฤษภาคม 2568 ณ กรุงมะนิลา สาธารณรัฐฟิลิปปินส์ ภายใต้โครงการศูนย์ความร่วมมือด้านพลังงานระหว่างประเทศ โดยมีวัตถุประสงค์เพื่อส่งเสริมความร่วมมือด้านพลังงานระหว่างประเทศ และพัฒนากิจกรรมที่เป็นประโยชน์ต่อการค้า การลงทุนด้านพลังงานสำหรับผู้ประกอบการไทย รวมถึงผลักดันการสำรวจลู่ทางและขยายโอกาสการค้าการลงทุนระหว่างไทยและฟิลิปปินส์ให้เกิดผลเป็นรูปธรรม ซึ่งเป็นโอกาสอันดีในการร่วมแลกเปลี่ยนประสบการณ์และเป็นประโยชน์ต่อการขยายโอกาสในการค้าการลงทุนด้านพลังงานกับผู้ประกอบการจากฟิลิปปินส์ โดยได้เข้าพบ นางมาฆวดี สุมิตรเหมาะ เอกอัครราชทูต ณ กรุงมะนิลา พร้อมด้วยนางยุพวรรณ เปรมจิตต์ ทานิงุจิ นักการทูตชำนาญการ (ที่ปรึกษา) ฝ่ายเศรษฐกิจ และนายวิศรุต ปิยะวงศ์สมบูรณ์ เลขานุการเอก ณ สถานเอกอัครราชทูต ณ กรุงมะนิลา เพื่อรับฟังข้อมูลเกี่ยวกับความสัมพันธ์ระหว่างไทย-ฟิลิปปินส์ นโยบายและโอกาสทางการค้าการลงทุน ช่องทางในการส่งเสริมหรือผลักดันผู้ประกอบการไทยในการลงทุนด้านธุรกิจพลังงาน รวมถึงสิทธิพิเศษสำหรับนักลงทุนต่างชาติ เพื่อเป็นข้อมูลสำหรับการลงทุนและพัฒนาโครงการด้านพลังงานในประเทศฟิลิปปินส์ และได้เข้าพบ Undersecretary Felix William B. Fuentebella และผู้แทนจาก Department of Energy, Republic of Philippines เพื่อพบปะแลกเปลี่ยนความคิดเห็น และรับฟังข้อมูลเกี่ยวกับสถานการณ์พลังงาน นโยบายที่เกี่ยวข้องกับการส่งเสริมและสนับสนุนการลงทุนด้านพลังงาน"
+   ],
+   "bodyEn": [
+    "EGATi joined the Thailand–Philippines Business Matching Forum on Energy to explore collaboration opportunities."
+   ],
+   "images": [
+    "web-assets/news/9146-0.webp",
+    "web-assets/news/9146-1.webp",
+    "web-assets/news/9146-2.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/9146/"
+  },
+  {
+   "id": 10328,
+   "date": "2025-05-02",
+   "category": "partnership",
+   "title": "EGATi เข้าพบเอกอัครราชทูต ณ กรุงฮานอย เพื่อหารือแนวทางการลงทุนด้านพลังงานในเวียดนาม สนับสนุนเป้าหมายขยายธุรกิจพลังงานในภูมิภาค",
+   "titleEn": "EGATi discusses energy investment with the Thai Ambassador in Hanoi",
+   "summaryEn": "The meeting explored energy investment in Vietnam in support of EGATi’s regional business development.",
+   "body": [
+    "เมื่อวันศุกร์ที่ 2 พฤษภาคม 2568 บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) นำโดย คุณรังสิมา พักเกาะ กรรมการผู้จัดการใหญ่ พร้อมด้วยคุณณัฐวุฒิ ผลประเสริฐ ผู้เชี่ยวชาญพิเศษด้านการวางแผนพลังงานระดับประเทศ จากสำนักงานปลัดกระทรวงพลังงาน พร้อมด้วยผู้บริหารและผู้ปฏิบัติงานของ EGATi ได้เดินทางเข้าพบ คุณอุรวดี ศรีภิรมย์ เอกอัครราชทูต ณ กรุงฮานอย ร่วมด้วย คุณอาทิตย์ สามพรายวรกิจ อัครราชทูตที่ปรึกษา และ คุณณัฐศรัณย์ จีรานุโกศล เลขานุการโท (ฝ่ายเศรษฐกิจ) ณ สถานเอกอัครราชทูต ณ กรุงฮานอย ประเทศเวียดนาม",
+    "การเข้าพบครั้งนี้มีวัตถุประสงค์เพื่อหารือและรับฟังข้อคิดเห็นเกี่ยวกับโอกาสในการลงทุนและพัฒนาโครงการด้านพลังงานในสาธารณรัฐสังคมนิยมเวียดนาม ซึ่งเป็นหนึ่งในประเทศเป้าหมายเชิงกลยุทธ์ของ EGATi ในการขยายธุรกิจด้านพลังงานและธุรกิจเกี่ยวเนื่องไปสู่ระดับภูมิภาค ในการหารือ เอกอัครราชทูตได้ให้ข้อมูลเชิงลึกเกี่ยวกับบริบทด้านเศรษฐกิจและพลังงานของเวียดนาม ตลอดจนแนวทางการปฏิบัติที่เหมาะสมในการดำเนินธุรกิจในเวียดนาม รวมถึงการประสานความร่วมมือกับหน่วยงานภาครัฐที่เกี่ยวข้อง ซึ่งมีบทบาทสำคัญต่อการขับเคลื่อนโครงการพลังงานข้ามพรมแดน และเป็นกลไกที่ช่วยให้การลงทุนของภาคเอกชนไทยเป็นไปอย่างราบรื่นและยั่งยืนในระยะยาว ทั้งนี้ สถานเอกอัครราชทูต ณ กรุงฮานอย มีบทบาทสำคัญในฐานะศูนย์กลางด้านการทูตและเศรษฐกิจที่คอยสนับสนุนภาคธุรกิจไทยในการแสวงหาโอกาสทางการค้า การลงทุน และความร่วมมือในหลากหลายมิติ โดยเฉพาะในภาคพลังงานซึ่งเวียดนามกำลังเปิดกว้างต่อการพัฒนาแหล่งพลังงานสะอาดและพลังงานทดแทนเพื่อตอบโจทย์การเติบโตทางเศรษฐกิจและการเปลี่ยนผ่านด้านพลังงานในอนาคต การเข้าพบและหารือในครั้งนี้ถือเป็นอีกหนึ่งก้าวสำคัญของ EGATi ในการเดินหน้าเชิงรุกขยายบทบาทของบริษัทในเวทีระดับนานาชาติ เพื่อเป็นการแสดงความมุ่งมั่นในการเป็นหน่วยงานภาครัฐในการลงทุนด้านพลังงานและธุรกิจเกี่ยวเนื่องในต่างประเทศอย่างยั่งยืน และสอดคล้องกับนโยบายของรัฐบาลไทยและกระทรวงพลังงานในการส่งเสริมความร่วมมือด้านพลังงานกับประเทศเพื่อนบ้านและประชาคมอาเซียนอย่างใกล้ชิด"
+   ],
+   "bodyEn": [
+    "The meeting explored energy investment in Vietnam in support of EGATi’s regional business development."
+   ],
+   "images": [
+    "web-assets/news/10328-0.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/10328/"
+  },
+  {
+   "id": 10317,
+   "date": "2025-04-30",
+   "category": "partnership",
+   "title": "EGATi จัดอบรมความรู้พื้นฐานธุรกิจปิโตรเลียมและปิโตรเคมี เสริมศักยภาพบุคลากรด้าน Business Acumen",
+   "titleEn": "Building business acumen through petroleum and petrochemical training",
+   "summaryEn": "EGATi organized foundational training to develop employees’ understanding of the petroleum and petrochemical industries.",
+   "body": [
+    "บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) จัดอบรมหลักสูตร “Introduction to Petroleum and Petrochemical Businesses” (ความรู้เบื้องต้นเกี่ยวกับธุรกิจปิโตรเลียมและธุรกิจปิโตรเคมี) ระหว่างวันที่ 28–30 เมษายน 2568 ซึ่งดำเนินการโดยสถาบันปิโตรเลียมและพลังงานแห่งประเทศไทย เพื่อพัฒนาองค์ความรู้และเสริมสร้างสมรรถนะหลักด้าน Business Acumen ให้เข้าใจโครงสร้างห่วงโซ่คุณค่าในอุตสาหกรรมพลังงานตั้งแต่ต้นน้ำถึงปลายน้ำ",
+    "การอบรมจัดขึ้น ณ ห้อง T-Trust & Team ชั้น 5 อาคาร ท.100 สำนักงานใหญ่ EGATi พร้อมด้วยกิจกรรมศึกษาดูงาน ณ โรงแยกก๊าซธรรมชาติ บริษัท ปตท. จำกัด (มหาชน) และสถานีรับ–จ่าย และแปรสภาพก๊าซธรรมชาติเหลว บริษัท พีทีที แอลเอ็นจี จำกัด จังหวัดระยอง",
+    "ทั้งนี้ โครงการอบรมดังกล่าวเป็นหนึ่งในแนวคิดของ คุณรังสิมา พักเกาะ กรรมการผู้จัดการใหญ่ ที่ให้ความสำคัญกับการสร้างโอกาสการเรียนรู้และเสริมสร้างความเข้าใจในอุตสาหกรรมพลังงาน เพื่อเตรียมความพร้อมของบุคลากรในการขยายธุรกิจพลังงานสู่ระดับนานาชาติอย่างมั่นคงต่อไป"
+   ],
+   "bodyEn": [
+    "EGATi organized foundational training to develop employees’ understanding of the petroleum and petrochemical industries."
+   ],
+   "images": [
+    "web-assets/news/10317-0.webp",
+    "web-assets/news/10317-1.webp",
+    "web-assets/news/10317-2.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/10317/"
+  },
+  {
+   "id": 10306,
+   "date": "2025-04-11",
+   "category": "partnership",
+   "title": "EGATi เข้าพบผู้อำนวยการกองการต่างประเทศ กระทรวงพลังงานหารือแนวทางความร่วมมือด้านพลังงานระหว่างประเทศ",
+   "titleEn": "EGATi discusses international energy cooperation with the Ministry of Energy",
+   "summaryEn": "The company met the ministry’s International Affairs Division to discuss international energy collaboration.",
+   "body": [
+    "เมื่อวันที่ 11 เมษายน 2568 คุณรังสิมา พักเกาะ กรรมการผู้จัดการใหญ่ บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) พร้อมด้วยคณะผู้บริหาร เข้าพบ คุณกฤติยา เพ็ชรศรี ผู้อำนวยการกองการต่างประเทศ กระทรวงพลังงาน ณ กระทรวงพลังงาน เพื่อแสดงความยินดีในโอกาสเข้ารับตำแหน่งอย่างเป็นทางการ พร้อมทั้งหารือแนวทางความร่วมมือด้านพลังงานระหว่างประเทศภายใต้กรอบยุทธศาสตร์ของภาครัฐ",
+    "ในการหารือครั้งนี้ EGATi ได้แลกเปลี่ยนมุมมองเกี่ยวกับโอกาสและความเป็นไปได้ในการลงทุนในโครงการพลังงานในต่างประเทศ โดยเฉพาะในภูมิภาคอาเซียน ซึ่งอยู่ภายใต้กรอบความร่วมมือระหว่างประเทศตามนโยบายของกระทรวงพลังงาน อาทิ โครงการซื้อขายไฟฟ้าข้ามพรมแดน การพัฒนาโครงการพลังงานหมุนเวียน เป็นต้น",
+    "ทั้งนี้ EGATi ในฐานะบริษัทในเครือของการไฟฟ้าฝ่ายผลิตแห่งประเทศไทย (กฟผ.) มีบทบาทสำคัญในการขยายการลงทุนด้านพลังงานของไทยสู่ตลาดต่างประเทศ เพื่อเสริมสร้างความมั่นคงทางพลังงานของประเทศ และผลักดันให้ประเทศไทยมีบทบาทเชิงรุกมากขึ้นในเวทีพลังงานระดับภูมิภาค",
+    "การเข้าพบในครั้งนี้นับเป็นโอกาสสำคัญในการเสริมสร้างความสัมพันธ์ระหว่าง EGATi กับกองการต่างประเทศ กระทรวงพลังงาน พร้อมเปิดโอกาสในการพัฒนาความร่วมมือด้านพลังงานในระดับนานาชาติ เพื่อสนับสนุนวิสัยทัศน์ของกระทรวงพลังงาน และนโยบายของภาครัฐในการผลักดันรัฐวิสาหกิจไทยให้เติบโตอย่างมั่นคงและยั่งยืนในเวทีโลก"
+   ],
+   "bodyEn": [
+    "The company met the ministry’s International Affairs Division to discuss international energy collaboration."
+   ],
+   "images": [
+    "web-assets/news/10306-0.webp",
+    "web-assets/news/10306-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/10306/"
+  },
+  {
+   "id": 10289,
+   "date": "2025-04-10",
+   "category": "corporate",
+   "title": "EGATi จัดกิจกรรมสรงน้ำพระและเข้าร่วมงาน “เชิญพี่เยี่ยมบ้าน” ของ กฟผ.เพื่อร่วมเฉลิมฉลองเทศกาลสงกรานต์ 2568",
+   "titleEn": "EGATi celebrates Songkran 2025 with traditional activities",
+   "summaryEn": "Employees joined a Buddha image bathing ceremony and EGAT’s homecoming event to celebrate the Thai New Year.",
+   "body": [
+    "เมื่อวันที่ 10 เมษายน 2568 บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) จัดกิจกรรมเนื่องในโอกาสวันสงกรานต์ขึ้นปีใหม่ไทย เพื่อสืบสานวัฒนธรรมประเพณีอันดีงาม โดยช่วงเช้าผู้บริหารและผู้ปฏิบัติงานเข้าร่วมพิธีสรงน้ำพระและรดน้ำขอพรจากผู้บริหารระดับสูง ณ บริเวณ Lobby ชั้น 4 สำนักงาน EGATi",
+    "หลังพิธีสรงน้ำพระและรดน้ำขอพรจากผู้บริหารระดับสูงแล้ว ผู้ปฏิบัติงานที่เข้าร่วมงานได้พบปะพูดคุยและร่วมรับประทานอาหารว่างในบรรยากาศอบอุ่นและเป็นกันเอง โดยผู้เข้าร่วมกิจกรรมต่างพร้อมใจกันแต่งกายด้วยเสื้อลายดอกตามธีมงาน สร้างสีสันและรอยยิ้มให้กับชาว EGATi ได้เป็นอย่างดี",
+    "ในช่วงบ่ายของวันเดียวกัน คุณรังสิมา พักเกาะ กรรมการผู้จัดการใหญ่ ได้เข้าร่วมงานเทศกาลสงกรานต์ “เชิญพี่เยี่ยมบ้าน” ซึ่งจัดขึ้นโดยการไฟฟ้าฝ่ายผลิตแห่งประเทศไทย (กฟผ.) ณ ศูนย์กีฬากำธน สินธวานนท์ ภายในงานได้รับเกียรติจาก นายเทพรัตน์ เทพพิทักษ์ ผู้ว่าการ กฟผ. กล่าวต้อนรับผู้ร่วมงานอย่างอบอุ่น",
+    "พร้อมกิจกรรมสร้างสรรค์ อาทิ “เล่าสู่กันฟัง” และ “ฝากไว้จากใจพี่” ซึ่งเปิดโอกาสให้ผู้บริหารทั้งรุ่นเก่าและรุ่นใหม่ได้แลกเปลี่ยนประสบการณ์ แง่คิด และข้อเสนอแนะอันมีคุณค่าต่อรุ่นน้องผู้ปฏิบัติงานบรรยากาศภายในงานเต็มไปด้วยความชื่นมื่น โดยผู้ร่วมงานต่างแต่งกายด้วยผ้าไทย ผ้าลายดอก และผ้าสีสันสดใส สมกับบรรยากาศเทศกาลสงกรานต์ ทั้งยังสะท้อนถึงความสัมพันธ์อันแน่นแฟ้นระหว่าง กฟผ. และ EGATi ซึ่งการเข้าร่วมกิจกรรมครั้งนี้ถือเป็นอีกก้าวสำคัญของการเสริมสร้างมิตรภาพ ความร่วมมือ และการหล่อหลอมวัฒนธรรมองค์กรให้เติบโตไปในทิศทางเดียวกันอย่างยั่งยืน"
+   ],
+   "bodyEn": [
+    "Employees joined a Buddha image bathing ceremony and EGAT’s homecoming event to celebrate the Thai New Year."
+   ],
+   "images": [
+    "web-assets/news/10289-0.webp",
+    "web-assets/news/10289-1.webp",
+    "web-assets/news/10289-2.webp",
+    "web-assets/news/10289-3.webp",
+    "web-assets/news/10289-4.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/10289/"
+  },
+  {
+   "id": 10276,
+   "date": "2025-04-09",
+   "category": "corporate",
+   "title": "กระทรวงพลังงานจัดกิจกรรมสืบสานประเพณีไทยในเทศกาลสงกรานต์ ประจำปี 2568",
+   "titleEn": "Preserving Thai traditions at the Ministry of Energy’s Songkran celebration",
+   "summaryEn": "The ministry held activities to celebrate Songkran and continue Thailand’s cultural traditions in 2025.",
+   "body": [
+    "เมื่อวันพุธที่ 9 เมษายน 2568 คุณรังสิมา พักเกาะ กรรมการผู้จัดการใหญ่ บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) ได้เข้าร่วมกิจกรรม “สงกรานต์ประจำปี 2568” ซึ่งจัดโดยกระทรวงพลังงาน เพื่อร่วมสืบสานและอนุรักษ์ประเพณีไทยอันดีงาม",
+    "ภายในงานประกอบด้วยพิธีสรงน้ำพระ พิธีรดน้ำขอพรจากผู้บริหารทั้งในอดีตและปัจจุบัน รวมถึงพิธีมอบเข็มเชิดชูเกียรติให้แก่ข้าราชการและบุคลากรดีเด่นในสังกัด เพื่อเป็นการยกย่องผู้ที่มีความวิริยะอุตสาหะและสร้างคุณประโยชน์ต่อองค์กร",
+    "การเข้าร่วมกิจกรรมในครั้งนี้ นอกจากเป็นการร่วมสืบสานวัฒนธรรมไทยให้คงอยู่คู่สังคมแล้ว ยังเป็นโอกาสอันดีในการกระชับความสัมพันธ์อันอบอุ่นระหว่างผู้บริหาร ผู้ปฏิบัติงานและหน่วยงานในสังกัดกระทรวงพลังงานอีกด้วย"
+   ],
+   "bodyEn": [
+    "The ministry held activities to celebrate Songkran and continue Thailand’s cultural traditions in 2025."
+   ],
+   "images": [
+    "web-assets/news/10276-0.webp",
+    "web-assets/news/10276-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/10276/"
+  },
+  {
+   "id": 8798,
+   "date": "2025-03-25",
+   "category": "partnership",
+   "title": "EGATi และ Sumitomo ลงนามบันทึกความเข้าใจขยายขอบเขตความร่วมมือด้านพลังงานสะอาด",
+   "titleEn": "EGATi and Sumitomo expand their clean energy cooperation",
+   "summaryEn": "The two companies signed a memorandum of understanding to broaden collaboration in clean energy.",
+   "body": [
+    "บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) โดยนางสาวรังสิมา พักเกาะ กรรมการผู้จัดการใหญ่ และ บริษัท ซูมิโตโม คอร์ปอเรชั่น (Sumitomo) โดย นายโคอิจิ ทานิงุจิ ตำแหน่ง General Manager, Overseas Energy Solution Strategic Business Unit ร่วมลงนามบันทึกความเข้าใจฉบับแก้ไขเพิ่มเติม (Amendment to MOU) เมื่อวันที่ 25 มีนาคม 2568 ณ สำนักงานใหญ่ของ Sumitomo กรุงโตเกียว ประเทศญี่ปุ่น",
+    "ด้วยการลงนามครั้งนี้เป็นการขยายขอบเขตและระยะเวลาความร่วมมือภายใต้ MOU ASEAN GX ที่ทั้งสองบริษัทได้ลงนามร่วมกันเมื่อวันที่ 28 พฤศจิกายน 2566 โดยมีเป้าหมายเพื่อเสริมสร้างเพื่อเพิ่มสัดส่วนการลงทุนด้านพลังงานหมุนเวียน และศึกษานวัตกรรมเพื่อลดการปลดปล่อยก๊าซคาร์บอนไดออกไซด์ในโครงการโรงไฟฟ้าพลังความร้อนในเวียดนาม",
+    "นอกจากนี้ ทั้งสองบริษัทจะร่วมพัฒนาโครงการที่เกี่ยวข้องกับ Energy Transition และ Green Transformation ในภูมิภาคอาเซียน รวมถึงโครงการ LNG to Power ในเวียดนาม เพื่อขับเคลื่อนการเปลี่ยนผ่านสู่พลังงานสะอาดและความยั่งยืนในอนาคต"
+   ],
+   "bodyEn": [
+    "The two companies signed a memorandum of understanding to broaden collaboration in clean energy."
+   ],
+   "images": [
+    "web-assets/news/8798-0.webp",
+    "web-assets/news/8798-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/8798/"
+  },
+  {
+   "id": 8429,
+   "date": "2025-02-28",
+   "category": "partnership",
+   "title": "EGATi เข้าพบเอกอัครราชทูต ณ กรุงจาการ์ตา เพื่อหารือแนวทางการลงทุนใน ประเทศอินโดนีเซีย สนับสนุนภารกิจขยายธุรกิจพลังงานในต่างประเทศ",
+   "titleEn": "Exploring Indonesian energy investment with the Thai Ambassador in Jakarta",
+   "summaryEn": "EGATi discussed opportunities in Indonesia as part of its international energy business development.",
+   "body": [
+    "เมื่อวันที่ 28 กุมภาพันธ์ 2568 นางสาวรังสิมา พักเกาะ กรรมการผู้จัดการใหญ่ บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) พร้อมด้วยคณะผู้บริหาร เดินทางเข้าพบ นายประพันธ์ ดิษยทัต เอกอัครราชทูต ณ กรุงจาการ์ตา ณ สถานเอกอัครราชทูต กรุงจาการ์ตา เนื่องในโอกาสขึ้นปีใหม่ 2568 และเพื่อหารือเกี่ยวกับความคืบหน้าในการดำเนินโครงการลงทุนของบริษัทในประเทศอินโดนีเซีย การเข้าพบในครั้งนี้เป็นส่วนหนึ่งของพันธกิจของ EGATi ในการสร้างความสัมพันธ์ที่แน่นแฟ้นกับหน่วยงานภาครัฐของไทยในต่างประเทศ และเพื่อแลกเปลี่ยนข้อมูลและแนวทางในการส่งเสริมการลงทุนพลังงานในภูมิภาคอาเซียน โดยเฉพาะอย่างยิ่งในประเทศอินโดนีเซียซึ่งมีศักยภาพด้านพลังงานสูง และเป็นตลาดที่เปิดรับความร่วมมือกับภาคเอกชนจากต่างประเทศอย่างต่อเนื่อง นอกจากนี้ ยังได้รับคำแนะนำเกี่ยวกับภาพรวมเศรษฐกิจ การเมือง และสภาพแวดล้อมการลงทุนในอินโดนีเซีย พร้อมเน้นย้ำถึงบทบาทของสถานเอกอัครราชทูต ณ กรุงจาการ์ตา ในการให้ความช่วยเหลือและสนับสนุนภาคธุรกิจไทย รวมถึงการประสานความร่วมมือกับหน่วยงานอินโดนีเซียที่เกี่ยวข้องเพื่อให้การลงทุนดำเนินไปได้อย่างมีประสิทธิภาพและอย่างยั่งยืนในระยะยาว อินโดนีเซียถือเป็นหนึ่งในประเทศเป้าหมายหลักของ EGATi ในการขยายการลงทุนด้านพลังงานไฟฟ้า โดยเฉพาะในกลุ่มโครงการพลังงานสะอาดและโครงการผลิตไฟฟ้าจากเชื้อเพลิงธรรมชาติ ซึ่งสอดคล้องกับยุทธศาสตร์ของบริษัทในการขับเคลื่อนการเติบโตอย่างยั่งยืนในต่างประเทศ และส่งเสริมความมั่นคงด้านพลังงานในภูมิภาคอาเซียน การเข้าพบและหารือในครั้งนี้สะท้อนถึงความมุ่งมั่นของ EGATi ในการเสริมสร้างเครือข่ายความร่วมมือกับภาครัฐทั้งไทยและต่างประเทศ ตลอดจนการติดตามและปรับตัวให้สอดคล้องกับบริบทของแต่ละประเทศ เพื่อให้สามารถดำเนินธุรกิจได้อย่างมีประสิทธิภาพ มีธรรมาภิบาล และยั่งยืนในระยะยาว"
+   ],
+   "bodyEn": [
+    "EGATi discussed opportunities in Indonesia as part of its international energy business development."
+   ],
+   "images": [
+    "web-assets/news/8429-0.webp",
+    "web-assets/news/8429-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/8429/"
+  },
+  {
+   "id": 8467,
+   "date": "2025-02-27",
+   "category": "partnership",
+   "title": "คณะผู้บริหาร EGATi เข้าพบพันธมิตรทางธุรกิจ ณ กรุงจาการ์ตา ประเทศอินโดนีเซีย",
+   "titleEn": "EGATi executives meet business partners in Jakarta",
+   "summaryEn": "Company executives visited business partners in Indonesia to strengthen working relationships.",
+   "body": [
+    "เมื่อวันที่ 27 กุมภาพันธ์ 2568 นางสาวรังสิมา พักเกาะ กรรมการผู้จัดการใหญ่ พร้อมคณะผู้บริหารจาก บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) เข้าพบผู้บริหารบริษัท Adaro Indonesia ณ กรุงจาการ์ตา ประเทศอินโดนีเซีย ในโอกาสขึ้นปีใหม่ 2568 และรับฟังผลการดำเนินธุรกิจในปีที่ผ่านมา กระชับความสัมพันธ์ และเพื่อเพิ่มโอกาสทางธุรกิจในด้านอื่นๆ ตามแผนธุรกิจของบริษัท EGATi"
+   ],
+   "bodyEn": [
+    "Company executives visited business partners in Indonesia to strengthen working relationships."
+   ],
+   "images": [
+    "web-assets/news/8467-0.webp",
+    "web-assets/news/8467-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/8467/"
+  },
+  {
+   "id": 7894,
+   "date": "2025-02-25",
+   "category": "partnership",
+   "title": "EGATi เข้าพบ ดร. นิทัศน์ วรพนพิพัฒน์ กรรมการผู้จัดการใหญ่ บริษัท ราช กรุ๊ป จำกัด (มหาชน)",
+   "titleEn": "EGATi meets the Chief Executive Officer of RATCH Group",
+   "summaryEn": "EGATi paid a visit to Dr. Nitas Voraphonpiput, Chief Executive Officer of RATCH Group Public Company Limited.",
+   "body": [
+    "เมื่อวันที่ 25 กุมภาพันธ์ 2568 นางสาวรังสิมา พักเกาะ กรรมการผู้จัดการใหญ่ บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) ได้นำคณะผู้บริหาร เข้าพบ",
+    "ดร. นิทัศน์ วรพนพิพัฒน์ กรรมการผู้จัดการใหญ่ บริษัท ราช กรุ๊ป จำกัด (มหาชน) การเข้าพบครั้งนี้เพื่อหารือถึงโอกาสและทิศทางการร่วมลงทุนด้านพลังงานของ",
+    "บริษัทในกลุ่ม กฟผ. พร้อมทั้งแลกเปลี่ยนประสบการณ์การลงทุนโครงการพลังงานในต่างประเทศ"
+   ],
+   "bodyEn": [
+    "EGATi paid a visit to Dr. Nitas Voraphonpiput, Chief Executive Officer of RATCH Group Public Company Limited."
+   ],
+   "images": [
+    "web-assets/news/7894-0.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/7894/"
+  },
+  {
+   "id": 7881,
+   "date": "2025-02-21",
+   "category": "partnership",
+   "title": "EGATi เข้าพบนายวรนล จันทร์สิริ ผู้อำนวยการกองการต่างประเทศ กระทรวงพลังงาน",
+   "titleEn": "EGATi visits the Ministry of Energy’s International Affairs Division",
+   "summaryEn": "The company congratulated the division’s director on his new appointment and discussed international energy investment opportunities.",
+   "body": [
+    "21 กุมภาพันธ์ 2568 บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด นำโดย นางสาวรังสิมา พักเกาะ กรรมการผู้จัดการใหญ่ พร้อมคณะผู้บริหาร ได้เข้าพบ นายวรนล จันทร์สิริ ผู้อำนวยการกองการต่างประเทศ",
+    "กระทรวงพลังงาน เพื่อแสดงความยินดีเนื่องในโอกาสโยกย้ายไปรับตำแหน่ง ผู้อำนวยการกองยุทธศาสตร์และแผนงาน กระทรวงพลังงาน โดยจะมีผลตั้งแต่ วันที่ 3 มีนาคม 2568 นี้",
+    "ทั้งนี้ บริษัทได้หารือเบื้องต้นถึงความเป็นไปได้ในการลงทุนด้านพลังงานในรูปแบบต่างๆ ระหว่างประเทศภายใต้กรอบความร่วมมือด้านพลังงานกับประเทศเพื่อนบ้าน"
+   ],
+   "bodyEn": [
+    "The company congratulated the division’s director on his new appointment and discussed international energy investment opportunities."
+   ],
+   "images": [
+    "web-assets/news/7881-0.webp",
+    "web-assets/news/7881-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/7881/"
+  },
+  {
+   "id": 7848,
+   "date": "2025-02-11",
+   "category": "partnership",
+   "title": "EGATi เข้าพบกระทรวงการต่างประเทศ เพื่อหารือความร่วมมือด้านพลังงานในภูมิภาค",
+   "titleEn": "EGATi and the Ministry of Foreign Affairs discuss regional energy cooperation",
+   "summaryEn": "A meeting with the ministry explored cooperation in the region’s energy sector.",
+   "body": [
+    "เมื่อวันที่ 11 กุมภาพันธ์ 2568 นางสาวรังสิมา พักเกาะ กรรมการผู้จัดการใหญ่ บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) พร้อมคณะผู้บริหาร ได้เข้าเยี่ยมคารวะ นายปิยะภักดิ์ ศรีเจริญ อธิบดีกรมเอเชียตะวันออก นายพลพงศ์ วังแพน อธิบดีกรมอาเซียน พร้อมด้วย ดร.สุวิทย์ มังคละ รองอธิบดีกรมอาเซียน ณ กระทรวงการต่างประเทศ เพื่อหารือแนวทางความร่วมมือและการลงทุนด้านพลังงานในต่างประเทศ สำหรับการขยายการลงทุนในอนาคตของ EGATi",
+    "การเข้าเยี่ยมคารวะในครั้งนี้ ถือเป็นก้าวสำคัญในการสานสัมพันธ์ระหว่างหน่วยงานตลอดจนเป็นรากฐานในการส่งเสริมความร่วมมือด้านพลังงานระหว่างประเทศในอนาคต"
+   ],
+   "bodyEn": [
+    "A meeting with the ministry explored cooperation in the region’s energy sector."
+   ],
+   "images": [
+    "web-assets/news/7848-0.webp",
+    "web-assets/news/7848-1.webp",
+    "web-assets/news/7848-2.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/7848/"
+  },
+  {
+   "id": 7785,
+   "date": "2025-02-07",
+   "category": "partnership",
+   "title": "EGATi เข้าพบ ดร.พูลพัฒน์ ลีสมบัติไพบูลย์ เลขาธิการ กกพ. เพื่อหารือทิศทางนโนบายพลังงานในอนาคต",
+   "titleEn": "EGATi discusses future energy policy with the ERC Secretary-General",
+   "summaryEn": "The company met the Office of the Energy Regulatory Commission to exchange views on the direction of energy policy.",
+   "body": [
+    "เมื่อวันที่ 7 กุมภาพันธ์ 2568 นางสาวรังสิมา พักเกาะ กรรมการผู้จัดการใหญ่ พร้อมคณะผู้บริหารจาก บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) เข้าพบ ดร.พูลพัฒน์ ลีสมบัติไพบูลย์ เลขาธิการสำนักงาน คณะกรรมการกำกับกิจการพลังงาน (กกพ.) เพื่อหารือถึงแนวทางการดำเนินธุรกิจด้านพลังงานในต่างประเทศ นโยบายของภาครัฐและหน่วยงานกำกับ รวมถึงโอกาสในการลงทุนกิจการเกี่ยวเนื่องและพลังงานสะอาดซึ่งสนับสนุนความมั่นคงด้านพลังงาน"
+   ],
+   "bodyEn": [
+    "The company met the Office of the Energy Regulatory Commission to exchange views on the direction of energy policy."
+   ],
+   "images": [
+    "web-assets/news/7785-0.webp",
+    "web-assets/news/7785-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/7785/"
+  },
+  {
+   "id": 7782,
+   "date": "2025-02-05",
+   "category": "partnership",
+   "title": "คณะผู้บริหาร EGATi เข้าพบ นางณัฐฏ์จารี อนันตศิลป์ เลขาธิการคณะรัฐมนตรี",
+   "titleEn": "EGATi executives visit the Secretary-General of the Cabinet",
+   "summaryEn": "The company’s executives paid a visit to the Secretary-General of the Cabinet.",
+   "body": [
+    "เมื่อวันที่ 5 กุมภาพันธ์ 2568 นางสาวรังสิมา พักเกาะ กรรมการผู้จัดการใหญ่ พร้อมคณะผู้บริหารจาก บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) เข้าพบนางณัฐฏ์จารี อนันตศิลป์ เลขาธิการคณะรัฐมนตรีเพื่อนำเรียนโครงการลงทุนด้านพลังงานที่ทาง EGATi จะต้องเสนอหน่วยงานต้นสังกัดเพื่อเข้าสู่การพิจารณาของคณะรัฐมนตรี"
+   ],
+   "bodyEn": [
+    "The company’s executives paid a visit to the Secretary-General of the Cabinet."
+   ],
+   "images": [
+    "web-assets/news/7782-0.webp",
+    "web-assets/news/7782-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/7782/"
+  },
+  {
+   "id": 8415,
+   "date": "2025-02-04",
+   "category": "partnership",
+   "title": "EGATi เข้าพบ ดร. จิราพร ศิริคำ กรรมการผู้จัดการใหญ่ บริษัท ผลิตไฟฟ้า จำกัด (มหาชน)",
+   "titleEn": "EGATi meets the President of EGCO Group",
+   "summaryEn": "EGATi met Dr. Jiraporn Sirikum, President of Electricity Generating Public Company Limited.",
+   "body": [
+    "เมื่อวันที่ 4 กุมภาพันธ์ 2568 นางสาวรังสิมา พักเกาะ กรรมการผู้จัดการใหญ่ พร้อมคณะผู้บริหารจาก บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) เข้าพบ ดร. จิราพร ศิริคำ กรรมการผู้จัดการใหญ่ บริษัท ผลิตไฟฟ้า จำกัด (มหาชน) (EGCO) นายประสิทธิ์ เลาหวิรภาพ รองกรรมการผู้จัดการใหญ่สายงานพัฒนาธุรกิจในประเทศ และ นายศักดิ์สิทธ์ สุนทเรกานนท์ ผู้ช่วยกรรมการผู้จัดการใหญ่สายพัฒนาธุรกิจในประเทศ 1 ในโอกาสขึ้นปีใหม่ 2568 และหารือถึงโอกาสและทิศทางการร่วมลงทุนด้านพลังงานของบริษัทในกลุ่ม กฟผ. พร้อมทั้งแลกเปลี่ยนประสบการณ์การลงทุนโครงการพลังงานในต่างประเทศ"
+   ],
+   "bodyEn": [
+    "EGATi met Dr. Jiraporn Sirikum, President of Electricity Generating Public Company Limited."
+   ],
+   "images": [
+    "web-assets/news/8415-0.webp",
+    "web-assets/news/8415-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/8415/"
+  },
+  {
+   "id": 7776,
+   "date": "2025-02-03",
+   "category": "partnership",
+   "title": "EGATi เข้าพบ สศช. เพื่อหารือแนวทางการดำเนินธุรกิจด้านพลังงาน",
+   "titleEn": "EGATi discusses energy business development with NESDC",
+   "summaryEn": "The company visited the Office of the National Economic and Social Development Council to discuss its energy business direction.",
+   "body": [
+    "เมื่อวันที่ 3 กุมภาพันธ์ 2568 นางสาวรังสิมา พักเกาะ กรรมการผู้จัดการใหญ่ พร้อมคณะผู้บริหารจาก บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) เข้าพบนายดนุชา พิชยนันท์ เลขาธิการสภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ (สศช.) ในโอกาสขึ้นปีใหม่ 2568 และร่วมหารือถึงแนวทางการดำเนินธุรกิจด้านพลังงานในต่างประเทศและอื่นๆ นอกจากนี้ นางวิมลพรรณ ตันเจริญ รองกรรมการผู้จัดการใหญ่ – บริหาร พร้อมคณะผู้บริหารจาก EGATi ยังมีโอกาสได้เข้าพบ คุณภาวิณา อัศวมณีกุล รักษาราชการแทนรองเลขาธิการฯ สศช. เพื่อพูดถึงความเป็นไปได้ในการลงทุนในต่างประเทศของ EGATi ในอนาคตต่อไป"
+   ],
+   "bodyEn": [
+    "The company visited the Office of the National Economic and Social Development Council to discuss its energy business direction."
+   ],
+   "images": [
+    "web-assets/news/7776-0.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/7776/"
+  },
+  {
+   "id": 7639,
+   "date": "2024-12-12",
+   "category": "community",
+   "title": "สมเด็จพระกนิษฐาธิราชเจ้า กรมสมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี เสด็จ ฯ เปิด งานกาชาด 2567 และเยี่ยมชมร้านกาชาด กฟผ. “10 โครงการ สืบสานพระราชปณิธานองค์ราชัน” ซึ่งคว้ารางวัลชนะเลิศร้านค้ากาชาด",
+   "titleEn": "Her Royal Highness Princess Maha Chakri Sirindhorn visits EGAT’s Red Cross Fair booth",
+   "summaryEn": "The 2024 Red Cross Fair included a visit to EGAT’s award-winning booth featuring projects continuing the royal initiatives.",
+   "body": [
+    "การไฟฟ้าฝ่ายผลิตแห่งประเทศไทย (กฟผ.) ได้รับพระมหากรุณาธิคุณจากสมเด็จพระกนิษฐาธิราชเจ้า กรมสมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี เสด็จเยี่ยมชมร้านกาชาด กฟผ. ภายใต้แนวคิด “น้ำพระทัย ใต้ร่มพระบารมี” ซึ่งคว้ารางวัลชนะเลิศร้านกาชาด ประเภทหน่วยงานรัฐวิสาหกิจ องค์กรอิสระ และเอกชน สร้างสรรค์รูปแบบการจัดงานที่เป็นมิตรต่อสิ่งแวดล้อม แสดงความมุ่งมั่นในการมุ่งสู่สังคมคาร์บอนต่ำ ซึ่งสอดคล้องกับแนวคิดงานกาชาดประจำปี 2567 “ทศมราชา 72 พรรษา ถวายพระพร” เนื่องในโอกาสมหามงคลเฉลิมพระชนมพรรษา พระบาทสมเด็จพระเจ้าอยู่หัว ครบ 6 รอบ 28 กรกฎาคม 2567 โดยมี",
+    "ดร.ประเสริฐ สินสุขประเสริฐ ปลัดกระทรวงพลังงาน ประธานกรรมการ กฟผ. และประธานกรรมการบริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) นายเทพรัตน์ เทพพิทักษ์ ผู้ว่าการ กฟผ. ผู้บริหาร กฟผ. และ กลุ่มบริษัทในเครือ กฟผ. โดยมีผู้บริหารจาก EGATi นำโดย นางวิมลพรรณ ตันเจริญ รองกรรมการผู้จัดการใหญ่ – บริหาร รักษาการ กรรมการผู้จัดการใหญ่ และ นายเศรษฐพรรณ แก้วนาโพธิ์ ผู้จัดการฝ่ายบริหารองค์กร เฝ้ารับเสด็จ ณ ร้านกาชาด กฟผ. เมื่อวันที่ 11 ธันวาคม 2567 ที่ผ่านมาร้านกาชาด กฟผ. จัดขึ้นภายใต้แนวคิด “น้ำพระทัย ใต้ร่มพระบารมี” ประกอบด้วยนิทรรศการ “10 โครงการ สืบสานพระราชปณิธานองค์ราชัน” โครงการกิจกรรมเฉลิมพระเกียรติฯ ที่ดำเนินการโดยกระทรวงพลังงาน และ กฟผ. ครอบคลุมด้านพลังงาน สังคม และสิ่งแวดล้อม สานต่อพระราชปณิธานอันนำมาซึ่งความสุขและคุณภาพชีวิตที่ดีของประชาชนอย่างยั่งยืน ถวายเป็นพระราชกุศลเนื่องในโอกาสปีมหามงคล พร้อมสร้างสรรค์รูปแบบการจัดงานที่เป็นมิตรต่อสิ่งแวดล้อม โดยติดตราสัญลักษณ์ “กิจกรรมการชดเชยคาร์บอน (Carbon Neutral Event)” หน้าร้านกาชาด กฟผ. แสดงถึงความมุ่งมั่นในการลดผลกระทบต่อสิ่งแวดล้อม ทั้งในกระบวนการออกแบบและดำเนินการจัดงาน เช่น การลดขยะ การใช้วัสดุรีไซเคิล และการคำนวณปริมาณคาร์บอนที่ถูกปล่อยในชั้นบรรยากาศ เพื่อดำเนินการชดเชยด้วยกิจกรรมหรือสนับสนุนกิจกรรมที่ลดการปล่อยก๊าซเรือนกระจกอย่างเป็นรูปธรรม นอกจากนี้ ยังมีการจัดแสดงนิทรรศการนำเสนอพระราชกรณียกิจ แกลอรี่พระบรมฉายาลักษณ์ นิทรรศการ กฟผ. กับสภากาชาดไทย รวมทั้งกิจกรรมไฮไลต์ที่น่าสนใจมากมาย ได้แก่ “สอยดาวชิงรางวัลบนต้นรวงผึ้ง” จำนวน 72,000 ดวง ลุ้นรับรางวัลใหญ่ อาทิ ทองคำ นาฬิกา Apple Watch แท็บเล็ต ไมโครเวฟ เบอร์ 5 และของรางวัลอื่น ๆ อีกมากมาย กฟผ. และกลุ่มบริษัทในเครือ กฟผ. ขอเชิญชวนประชาชนร่วมสัมผัสบรรยากาศอบอุ่นและส่งต่อความสุขสู่สังคมแห่งการให้ได้ที่ร้านกาชาด กฟผ. บูท 7.1 ระหว่างวันที่ 11-22 ธันวาคม 2567 นี้ ติดตามรายละเอียดเพิ่มเติมได้ที่ Facebook: กฟผ. การไฟฟ้าฝ่ายผลิตแห่งประเทศไทย"
+   ],
+   "bodyEn": [
+    "The 2024 Red Cross Fair included a visit to EGAT’s award-winning booth featuring projects continuing the royal initiatives."
+   ],
+   "images": [
+    "web-assets/news/7639-0.webp",
+    "web-assets/news/7639-1.webp",
+    "web-assets/news/7639-2.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/7639/"
+  },
+  {
+   "id": 7360,
+   "date": "2024-09-15",
+   "category": "community",
+   "title": "EGATi และมูลนิธิ ADARO ลงนามในข้อตกลงทุนการศึกษากับ มหาวิทยาลัย UPNVY ในการให้ทุนการศึกษาสำหรับปี 2024-2029",
+   "titleEn": "EGATi and Adaro Foundation sign a scholarship agreement with UPNVY",
+   "summaryEn": "The agreement supports university scholarships for the 2024–2029 period.",
+   "body": [
+    "ตานจุง, อินโดนีเซีย, 10 กันยายน 2024 – บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi), YAYASAN ADARO BANGUN NEGERI (มูลนิธิ ADARO) และ Universitas Pembangunan Nasional “Veteran” Yogyakarta (UPNVY) ด้วยการลงนามในข้อตกลงทุนการศึกษา สำหรับปีการศึกษา 2024-2029 การเซ็นสัญญา ซึ่งจัดขึ้นที่ตานจุง อินโดนีเซีย ตามด้วยการเฉลิมฉลองที่หมู่บ้านบาลิดา อำเภอบาลังกาน ข้อตกลงนี้จะมอบทุนการศึกษาให้กับนักเรียนที่มีผลการเรียนโดดเด่นจำนวน 6 คน ในสาขาที่สำคัญในด้านเหมืองและพลังงาน โดยมุ่งเน้นที่การปฏิบัติด้านการรักษาสิ่งแวดล้อมอย่างยั่งยืน",
+    "เสริมสร้าง CSR และผลกระทบต่อชุมชน",
+    "EGATi ได้มีโอกาสในการเข้าร่วมงาน ในโครงการความรับผิดชอบต่อสังคม (CSR) ของมูลนิธิ ADARO ซึ่งประสบความสำเร็จ ในช่วงทุนการศึกษา 5 รุ่นที่ผ่านมา โครงการนี้ได้สนับสนุนนักเรียนจำนวนมาก โดยมีงานกิจกรรมในชุมชนที่เฉลิมฉลองความสำเร็จ งานเหล่านี้ได้สร้างความกระตือรือร้นและการมีส่วนร่วมของชุมชนได้อย่างกว้างขวาง",
+    "นายบัณฑิต อัมพรศรีสุภาพ, รองกรรมการผู้จัดการใหญ่อาวุโส รักษาการ กรรมการผู้จัดการใหญ่ ได้กล่าวว่า “การมีส่วนร่วมของเราในมูลนิธิ ADARO ไม่ได้เป็นเพียงการที่เราต้องการที่จะแสดงถึงความมุ่งมั่นที่จะสนับสนุนทางด้านการศึกษา แต่ยังเป็นการสัญญาที่จะยกระดับชุมชน เรารู้สึกยินดีเป็นอย่างยิ่งที่ได้เป็นส่วนหนึ่งของโครงการนี้ และหวังว่าจะได้สนับสนุนคนรุ่นใหม่ ที่จะนำทางไปสู่การปฏิวัติและพัฒนาที่ยั่งยืน”",
+    "ส่งเสริมความเป็นเลิศด้านสิ่งแวดล้อมและการศึกษา",
+    "นอกเหนือจากการมอบทุนการศึกษาแล้ว ด้าน CSR ของมูลนิธิ ADARO ยังมุ่งเน้นที่การอนุรักษ์สิ่งแวดล้อม โครงการที่โดดเด่นรวมถึงโครงการปลูกต้นไม้ที่มุ่งปกป้องระบบนิเวศท้องถิ่นและส่งเสริมความยั่งยืนด้านสิ่งแวดล้อมในระยะยาว โครงการเหล่านี้เน้นความมุ่งมั่น ความร่วมมือและการเติบโตทางอุตสาหกรรมพร้อมทั้งยังดูแลสิ่งแวดล้อมอีกด้วย",
+    "ข้อตกลงทุนการศึกษานี้ทำให้ความร่วมมือระยะยาวระหว่าง EGATi, มูลนิธิ ADARO และ UPNVY ผู้รับทุนการศึกษาที่ได้รับการคัดเลือกจะได้รับทั้งการสนับสนุนทางการเงินและคำแนะนำทางด้านอาชีพ ซึ่งจะช่วยสร้างพื้นฐานในสาขาอุตสาหกรรมเหมืองและพลังงาน นักเรียนเหล่านี้จะได้รับการเตรียมพร้อมเพื่อมีส่วนร่วมที่ยั่งยืนในสาขาของตน ซึ่งจะทำให้การเติบโตทางเศรษฐกิจสอดคล้องกับการดูแลสิ่งแวดล้อม",
+    "EGATi, มูลนิธิ ADARO และ UPNVY ต่างตื่นเต้นที่จะดำเนินการร่วมมือกันต่อไป เพื่อส่งเสริมคนรุ่นใหม่ที่มีทักษะซึ่งมุ่งมั่นต่อความยั่งยืน การเสริมพลังชุมชน และความเป็นเลิศในอุตสาหกรรม",
+    "สำหรับข้อมูลเพิ่มเติม กรุณาเยี่ยมชม www.egati.co.th หรือ ติดต่อเราทันที",
+    "ส่วนบริหารงานทั่วไปและสื่อสารองค์กร: บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด ชลิตา ศุภกิจ ณัฐพร เกตุทัต nattaporn.k@egati.co.th +66 2 436 6938 +66 61 989 1542"
+   ],
+   "bodyEn": [
+    "The agreement supports university scholarships for the 2024–2029 period."
+   ],
+   "images": [
+    "web-assets/news/7360-0.webp",
+    "web-assets/news/7360-1.webp",
+    "web-assets/news/7360-2.webp",
+    "web-assets/news/7360-3.webp",
+    "web-assets/news/7360-4.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/7360/"
+  },
+  {
+   "id": 6928,
+   "date": "2024-05-25",
+   "category": "community",
+   "title": "EGATi มอบทุนการศึกษาเพื่อเสริมสร้างอนาคตแก่เด็กนักเรียนในบริเวณรอบโครงการที่ไปลงทุน",
+   "titleEn": "Scholarships help students build their future",
+   "summaryEn": "EGATi provided educational support for students living near projects in which the company invests.",
+   "body": [
+    "ยอกยาการ์ตา ประเทศอินโดนีเซีย – 17 พฤษภาคม 2567 – บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) นำโดย นายบัณฑิต อัมพรศรีสุภาพ รักษาการกรรมการผู้จัดการใหญ่ ร่วมกับมูลนิธิ Adaro Bangun Negeri (YABN) และมหาวิทยาลัยพัฒนานิยมแห่งชาติ “ทหารผ่านศึก” ยอกยาการ์ตา (UPNVY) ยินดีที่จะประกาศการลงนามบันทึกข้อตกลงความร่วมมือ (MOU) เพื่อเปิดตัวโครงการทุนการศึกษาใหม่ที่มุ่งเน้นให้การสนับสนุนนักเรียน 6 คน เพื่อเข้าศึกษาในระดับปริญญาตรี ณ UPNVY ความคิดริเริ่มนี้สะท้อนถึงความมุ่งมั่นของ EGATi ต่อการศึกษาและความรับผิดชอบต่อสังคมที่ยั่งยืน",
+    "โครงการนี้มุ่งเน้นการสนับสนุนนักเรียนที่มีผลการเรียนดีและมีเป้าหมายในการเรียนรู้ จากพื้นที่ใกล้เคียงกับสถานที่ทำเหมืองที่บริษัท ADARO Indonesia ดำเนินการ โดยการลงทุนในด้านการศึกษา EGATi มุ่งหวังที่จะเสริมสร้างความรู้ความสามารถให้กับเยาวชน ส่งเสริมความคิดสร้างสรรค์และความเป็นเลิศในสาขาต่าง ๆ",
+    "นายบัณฑิต อัมพรศรีสุภาพ เน้นย้ำถึงความสำคัญของโครงการนี้ว่า “การศึกษาเป็นรากฐานของความก้าวหน้าและความมั่งคั่ง เราภูมิใจที่ได้สนับสนุนนักเรียนเหล่านี้และช่วยให้พวกเขาบรรลุเป้าหมายทางการศึกษา ความร่วมมือของเรากับ ADARO และ UPNVY แสดงให้เห็นถึงความมุ่งมั่นของเราในการสร้างผลกระทบเชิงบวกต่อชุมชน”",
+    "EGATi ขอบคุณ ADARO Indonesia และ UPNVY อย่างจริงใจสำหรับการสนับสนุนอันมีค่าในการทำให้โครงการทุนการศึกษานี้เป็นจริง ความร่วมมือนี้เน้นให้เห็นถึงความมุ่งมั่นร่วมกันในการสนับสนุนความสามารถและการพัฒนาที่ยั่งยืนของชุมชนท้องถิ่น"
+   ],
+   "bodyEn": [
+    "EGATi provided educational support for students living near projects in which the company invests."
+   ],
+   "images": [
+    "web-assets/news/6928-0.webp",
+    "web-assets/news/6928-1.webp",
+    "web-assets/news/6928-2.webp",
+    "web-assets/news/6928-3.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/6928/"
+  },
+  {
+   "id": 6607,
+   "date": "2024-01-29",
+   "category": "corporate",
+   "title": "EGATi เข้าคารวะ สำนักงานการค้าและเศรษฐกิจไทย (ไทเป)",
+   "titleEn": "EGATi pays a courtesy visit to the Thailand Trade and Economic Office in Taipei",
+   "summaryEn": "The company visited the office as part of its engagement with Thai organizations overseas.",
+   "body": [
+    "เมื่อวันที่ 24 มกราคม 2567 นายบัณฑิต อัมพรศรีสุภาพ รักษาการกรรมการผู้จัดการใหญ่ พร้อมคณะผู้บริหารจาก บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) เข้าพบคณะผู้บริหารของสำนักงานการค้าและเศรษฐกิจไทย (ไทเป) ในโอกาสขึ้นปีใหม่ 2567 โดยมีคุณสัณห์ อรุณรักษ์ติชัย รองผู้อำนวยการใหญ่ รักษาราชการแทนผู้อำนวยการใหญ่ และนางธีรางกูร อุชิโนะ หัวหน้าฝ่ายเศรษฐกิจให้การต้อนรับและร่วมหารือถึงแนวทางการดำเนินธุรกิจด้านพลังงานในประเทศไต้หวันและ อื่นๆ ณ สำนักงานการค้าและเศรษฐกิจไทย (ไทเป)"
+   ],
+   "bodyEn": [
+    "The company visited the office as part of its engagement with Thai organizations overseas."
+   ],
+   "images": [
+    "web-assets/news/6607-0.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/6607/"
+  },
+  {
+   "id": 6593,
+   "date": "2024-01-29",
+   "category": "corporate",
+   "title": "EGATi ร่วมแสดงความยินดีและสวัสดีปีใหม่ ผู้อำนวยการสำนักงานนโยบายและแผนพลังงาน",
+   "titleEn": "EGATi extends New Year greetings to the Energy Policy and Planning Office",
+   "summaryEn": "Company representatives congratulated the office’s director and shared New Year greetings.",
+   "body": [
+    "เมื่อวันที่ 22 มกราคม 2567 นายบัณฑิต อัมพรศรีสุภาพ รักษาการกรรมการผู้จัดการใหญ่ พร้อมคณะผู้บริหารจาก บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) เข้าแสดงยินดีกับผู้อำนวยการ สำนักนโยบายและแผนพลังงาน (สนพ.) ดร. วีรพัฒน์ เกียรติเฟื่องฟู เนื่องในโอกาส เข้ารับตำแหน่งผู้อำนวยการ สนพ. พร้อมร่วมสวัสดีปีใหม่ กับผู้บริหาร สนพ. ทุกท่าน"
+   ],
+   "bodyEn": [
+    "Company representatives congratulated the office’s director and shared New Year greetings."
+   ],
+   "images": [
+    "web-assets/news/6593-0.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/6593/"
+  },
+  {
+   "id": 6563,
+   "date": "2024-01-29",
+   "category": "partnership",
+   "title": "EGATi เข้าคารวะและสวัสดีปีใหม่ รัฐมนตรีกระทรวงพลังงานและบ่อแร่ กระทรวงพลังงานและบ่อแร่ สปป. ลาวและสวัสดีปีใหม่หน่วยงานราชการ พันธมิตร รวมถึงหน่วยงานต่างๆที่เกี่ยวข้องใน สปป. ลาว",
+   "titleEn": "New Year courtesy visits to Lao energy authorities and partners",
+   "summaryEn": "EGATi visited the Minister of Energy and Mines and related government agencies and business partners in Lao PDR.",
+   "body": [
+    "เมื่อวันที่ 15 มกราคม พ.ศ. 2567 นายบัณฑิต อัมพรศรีสุภาพ รองกรรมการผู้จัดการใหญ่อาวุโส รักษาการกรรมการผู้จัดการใหญ่ พร้อมคณะผู้บริหารจาก บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) เข้าคารวะ นายโพไซ ไซยะสอน รัฐมนตรีกระทรวงพลังงานและบ่อแร่ ณ กระทรวงพลังงานและบ่อแร่ สปป.ลาว และ ในวันที่ 16 มกราคม พ.ศ. 2567 คณะได้เข้าคารวะ ดร.อาดสะพานทอง สีพันดอน เจ้าครองนครหลวงเวียงจันทน์ ณ สำนักงานปกครองนครหลวงเวียงจันทน์ สปป.ลาว นอกจากนี้ ยังได้เข้าพบและอวยพรปีใหม่กับหน่วยงานราชการที่เกี่ยวข้อง รวมทั้งพันธมิตรทางธุรกิจ อาทิ กรมตรวจตราสิ่งแวดล้อม กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม คณะเลขานุการด้านต่างๆ สถานเอกอัครราชทูต ณ เวียงจันทน์ รองผู้อำนวยการใหญ่ รัฐวิสาหกิจไฟฟ้าลาว ประธานกลุ่มบริษัทเจริญเซกองจำกัด และ ประธานธนาคารพัฒนาลาว เป็นต้น อนึ่ง การเข้าคารวะและหารือกับหน่วยงานต่างๆ เป็นไปเนื่องในโอกาสขึ้นปีใหม่ พ.ศ. 2567 พร้อมทั้งขยายโอกาสทางธุรกิจและรายงานความก้าวหน้าโครงการของบริษัทที่อยู่ระหว่างการพัฒนาและดำเนินการใน สปป.ลาว",
+    "เมื่อวันที่ 15 มกราคม พ.ศ. 2567 นายบัณฑิต อัมพรศรีสุภาพ รองกรรมการผู้จัดการใหญ่อาวุโส รักษาการกรรมการผู้จัดการใหญ่ พร้อมคณะผู้บริหารจาก บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) เข้าคารวะ นายโพไซ ไซยะสอน รัฐมนตรีกระทรวงพลังงานและบ่อแร่ ณ กระทรวงพลังงานและบ่อแร่ สปป.ลาว และในวันที่ 16 มกราคม พ.ศ. 2567 คณะได้เข้าคารวะ ดร.อาดสะพานทอง สีพันดอน เจ้าครองนครหลวงเวียงจันทน์ ณ สำนักงานปกครองนครหลวงเวียงจันทน์ สปป.ลาว นอกจากนี้ ยังได้เข้าพบและอวยพรปีใหม่กับหน่วยงานราชการที่เกี่ยวข้อง รวมทั้งพันธมิตรทางธุรกิจ อาทิ กรมตรวจตราสิ่งแวดล้อม กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม คณะเลขานุการด้านต่างๆ สถานเอกอัครราชทูต ณ เวียงจันทน์ รองผู้อำนวยการใหญ่ รัฐวิสาหกิจไฟฟ้าลาว ประธานกลุ่มบริษัทเจริญเซกองจำกัด และ ประธานธนาคารพัฒนาลาว เป็นต้น อนึ่ง การเข้าคารวะและหารือกับหน่วยงานต่างๆ เป็นไปเนื่องในโอกาสขึ้นปีใหม่ พ.ศ. 2567 พร้อมทั้งขยายโอกาสทางธุรกิจและรายงานความก้าวหน้าโครงการของบริษัทที่อยู่ระหว่างการพัฒนาและดำเนินการใน สปป.ลาว"
+   ],
+   "bodyEn": [
+    "EGATi visited the Minister of Energy and Mines and related government agencies and business partners in Lao PDR."
+   ],
+   "images": [
+    "web-assets/news/6563-0.webp",
+    "web-assets/news/6563-1.webp",
+    "web-assets/news/6563-2.webp",
+    "web-assets/news/6563-3.webp",
+    "web-assets/news/6563-4.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/6563/"
+  },
+  {
+   "id": 6543,
+   "date": "2024-01-08",
+   "category": "partnership",
+   "title": "EGATi เข้าพบคณะผู้บริหารของบริษัท น้ำตาลมิตรผล จำกัด ในโอกาสขึ้นปีใหม่ 2567",
+   "titleEn": "EGATi meets Mitr Phol executives for New Year 2024",
+   "summaryEn": "The meeting included discussions on energy business in Taiwan and other business opportunities.",
+   "body": [
+    "เมื่อวันที่ 4 มกราคม 2567 นายบัณฑิต อัมพรศรีสุภาพ รักษาการกรรมการผู้จัดการใหญ่ บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) พร้อมคณะผู้บริหารจาก EGATi นายปฏิพัทธ์ กอปรสุข ผู้จัดการฝ่ายพัฒนาธุรกิจ 2 รักษาการผู้จัดการฝ่ายพัฒนาธุรกิจ 1 และ นายดนัย ก้องวิวัฒน์สกุล ผู้จัดการฝ่ายวางแผนและบริหารการลงทุน เข้าพบคณะผู้บริหารของบริษัท น้ำตาลมิตรผล จำกัด ในโอกาสขึ้นปีใหม่ 2567 โดยมีนายบรรเทิง ว่องกุศลกิจ ประธานกรรมการบริษัท ให้การต้อนรับและร่วมหารือถึงแนวทางการดำเนินธุรกิจด้านพลังงานในไต้หวันและธุรกิจอื่นๆ ณ สำนักงานใหญ่ บริษัท น้ำตาลมิตรผล จำกัด (อาคาร เพลินจิตเซ็นเตอร์ 2)"
+   ],
+   "bodyEn": [
+    "The meeting included discussions on energy business in Taiwan and other business opportunities."
+   ],
+   "images": [
+    "web-assets/news/6543-0.webp",
+    "web-assets/news/6543-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/6543/"
+  },
+  {
+   "id": 6485,
+   "date": "2023-12-21",
+   "category": "corporate",
+   "title": "EGATi เข้าร่วมงาน EGAT Group for All Meeting",
+   "titleEn": "EGATi joins the EGAT Group for All Meeting",
+   "summaryEn": "The company took part in a gathering of the EGAT Group.",
+   "body": [
+    "บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) นำโดย นายศุภชัย คูณเศรษฐ์ รองกรรมการผู้จัดการใหญ่ – พัฒนาธุรกิจ พร้อมด้วยทีมผู้บริหารและ ผู้ปฏิบัติงาน เข้าร่วมงาน EGAT Group for All Meeting ในวันพุธที่ 20 ธันวาคม 2566 ณ ร้านอาหารบ้านจิตประภัสสร ซึ่ง EGAT Group for All Meeting เป็นกิจกรรมที่ส่งเสริมและสนับสนุนการดำเนินธุรกิจ ทำให้เกิดการ หารือถึงโอกาสในการพัฒนาธุรกิจของกลุ่ม กฟผ. สำหรับงาน EGAT Group for All Meeting จะจัดขึ้นเป็นประจำทุกไตรมาส โดยหมุนเวียนกันเป็นเจ้าภาพ และในการจัดงานครั้งที่ 4/2566 นี้ กฟผ. เป็นเจ้าภาพและเลี้ยงรับรอง โดยสายงาน รวย. เป็นผู้รับผิดชอบจัดงาน และมีผู้ร่วมงานประกอบด้วยผู้บริหารและผู้ปฏิบัติงานของบริษัทในกลุ่ม กฟผ"
+   ],
+   "bodyEn": [
+    "The company took part in a gathering of the EGAT Group."
+   ],
+   "images": [
+    "web-assets/news/6485-0.webp",
+    "web-assets/news/6485-1.webp",
+    "web-assets/news/6485-2.webp",
+    "web-assets/news/6485-3.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/6485/"
+  },
+  {
+   "id": 6460,
+   "date": "2023-12-16",
+   "category": "community",
+   "title": "EGATi เข้าร่วมงานกาชาดกับการไฟฟ้าฝ่ายผลิตแห่งประเทศไทย และ บริษัทในเครือ กฟผ.",
+   "titleEn": "EGATi joins EGAT and its affiliates at the Red Cross Fair",
+   "summaryEn": "Company representatives participated in the fair alongside EGAT and other EGAT Group companies.",
+   "body": [
+    "ในวันที่ 14 ธันวาคม 2566 บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) การไฟฟ้าฝ่ายผลิตแห่งประเทศไทย (EGAT) และบริษัทในเครือ EGAT ได้ร่วมเป็นส่วนหนึ่งในงานครบรอบการจัดงานกาชาด 100 ปี ที่ร้านกาชาด กฟผ. “รื่นรมย์สุขฤดี 100 ปี ไฟฟ้าไทย” สอดคล้องกับโอกาสที่สภากาชาดไทย ภายใต้แนวคิด “งานวันกาชาด 100 ปี รื่นรมย์สุขฤดี ณ ที่แห่งการให้” ณ ร้านหมายเลข 7.1 โซนหน่วยงานพลังงาน ในงานกาชาด ประจำปี 2566 สวนลุมพินี กรุงเทพฯ ซึ่งจัดขึ้นระหว่างวันที่ 8 – 18 ธันวาคม 2566 โดยรายได้หลังหักค่าใช้จ่ายสมทบทุนสภากาชาดไทย",
+    "ขอเชิญชวนทุกท่านมาร่วมทำบุญ และสนุกสนานกับการสอยดาวที่บู้ท กฟผ. โดยรายได้หลังหักค่าใช้จ่ายสมทบทุนสภากาชาดไทย"
+   ],
+   "bodyEn": [
+    "Company representatives participated in the fair alongside EGAT and other EGAT Group companies."
+   ],
+   "images": [
+    "web-assets/news/6460-0.webp",
+    "web-assets/news/6460-1.webp",
+    "web-assets/news/6460-2.webp",
+    "web-assets/news/6460-3.webp",
+    "web-assets/news/6460-4.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/6460/"
+  },
+  {
+   "id": 6339,
+   "date": "2023-12-01",
+   "category": "corporate",
+   "title": "EGATi – Sumitomo Corporation ผนึกกำลังผลักดันการเปลี่ยนผ่านสู่พลังงานสีเขียวในภูมิภาคอาเซียน",
+   "titleEn": "EGATi and Sumitomo advance the green energy transition in ASEAN",
+   "summaryEn": "The companies joined forces to support the region’s transition towards greener energy.",
+   "body": [
+    "บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด ร่วมกับ บริษัท ซูมิโตโม คอร์ปอเรชั่น ลงนามบันทึกความเข้าใจ (MOU) ความร่วมมือเชิงกลยุทธ์ในการขับเคลื่อนและผลักดันการเปลี่ยนผ่านสู่พลังงานสีเขียวในภูมิภาคอาเซียน มุ่งส่งเสริมธุรกิจพลังงานหมุนเวียน และเร่งผลักดัน ASEAN Power Grid เพื่อพัฒนาเศรษฐกิจของอาเซียน พร้อมสนับสนุนให้ประเทศไทยเดินหน้าสู่เป้าหมาย Carbon Neutrality และ Net Zero Emissions",
+    "เมื่อวันที่ 28 พฤศจิกายน 2566 ดร.จิราพร ศิริคำ รองผู้ว่าการธุรกิจเกี่ยวเนื่อง รักษาการในตำแหน่งผู้ว่าการการไฟฟ้าฝ่ายผลิตแห่งประเทศไทย (กฟผ.) และ นายโคโซ โท ประธานกรรมการบริษัท ซูมิโตโม คอร์ปอเรชั่น ไทยแลนด์ จำกัด ร่วมเป็นสักขีพยานในพิธีลงนามบันทึกความเข้าใจ (MOU) ความร่วมมือเชิงกลยุทธ์ในการขับเคลื่อนและผลักดันการเปลี่ยนผ่านสู่พลังงานสีเขียวในภูมิภาคอาเซียน (ASEAN GX Project – ASEAN Green Transformation Project) ระหว่าง บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) โดยนายบัณฑิต อัมพรศรีสุภาพ รักษาการกรรมการผู้จัดการใหญ่ และบริษัท ซูมิโตโม คอร์ปอเรชั่น จากประเทศญี่ปุ่น โดยนายโคอิจิ ทานิงุจิ เจ้าหน้าที่องค์กรและผู้จัดการใหญ่ฝ่ายธุรกิจสาธารณูปโภคด้านพลังงาน ณ อาคาร 50 ปี กฟผ. สำนักงานใหญ่ กฟผ. จังหวัดนนทบุรี",
+    "การลงนาม MOU ร่วมกันระหว่าง EGATi และ บริษัท ซูมิโตโม คอร์ปอเรชั่น ตอบสนองนโยบายของภาครัฐ และแผนกลยุทธ์ของ กฟผ. ในการขับเคลื่อนการเปลี่ยนผ่านไปสู่การใช้พลังงานที่สะอาดและยั่งยืน ด้วยการแสวงหาและส่งเสริมการพัฒนาธุรกิจพลังงานหมุนเวียนร่วมกันในภูมิภาคอาเซียน รวมถึงเร่งผลักดันแนวคิด ASEAN Power Grid เพื่อเพิ่มประสิทธิภาพการใช้พลังงานในภูมิภาคอาเซียนให้เกิดการเปลี่ยนผ่านด้านพลังงานสีเขียวอย่างสมบูรณ์แบบ ซึ่งจะมีส่วนช่วยในการพัฒนาเศรษฐกิจ ชุมชน และสิ่งแวดล้อมของประเทศในภูมิภาคอาเซียน อีกทั้งยังส่งเสริมให้ประเทศไทยสามารถบรรลุเป้าหมายความเป็นกลางทางคาร์บอน (Carbon Neutrality) ในปี 2050 และการปล่อยก๊าซเรือนกระจกสุทธิเป็นศูนย์ (Net Zero Emissions) ในปี 2065 ได้สำเร็จ"
+   ],
+   "bodyEn": [
+    "The companies joined forces to support the region’s transition towards greener energy."
+   ],
+   "images": [
+    "web-assets/news/6339-0.webp",
+    "web-assets/news/6339-1.webp",
+    "web-assets/news/6339-2.webp",
+    "web-assets/news/6339-3.webp",
+    "web-assets/news/6339-4.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/6339/"
+  },
+  {
+   "id": 6148,
+   "date": "2023-10-15",
+   "category": "community",
+   "title": "EGATi ร่วมปลูกต้นกล้าเพื่อป่าในอนาคต",
+   "titleEn": "Planting seedlings for tomorrow’s forests",
+   "summaryEn": "EGATi took part in tree planting activities to help nurture future forests.",
+   "body": [
+    "เมื่อวันที่ 4 กันยายน 2566 บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) นำโดย นายบัณฑิต อัมพรศรีสุภาพ รองกรรมการผู้จัดการใหญ่อาวุโส รักษาการ กรรมการผู้จัดการใหญ่ ได้จัดกิจกรรม CSR ทำประโยชน์เพื่อส่วนรวมและเพื่อเพิ่มพื้นที่สีเขียวให้ป่า ที่อำเภอปากช่อง จังหวัดนครราชสีมา เป็นโครงการปลูกต้นกล้าเพื่อป่าและความร่มรื่นในอนาคต ซึ่งกิจกรรมนี้เป็นการให้ผู้บริหารและผู้ปฏิบัติงาน EGATi ร่วมกันปลูกต้นกล้าสำหรับการนำไปให้กับชุมชนที่มีพื้นที่แห้งแล้งและต้องการเพิ่มพื้นที่สีเขียวในบริเวณอำเภอปากช่อง โดยจะเป็นประโยชน์ต่อพื้นที่ ทำให้มีการขยายพื้นที่สีเขียว ปลูกจิตสำนึกร่วมกันในด้านสิ่งแวดล้อม เพื่อผืนแผ่นดินไทยของเรา"
+   ],
+   "bodyEn": [
+    "EGATi took part in tree planting activities to help nurture future forests."
+   ],
+   "images": [
+    "web-assets/news/6148-0.webp",
+    "web-assets/news/6148-1.webp",
+    "web-assets/news/6148-2.webp",
+    "web-assets/news/6148-3.webp",
+    "web-assets/news/6148-4.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/6148/"
+  },
+  {
+   "id": 5537,
+   "date": "2023-07-03",
+   "category": "community",
+   "title": "EGATi เข้ามอบอุปกรณ์การแพทย์ให้แก่โรงพยาบาลเมืองบอลิคัน ณ สปป.ลาว",
+   "titleEn": "Medical equipment supports a hospital in Bolikhan, Lao PDR",
+   "summaryEn": "EGATi donated medical equipment to help support healthcare services at the hospital.",
+   "body": [
+    "เมื่อวันที่ 29 มิถุนายน 2566 บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) นำโดย นายบัณฑิต อัมพรศรีสุภาพ",
+    "รองกรรมการผู้จัดการใหญ่อาวุโส รักษาการ กรรมการผู้จัดการใหญ่ พร้อมด้วย นายสมคิด ประดิษฐ์เสรี รองกรรมการผู้จัดการใหญ่ – พัฒนาธุรกิจ และคณะผู้ปฏิบัติงาน EGATi เข้ามอบอุปกรณ์การแพทย์ (เครื่องตรวจค่าเลือด) ให้แก่โรงพยาบาลเมืองบอลิคัน แขวงบอลิคำไซ ณ สาธารณรัฐประชาธิปไตยประชาชนลาว (สปป.ลาว)",
+    "โดยมีท่านวันเลิน ปุ้ยไมนี เจ้าเมืองบอลิคันและท่านหมอคำแหวง เพ้งผาแก้ว เป็นผู้รับมอบ พร้อมกันนี้ ทางบริษัทได้มีโอกาสเข้าเยี่ยมคารวะและแนะนำตัวกับดอกเตอร์ กองแก้ว ชัยสงคราม เจ้าแขวงบอลิคำไซด้วยเช่นกัน"
+   ],
+   "bodyEn": [
+    "EGATi donated medical equipment to help support healthcare services at the hospital."
+   ],
+   "images": [
+    "web-assets/news/5537-0.webp",
+    "web-assets/news/5537-1.webp",
+    "web-assets/news/5537-2.webp",
+    "web-assets/news/5537-3.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/5537/"
+  },
+  {
+   "id": 5456,
+   "date": "2023-06-13",
+   "category": "community",
+   "title": "EGATi ร่วมกิจกรรมปลูกต้นไม้เนื่องในวันต้นไม้แห่งชาติของ สปป. ลาว",
+   "titleEn": "EGATi joins Lao PDR’s National Tree Planting Day",
+   "summaryEn": "A tree planting activity at Nam Ngiep 1 brought together company representatives, employees and local communities.",
+   "body": [
+    "เมื่อวันที่ 1 มิถุนายน 2566 บริษัท น้ำเงี้ยบ 1 พาวเวอร์ จำกัด (NNP1PC) จัดกิจกรรมปลูกต้นไม้เนื่องในวันต้นไม้แห่งชาติของสปป.ลาว นำโดย นายสมชาย พิกุลทอง และ นายโอฬาร บำรุงพรไพศาล ผู้บริหาร บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) ซึ่งดำรงตำแหน่ง Deputy Managing Director และ Duputy Manager (ตามลำดับ) โดยมีผู้บริหารและ ผู้ปฏิบัติงานของ NNP1PC รวมทั้งกลุ่มชาวบ้านเมืองบริคัณฑ์ แขวงบอลิคำไซ เข้าร่วมกิจกรรม ใน ณ บริเวณโรงไฟฟ้าพลังน้ำน้ำเงี้ยบ 1 มีวัตถุประสงค์เพื่อการอนุรักษ์และฟื้นฟูทรัพยากรป่าไม้ให้มีความอุดมสมบูรณ์อย่างยั่งยืน โดยต้นไม้ที่เลือกปลูกคือต้นพะยูง ซึ่งต้นพะยูงเป็นไม้มงคลที่มีมูลค่าทางเศรษฐกิจสูง"
+   ],
+   "bodyEn": [
+    "A tree planting activity at Nam Ngiep 1 brought together company representatives, employees and local communities."
+   ],
+   "images": [
+    "web-assets/news/5456-0.webp",
+    "web-assets/news/5456-1.webp",
+    "web-assets/news/5456-2.webp",
+    "web-assets/news/5456-3.webp",
+    "web-assets/news/5456-4.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/5456/"
+  },
+  {
+   "id": 4981,
+   "date": "2023-03-29",
+   "category": "corporate",
+   "title": "EGATi ต้อนรับคณะผู้บริหารบริษัท PT Adaro Indonesia จำกัด เนื่องในโอกาสเดินทางมาประเทศไทย",
+   "titleEn": "EGATi welcomes executives from PT Adaro Indonesia",
+   "summaryEn": "The company welcomed the visiting delegation during its trip to Thailand.",
+   "body": [
+    "เมื่อวันที่ 11-12 มีนาคม 2566 ผู้บริหาร อดีตผู้บริหาร และผู้ปฏิบัติงาน บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) นำโดย นายบัณฑิต อัมพรศรีสุภาพ รองกรรมการผู้จัดการใหญ่อาวุโส รักษาการ กรรมการผู้จัดการใหญ่บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) ให้การต้อนรับคณะผู้บริหารของ บริษัท PT Adaro Indonesia (AI) นำโดย Mr. Garibaldi Thohir – President Commissioner เนื่องในโอกาสเดินทางมาประเทศไทย โดยได้ร่วมเดินทางไปศึกษาดูงานที่โรงไฟฟ้าลำตะคองชลภาวัฒนา อ.ปากช่อง จ.นครราชสีมา"
+   ],
+   "bodyEn": [
+    "The company welcomed the visiting delegation during its trip to Thailand."
+   ],
+   "images": [
+    "web-assets/news/4981-0.webp",
+    "web-assets/news/4981-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/4981/"
+  },
+  {
+   "id": 4926,
+   "date": "2023-03-15",
+   "category": "corporate",
+   "title": "EGATi เข้าเยี่ยมคารวะ ผู้อำนวยการใหญ่ สำนักงานการค้าและเศรษฐกิจไทย ณ ไทเป",
+   "titleEn": "Courtesy visit to the Thailand Trade and Economic Office in Taipei",
+   "summaryEn": "EGATi paid a courtesy visit to the office’s Executive Director.",
+   "body": [
+    "เมื่อวันที่ 22 กุมภาพันธ์ 2566 นายปฏิพัทธ์ กอปรสุข ผู้จัดการฝ่ายพัฒนาธุรกิจ 2 ตัวแทนบริษัท กฟผ. อินเตอร์เนชั่นแนลจำกัด (EGATi) พร้อมกับผู้แทนบริษัท Hou Ju Energy Technology จำกัด เข้าเยี่ยมคารวะนายทวีเกียรติ เจนประจักษ์ ผู้อำนวยการใหญ่ สำนักงานการค้าและเศรษฐกิจไทย ณ ไทเป เพื่อไปรายงานการดำเนินงานโครงการของ EGATi ในปัจจุบัน"
+   ],
+   "bodyEn": [
+    "EGATi paid a courtesy visit to the office’s Executive Director."
+   ],
+   "images": [
+    "web-assets/news/4926-0.webp",
+    "web-assets/news/4926-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/4926/"
+  },
+  {
+   "id": 4918,
+   "date": "2023-03-15",
+   "category": "corporate",
+   "title": "EGATi และ กองการต่างประเทศ สำนักปลัดกระทรวงพลังงานร่วมสัมมนาแลกเปลี่ยนความรู้และศึกษาดูงานโรงไฟฟ้า ณ เขื่อนศรีนครินทร์",
+   "titleEn": "Energy knowledge sharing and a study visit to Srinagarind Dam",
+   "summaryEn": "EGATi and the Ministry of Energy’s International Affairs Division joined a seminar and power plant study visit.",
+   "body": [
+    "เมื่อวันที่ 15-16 กุมภาพันธ์ 2566 ผู้บริหารและผู้ปฏิบัติงาน บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) นำโดย นายศุภชัย คูณเศรษฐ์ ผู้จัดการฝ่ายพัฒนาธุรกิจ 1 และ นางชัชวรรรณ กาญจนาวัชกร ผู้จัดการฝ่ายบริหารองค์กร พร้อมคณะผู้บริหารและผู้ปฏิบัติงาน กองการต่างประเทศ สำนักปลัดกระทรวงพลังงาน นำโดย นายยงยุทธ ห่อทอง นักวิเคราะห์นโยบายและแผนชำนาญการพิเศษ ร่วมสัมมนาแลกเปลี่ยนความรู้และ ศึกษาดูงานโรงไฟฟ้า ณ เขื่อนศรีนครินทร์ จังหวัดกาญจนบุรี เพื่อเสริมสร้างความเข้าใจเกี่ยวกับธุรกิจพลังงานและสร้างความสัมพันธ์อันดีของหน่วยงาน"
+   ],
+   "bodyEn": [
+    "EGATi and the Ministry of Energy’s International Affairs Division joined a seminar and power plant study visit."
+   ],
+   "images": [
+    "web-assets/news/4918-0.webp",
+    "web-assets/news/4918-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/4918/"
+  },
+  {
+   "id": 4911,
+   "date": "2023-03-15",
+   "category": "corporate",
+   "title": "EGATi เข้าเยี่ยมคารวะ เอกอัครราชทูตไทย ณ กรุงฮานอย",
+   "titleEn": "EGATi pays a courtesy visit to the Thai Ambassador in Hanoi",
+   "summaryEn": "The company met Thailand’s diplomatic representative in Vietnam.",
+   "body": [
+    "เมื่อวันที่ 14 กุมภาพันธ์ 2566 นายบัณฑิต อัมพรศรีสุภาพ รองกรรมการผู้จัดการใหญ่อาวุโสรักษาการ กรรมการผู้จัดการใหญ่ บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) พร้อมด้วย นายสมคิด ประดิษฐ์เสรี รองกรรมการผู้จัดการใหญ่ – พัฒนาธุรกิจ, ผู้จัดการฝ่ายพัฒนาธุรกิจ 2 และผู้ปฏิบัติงานในสังกัดเข้าเยี่ยมคารวะ นายนิกรเดช พลางกูร เอกอัครราชทูตไทย ณ กรุงฮานอย ในโอกาสเข้าอวยพรปีใหม่ 2566 พร้อมทั้งหารือความร่วมมือในอนาคต"
+   ],
+   "bodyEn": [
+    "The company met Thailand’s diplomatic representative in Vietnam."
+   ],
+   "images": [
+    "web-assets/news/4911-0.webp",
+    "web-assets/news/4911-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/4911/"
+  },
+  {
+   "id": 4904,
+   "date": "2023-03-15",
+   "category": "corporate",
+   "title": "EGATi เข้าสวัสดีปีใหม่ บริษัท บีซีพีจี จำกัด (มหาชน)",
+   "titleEn": "EGATi extends New Year greetings to BCPG",
+   "summaryEn": "Company representatives visited BCPG Public Company Limited for New Year greetings.",
+   "body": [
+    "เมื่อวันที่ 10 กุมภาพันธ์ 2566 นายบัณฑิต อัมพรศรีสุภาพ รองกรรมการผู้จัดการใหญ่อาวุโส รักษาการ กรรมการผู้จัดการใหญ่ บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) พร้อมคณะผู้บริหารได้เข้าพบเพื่อสวัสดีปีใหม่ นายนิวัติ อดิเรก ประธานเจ้าหน้าที่บริหาร กรรมการผู้จัดการใหญ่ บริษัท บีซีพีจี จำกัด (มหาชน)"
+   ],
+   "bodyEn": [
+    "Company representatives visited BCPG Public Company Limited for New Year greetings."
+   ],
+   "images": [
+    "web-assets/news/4904-0.webp",
+    "web-assets/news/4904-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/4904/"
+  },
+  {
+   "id": 4747,
+   "date": "2023-02-03",
+   "category": "corporate",
+   "title": "EGATi เข้าเยี่ยมคารวะ เอกอัครราชทูตไทย ณ กรุงพนมเปญ",
+   "titleEn": "Courtesy visit to the Thai Ambassador in Phnom Penh",
+   "summaryEn": "EGATi paid a visit to Thailand’s Ambassador in Cambodia.",
+   "body": [
+    "เมื่อวันที่ 30 มกราคม 2566 นายบัณฑิต อัมพรศรีสุภาพ รองกรรมการผู้จัดการใหญ่อาวุโสรักษาการ กรรมการผู้จัดการใหญ่ บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) พร้อมด้วยผู้ปฏิบัติงาน EGATi เข้าเยี่ยมคารวะนายเชิดเกียรติ อัตถากร เอกอัครราชทูตไทย ณ กรุงพนมเปญ ในโอกาสเข้าอวยพรปีใหม่ 2566 ซึ่งท่านทูตฯ ได้กล่าวให้การต้อนรับอย่างอบอุ่น"
+   ],
+   "bodyEn": [
+    "EGATi paid a visit to Thailand’s Ambassador in Cambodia."
+   ],
+   "images": [
+    "web-assets/news/4747-0.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/4747/"
+  },
+  {
+   "id": 4732,
+   "date": "2023-02-02",
+   "category": "corporate",
+   "title": "EGATi เข้าคารวะ เอกอัครราชทูตไทย ณ กรุงย่างกุ้ง",
+   "titleEn": "Courtesy visit to the Thai Ambassador in Yangon",
+   "summaryEn": "The company visited Thailand’s diplomatic representative in Myanmar.",
+   "body": [
+    "เมื่อวันที่ 27 มกราคม 2566 นายสมคิด ประดิษฐ์เสรี รองกรรมการผู้จัดการใหญ่ – พัฒนาธุรกิจ บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด พร้อมด้วย ผู้จัดการฝ่ายพัฒนาธุรกิจ 2 และผู้ปฏิบัติงานในสังกัด เข้าเยี่ยมคารวะนายมงคล วิศิษฏ์สตัมภ์ เอกอัครราชทูตไทย ณ กรุงย่างกุ้ง ในโอกาสเข้าอวยพรปีใหม่ 2566 ซึ่งท่านทูตฯ ได้กล่าวถึงสถานการณ์การลงทุนในเมียนมาให้บริษัท EGATi ได้รับทราบด้วย"
+   ],
+   "bodyEn": [
+    "The company visited Thailand’s diplomatic representative in Myanmar."
+   ],
+   "images": [
+    "web-assets/news/4732-0.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/4732/"
+  },
+  {
+   "id": 4721,
+   "date": "2023-02-02",
+   "category": "partnership",
+   "title": "EGATi เข้าพบอัยการ ณ สำนักงานสูงสุด",
+   "titleEn": "EGATi meets prosecutors at the Office of the Attorney General",
+   "summaryEn": "Company representatives visited the Office of the Attorney General.",
+   "body": [
+    "เมื่อวันที่ 26 มกราคม 2566 นายพิสณห์ จันทร์ศรี รองกรรมการ ผู้จัดการใหญ่ – บริหาร บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) พร้อมด้วย ผู้จัดการฝ่ายกฏหมาย และผู้ปฏิบัติงาน EGATi เข้าพบนางสาวนารี ตัณฑเสถียร อัยการสูงสุด นายชาติ ชัยเดชสุริยะ อธิบดีอัยการ สำนักงานที่ปรึกษากฎหมาย นางกฤษณา ลิ่มสุวรรณ รองอธิบดีอัยการ สำนักงานที่ปรึกษากฎหมาย นางสินี สังข์ขาว ภมรกูล อัยการผู้เชี่ยวชาญพิเศษ และนางสาวฑิตา พิทักษ์สันติสุข อัยการจังหวัดประจำสำนักงานอัยการสูงสุด เพื่อสวัสดีปีใหม่ 2566 และเพื่อเสริมสร้างความสัมพันธ์อันดีระหว่างหน่วยงาน"
+   ],
+   "bodyEn": [
+    "Company representatives visited the Office of the Attorney General."
+   ],
+   "images": [
+    "web-assets/news/4721-0.webp",
+    "web-assets/news/4721-1.webp",
+    "web-assets/news/4721-2.webp",
+    "web-assets/news/4721-3.webp",
+    "web-assets/news/4721-4.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/4721/"
+  },
+  {
+   "id": 4704,
+   "date": "2023-01-31",
+   "category": "partnership",
+   "title": "EGATi เข้าพบ สตง. เนื่องในโอกาสปีใหม่ และปรึกษางาน",
+   "titleEn": "EGATi visits the State Audit Office for New Year greetings and consultation",
+   "summaryEn": "The visit provided an opportunity for New Year greetings and work-related discussions.",
+   "body": [
+    "เมื่อวันที่ 27 มกราคม 2566 เนื่องในโอกาสปีใหม่ 2566 ผู้บริหารและผู้ปฏิบัติงานบริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi ) ได้เข้าพบเพื่อขอบคุณที่ สำนักงานการตรวจเงินแผ่นดิน (สตง.) ที่ให้คำแนะนำ และให้คำปรึกษาในประเด็นต่างๆ ในการปฏิบัติที่ถูกต้อง"
+   ],
+   "bodyEn": [
+    "The visit provided an opportunity for New Year greetings and work-related discussions."
+   ],
+   "images": [
+    "web-assets/news/4704-0.webp",
+    "web-assets/news/4704-1.webp",
+    "web-assets/news/4704-2.webp",
+    "web-assets/news/4704-3.webp",
+    "web-assets/news/4704-4.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/4704/"
+  },
+  {
+   "id": 4693,
+   "date": "2023-01-27",
+   "category": "corporate",
+   "title": "EGATi สวัสดีปีใหม่ ผู้ว่าการการไฟฟ้านครหลวง",
+   "titleEn": "New Year greetings to the Metropolitan Electricity Authority Governor",
+   "summaryEn": "EGATi paid a New Year visit to the Governor of the Metropolitan Electricity Authority.",
+   "body": [
+    "เมื่อวันพฤหัสบดี ที่ 26 มกราคม 2566 นายบัณฑิต อัมพรศรีสุภาพ รักษาการกรรมการผู้จัดการใหญ่ บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) พร้อมคณะผู้บริหารได้เข้าสวัสดีปีใหม่ นายวิลาศ เฉลยสัตย์ ผู้ว่าการการไฟฟ้านครหลวง (MEA) พร้อมทั้งแลกเปลี่ยนความคิดเห็นเกี่ยวกับทิศทางในการลงทุน และความเป็นไปได้ในการทำธุรกิจร่วมกันในอนาคต"
+   ],
+   "bodyEn": [
+    "EGATi paid a New Year visit to the Governor of the Metropolitan Electricity Authority."
+   ],
+   "images": [
+    "web-assets/news/4693-0.webp",
+    "web-assets/news/4693-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/4693/"
+  },
+  {
+   "id": 4677,
+   "date": "2023-01-26",
+   "category": "corporate",
+   "title": "EGATi เข้าคารวะเอกอัครราชทูตไทยประจำนครหลวงเวียงจันทน์",
+   "titleEn": "Courtesy visit to the Thai Ambassador in Vientiane",
+   "summaryEn": "EGATi visited Thailand’s Ambassador in Lao PDR.",
+   "body": [
+    "เมื่อวันที่ 24 มกราคม 2566 นายบัณฑิต อัมพรศรีสุภาพ รักษาการกรรมการผู้จัดการใหญ่ พร้อมคณะผู้บริหารจาก บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) ได้เข้าคารวะ นางสาวมรกต ศรีสวัสดิ์ เอกอัครราชทูตไทย ณ เวียงจันทน์ ที่สถานเอกอัครราชทูตไทย ณ เวียงจันทน์ ในโอกาสเข้าอวยพรปีใหม่ 2566 และรายงานผลการดำเนินงานของบริษัท พร้อมทั้งหารือความร่วมมือในอนาคต"
+   ],
+   "bodyEn": [
+    "EGATi visited Thailand’s Ambassador in Lao PDR."
+   ],
+   "images": [
+    "web-assets/news/4677-0.webp",
+    "web-assets/news/4677-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/4677/"
+  },
+  {
+   "id": 4615,
+   "date": "2023-01-25",
+   "category": "corporate",
+   "title": "EGATi เข้าคารวะเจ้าครองนครหลวงเวียงจันทน์และรัฐมนตรีกระทรวงพลังงานและบ่อแร่",
+   "titleEn": "EGATi visits Vientiane and Lao energy authorities",
+   "summaryEn": "The company paid courtesy visits to the Mayor of Vientiane and the Minister of Energy and Mines.",
+   "body": [
+    "เมื่อวันที่ 23 มกราคม 2566 นายบัณฑิต อัมพรศรีสุภาพ รักษาการกรรมการผู้จัดการใหญ่ พร้อมคณะผู้บริหารจาก บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) เข้าคารวะ ดร.อาดสะพังทอง สีพันดอน เจ้าครองนครหลวงเวียงจันทน์ ณ สำนักงานปกครองนครหลวงเวียงจันทน์ และ ดร.ดาวง พรแก้ว รัฐมนตรีกระทรวงพลังงานและบ่อแร่ ณ กระทรวงพลังงานและบ่อแร่ สปป.ลาว ในโอกาสขึ้นปีใหม่ 2566 และรายงานความก้าวหน้าโครงการที่อยู่ระหว่างการพัฒนาและดำเนินการใน สปป.ลาว"
+   ],
+   "bodyEn": [
+    "The company paid courtesy visits to the Mayor of Vientiane and the Minister of Energy and Mines."
+   ],
+   "images": [
+    "web-assets/news/4615-0.webp",
+    "web-assets/news/4615-1.webp",
+    "web-assets/news/4615-2.webp",
+    "web-assets/news/4615-3.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/4615/"
+  },
+  {
+   "id": 4607,
+   "date": "2023-01-23",
+   "category": "partnership",
+   "title": "EGATi เข้าพบและสวัสดีปีใหม่ สคร.",
+   "titleEn": "EGATi extends New Year greetings to the State Enterprise Policy Office",
+   "summaryEn": "Company representatives paid a New Year visit to the office.",
+   "body": [
+    "วันที่ 29 ธันวาคม 2565 นายบัณฑิต อัมพรศรีสุภาพ รองกรรมการผู้จัดการใหญ่อาวุโส รักษาการ กรรมการผู้จัดการใหญ่ พร้อมด้วยคณะผู้บริหารบริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) เดินทางเข้าพบ นางปานทิพย์ ศรีพิมล ผู้อำนวยการสำนักงานคณะกรรมการนโยบายรัฐวิสาหกิจ (สคร.) และร่วมอวยพรเนื่องในโอกาสวันขึ้นปีใหม่ 2566 พร้อมทั้งหารือเกี่ยวกับความก้าวหน้าและขอรับข้อเสนอแนะในการดำเนินการขออนุมัติลงทุนโครงการต่างๆของ EGATi"
+   ],
+   "bodyEn": [
+    "Company representatives paid a New Year visit to the office."
+   ],
+   "images": [
+    "web-assets/news/4607-0.webp",
+    "web-assets/news/4607-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/4607/"
+  },
+  {
+   "id": 4590,
+   "date": "2023-01-23",
+   "category": "partnership",
+   "title": "EGATi เดินทางเข้าพบและสวัสดีปีใหม่ สศช.",
+   "titleEn": "EGATi pays a New Year visit to NESDC",
+   "summaryEn": "The company visited the Office of the National Economic and Social Development Council.",
+   "body": [
+    "วันที่ 12 มกราคม 2566 นายบัณฑิต อัมพรศรีสุภาพ รองกรรมการผู้จัดการใหญ่อาวุโส รักษาการ กรรมการผู้จัดการใหญ่ พร้อมด้วยคณะผู้บริหารและผู้ปฏิบัติงานบริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) เดินทางเข้าพบและสวัสดีปีใหม่ นายดนุชา พิชยนันท์ เลขาธิการสำนักงานสภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ และร่วมหารือเกี่ยวกับการดำเนินงานโครงการของ EGATi ในปัจจุบัน รวมทั้งขอรับข้อเสนอแนะเกี่ยวกับโครงการที่บริษัทอยู่ระหว่างการเตรียมเสนอขออนุมัติลงทุน"
+   ],
+   "bodyEn": [
+    "The company visited the Office of the National Economic and Social Development Council."
+   ],
+   "images": [
+    "web-assets/news/4590-0.webp",
+    "web-assets/news/4590-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/4590/"
+  },
+  {
+   "id": 4495,
+   "date": "2022-12-16",
+   "category": "community",
+   "title": "EGATi เข้าร่วมงานกาชาดกับการไฟฟ้าฝ่ายผลิตแห่งประเทศไทย และ บริษัทในเครือ กฟผ.",
+   "titleEn": "EGATi joins EGAT Group at the 2022 Red Cross Fair",
+   "summaryEn": "EGATi took part in the fair alongside EGAT and its affiliated companies.",
+   "body": [
+    "ในวันที่ 14 ธันวาคม 2565 บริษัท กฟผ. อินเตอร์เนชั่นแนล จำกัด (EGATi) การไฟฟ้าฝ่ายผลิตแห่งประเทศไทย (EGAT) และบริษัทในเครือ EGAT ได้ร่วมเป็นส่วนหนึ่งในงาน “กาชาดประจำปี 2565” ภายใต้แนวคิด “น้ำพระทัยหล่อเลี้ยงชุบชีวี ใต้ร่มพระบารมี พระบรมราชชนนีพันปีหลวง” ซึ่งงานจัดให้มีขึ้นระหว่างวันที่ 8 – 18 ธันวาคม 2565 โดยมีกิจกรรมมากมาย และมุ่งเน้นการรักษ์โลก ซึ่งผู้เข้าร่วมกิจกรรมสามารถเข้าร่วม สอยดาวต้นไม้ นอกจากได้ต้นไม้แล้ว ยังลุ้นรับของรางวัลต่างๆมากมาย นำกลับบ้าน แบบอิ่มบุญ สบายใจ และร่วมกันสร้างพลังงานที่ดีและอากาศบริสุทธิ์ ให้กับโลกของเรา"
+   ],
+   "bodyEn": [
+    "EGATi took part in the fair alongside EGAT and its affiliated companies."
+   ],
+   "images": [
+    "web-assets/news/4495-0.webp",
+    "web-assets/news/4495-1.webp",
+    "web-assets/news/4495-2.webp",
+    "web-assets/news/4495-3.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/4495/"
+  },
+  {
+   "id": 293,
+   "date": "2022-02-16",
+   "category": "partnership",
+   "title": "ผู้บริหาร EGATi เข้าพบผู้บริหาร สบน.",
+   "titleEn": "EGATi executives meet the Public Debt Management Office",
+   "summaryEn": "The company’s management team met executives from the Public Debt Management Office.",
+   "body": [
+    "นายบัณฑิต อัมพรศรีสุภาพ รองกรรมการผู้จัดการใหญ่อาวุโส รักษาการ กรรมการผู้จัดการใหญ่ บริษัท กฟผ.อินเตอร์เนชั่นแนล จำกัด (EGATi) พร้อมคณะผู้บริหารเข้าพบคุณเอด วิบูลย์เจริญ ที่ปรึกษาด้านหนี้สาธารณะ คุณสุณี เอกสมทราเมษฐ์ ผู้อำนวยการสำนักจัดการหนี้ 2 และคุณถาวร เสรีประยูร ผู้อำนวยการสำนักนโยบายและแผน สำนักงานบริหารหนี้สาธารณะ กระทรวงการคลัง (สบน.) ในวันที่ 10 พฤศจิกายน 2564 เนื่องในโอกาสที่ได้มาดำรงตำแหน่งใหม่ พร้อมหารือแนวปฏิบัติที่ดีและแนวทางการบริหารจัดการโครงการของบริษัทที่อยู่ระหว่างดำเนินการ"
+   ],
+   "bodyEn": [
+    "The company’s management team met executives from the Public Debt Management Office."
+   ],
+   "images": [
+    "web-assets/news/293-0.webp",
+    "web-assets/news/293-1.webp"
+   ],
+   "videos": [],
+   "url": "https://egati.co.th/th/293/"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+/* Blue energy field: artwork fills the section without covering content. */
+#presentation{position:relative;isolation:isolate;overflow:hidden;background:radial-gradient(ellipse at 94% 4%,#1274b9 0%,transparent 52%),radial-gradient(ellipse at 76% 100%,#08778380 0%,transparent 55%),linear-gradient(115deg,#032b55 0%,#06447f 48%,#075b9c 100%);border-top:1px solid #72b9e94d;border-bottom:1px solid #044577;padding-bottom:100px}
+#presentation::after{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;background:linear-gradient(90deg,#032b5566 0%,#032b5533 33%,transparent 68%)}
+#presentation .presentation-artwork{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+#presentation .presentation-artwork>svg{display:block;width:100%;height:100%;min-width:100%;position:absolute;inset:0;opacity:.85}
+#presentation .presentation-copy,#presentation .presentation-frame{position:relative;z-index:1}
+#presentation .presentation-copy .eyebrow{color:#ffdc67;letter-spacing:1.8px;font-size:15px}
+#presentation .presentation-copy h2{color:#fff;font-size:clamp(31px,2.6vw,42px);line-height:1.55}
+#presentation .presentation-copy h2>span{color:#a1e4ef}
+#presentation .presentation-copy>p{color:#e0edf7;font-size:17px;line-height:1.95}
+#presentation .presentation-language{color:#d0e7f8;font-size:16px}
+#presentation .presentation-language>span{background:#ffffff16;border:1px solid #85b6d5;color:#fff;font-size:14px;padding:5px 9px}
+#presentation .presentation-watch{background:#ffda47;color:#073c6c;border:1px solid #ffe584;border-radius:11px;padding:14px 20px;margin-top:24px;gap:32px;font-size:16px;box-shadow:0 6px 20px #00223d26;transition:background .2s,transform .2s,box-shadow .2s}
+#presentation .presentation-watch:hover{background:#ffe990;gap:32px;transform:translateY(-2px);box-shadow:0 10px 24px #001e4233}
+#presentation .presentation-player{border:1px solid #9ad1f08c;border-radius:18px;box-shadow:0 25px 65px #001b4566,0 0 0 7px #ffffff08}
+#presentation .presentation-play-icon{background:#ffda47;color:#073c6c;border-color:#ffe584;box-shadow:0 0 0 10px #ffda471a,0 8px 28px #00264c50}
+#presentation .presentation-cover:hover .presentation-play-icon{background:#ffe990;color:#073c6c}
+#presentation .presentation-caption{color:#dcebf8;border-bottom-color:#8ec8ee4d;font-size:16px}
+#presentation .presentation-caption>a{color:#ffdf71;font-size:15px}
+#presentation .presentation-caption>a:hover{color:#fff;text-decoration:underline;text-underline-offset:4px}
+#presentation .presentation-duration{color:#fff;background:#ffffff17;border:1px solid #8eb9d54d;font-size:14px}
+#presentation .presentation-status{color:#fff0c2;font-size:16px}
+#presentation .presentation-motion-toggle{position:absolute;z-index:1;right:var(--page);bottom:25px;display:flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid #8fc3e466;background:#033967a6;border-radius:22px;color:#dcedfa;font-size:14px;line-height:1.6;cursor:pointer}
+#presentation .presentation-motion-toggle:hover{background:#0b598d;color:#fff;border-color:#b3e0f4}
+#presentation .presentation-motion-toggle>span{display:grid;place-items:center;width:18px;font-size:15px;color:#ffdc67}
+#presentation button:focus-visible,#presentation a:focus-visible{outline:3px solid #ffdc67;outline-offset:5px}
+.presentation-wave-field{animation:presentation-wave-drift 14s ease-in-out infinite alternate}
+.presentation-energy-trail{animation:presentation-energy-flow 22s linear infinite}
+.presentation-energy-trail--gold{animation-name:presentation-gold-flow;animation-duration:30s;animation-delay:-12s}
+.presentation-orbit-field{transform-origin:1110px 390px;animation:presentation-orbit 80s linear infinite}
+.presentation-signal{animation:presentation-signal-glow 7s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+#presentation.is-art-paused .presentation-artwork *{animation-play-state:paused!important}
+@keyframes presentation-wave-drift{from{transform:translate(-12px,14px)}to{transform:translate(14px,-14px)}}
+@keyframes presentation-energy-flow{from{stroke-dashoffset:0}to{stroke-dashoffset:-2160}}
+@keyframes presentation-gold-flow{from{stroke-dashoffset:0}to{stroke-dashoffset:-2420}}
+@keyframes presentation-orbit{to{transform:rotate(360deg)}}
+@keyframes presentation-signal-glow{0%,100%{opacity:.2;transform:scale(.8)}50%{opacity:.8;transform:scale(1.25)}}
+@media(max-width:1100px){#presentation .presentation-copy h2{font-size:32px}#presentation .presentation-artwork>svg{opacity:.7}}
+@media(max-width:760px){#presentation{padding-bottom:94px;background:radial-gradient(ellipse at 90% 30%,#1178bb80,transparent 65%),linear-gradient(160deg,#032b55,#064b89 65%,#087684)}#presentation .presentation-copy h2{font-size:31px}#presentation .presentation-copy>p{font-size:16px}#presentation .presentation-copy .eyebrow{font-size:14px}#presentation .presentation-language{font-size:15px}#presentation .presentation-caption{flex-wrap:wrap;gap:10px;font-size:15px}#presentation .presentation-watch{padding:13px 18px}#presentation .presentation-player{border-radius:13px}#presentation .presentation-motion-toggle{bottom:24px}#presentation .presentation-artwork>svg{opacity:.65}}
+@media(prefers-reduced-motion:reduce){#presentation .presentation-artwork *{animation:none!important}#presentation .presentation-motion-toggle{display:none}#presentation .presentation-watch{transition:none}#presentation .presentation-watch:hover{transform:none}}
