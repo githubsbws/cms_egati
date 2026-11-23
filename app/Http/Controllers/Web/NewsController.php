@@ -14,6 +14,13 @@ class NewsController extends Controller
 {
     private const PAGE_SIZE = 9;
 
+    /**
+     * Corporate video page: plays the same video as the home page presentation.
+     */
+    public function videos(): View
+    {
+        return view('web.news.videos');
+    }
     public function index(Request $request, string $locale): View
     {
         // Invalid filter values are ignored (public page, no redirect back).

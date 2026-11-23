@@ -1,0 +1,587 @@
+{
+ "groups": [
+  {
+   "code": "board",
+   "type": "board",
+   "sort": 1,
+   "th": "คณะกรรมการบริษัท",
+   "en": "Board of Directors",
+   "doc": null
+  },
+  {
+   "code": "audit",
+   "type": "committee",
+   "sort": 2,
+   "th": "คณะกรรมการตรวจสอบ",
+   "en": "Audit Committee",
+   "doc": "web-assets/organization/documents/audit-committee-appointment-2568.pdf"
+  },
+  {
+   "code": "investment",
+   "type": "committee",
+   "sort": 3,
+   "th": "คณะกรรมการบริหารการลงทุน",
+   "en": "Investment Management Committee",
+   "doc": "web-assets/organization/documents/investment-committee-appointment-2569.pdf"
+  },
+  {
+   "code": "planning",
+   "type": "committee",
+   "sort": 4,
+   "th": "คณะกรรมการพิจารณาแผน ประเมินผล และบริหารความเสี่ยง",
+   "en": "Planning, Evaluation & Risk Management Committee",
+   "doc": "web-assets/organization/documents/planning-evaluation-risk-committee-appointment-2569.pdf"
+  },
+  {
+   "code": "nomination",
+   "type": "committee",
+   "sort": 5,
+   "th": "คณะกรรมการสรรหาตำแหน่งผู้จัดการฝ่ายขึ้นไป",
+   "en": "Nomination Committee for Division Managers and Above",
+   "doc": "web-assets/organization/documents/nomination-committee-appointment-2569.pdf"
+  },
+  {
+   "code": "management",
+   "type": "management",
+   "sort": 1,
+   "th": "คณะผู้บริหารบริษัท",
+   "en": "Management team",
+   "doc": null
+  }
+ ],
+ "members": [
+  {
+   "group": "board",
+   "row": 1,
+   "sort": 1,
+   "th": {
+    "name": "นายประเสริฐ สินสุขประเสริฐ",
+    "role": "ประธานกรรมการ"
+   },
+   "en": {
+    "name": "Mr. Prasert Sinsukprasert",
+    "role": "Chairman"
+   },
+   "photo": "web-assets/organization/3de830bc0d1afe.png"
+  },
+  {
+   "group": "board",
+   "row": 2,
+   "sort": 1,
+   "th": {
+    "name": "นายวุฒิทัต ตันติเวสส",
+    "role": "กรรมการ"
+   },
+   "en": {
+    "name": "Mr. Wutthitat Tantivess",
+    "role": "Member of Nomination of the Candidates for the Position of Division Managers and Higher Committee"
+   },
+   "photo": "web-assets/organization/7a4201a26f5b2e.png"
+  },
+  {
+   "group": "board",
+   "row": 2,
+   "sort": 2,
+   "th": {
+    "name": "นายชาตรี อรรจนานันท์",
+    "role": "กรรมการ"
+   },
+   "en": {
+    "name": "Mr.Chatri Archjananun",
+    "role": "Director​"
+   },
+   "photo": "web-assets/organization/9b1033b4a2ec05-transparent.png"
+  },
+  {
+   "group": "board",
+   "row": 2,
+   "sort": 3,
+   "th": {
+    "name": "นายนรินทร์ เผ่าวณิช",
+    "role": "กรรมการ"
+   },
+   "en": {
+    "name": "Mr. Narin Phoawanich",
+    "role": "Member of Nomination of the Candidates for the Position of Division Managers and Higher Committee"
+   },
+   "photo": "web-assets/organization/55182f191d69a6-transparent.png"
+  },
+  {
+   "group": "board",
+   "row": 3,
+   "sort": 1,
+   "th": {
+    "name": "นายสุรยุทธ กอบกิจพานิชผล",
+    "role": "กรรมการ"
+   },
+   "en": {
+    "name": "Mr. Surayouth Kobkitpanichpol",
+    "role": "Member of Nomination of the Candidates for the Position of Division Managers and Higher Committee"
+   },
+   "photo": "web-assets/organization/684323b73fd9c3.png"
+  },
+  {
+   "group": "board",
+   "row": 3,
+   "sort": 2,
+   "th": {
+    "name": "นายวรวรรธ ฉัตรแถม",
+    "role": "กรรมการ"
+   },
+   "en": {
+    "name": "Mr. Worawat Chattham",
+    "role": "Director​"
+   },
+   "photo": "web-assets/organization/1c606a268a819a-transparent.png"
+  },
+  {
+   "group": "board",
+   "row": 3,
+   "sort": 3,
+   "th": {
+    "name": "นางจารุณี ดวงมณฑา",
+    "role": "กรรมการ"
+   },
+   "en": {
+    "name": "Mrs. Jarunee Duangmondha",
+    "role": "Director​"
+   },
+   "photo": "web-assets/organization/9fdbdc0574a2a9-transparent.png"
+  },
+  {
+   "group": "board",
+   "row": 4,
+   "sort": 1,
+   "th": {
+    "name": "นางสาวรังสิมา พักเกาะ",
+    "role": "กรรมการและเลขานุการ​"
+   },
+   "en": {
+    "name": "Ms. Rangsima Pakkoh",
+    "role": "Member and Secretary of Investment Committee"
+   },
+   "photo": "web-assets/organization/ab33342c002454.png"
+  },
+  {
+   "group": "management",
+   "row": 1,
+   "sort": 1,
+   "th": {
+    "name": "นางสาวรังสิมา พักเกาะ",
+    "role": "กรรมการผู้จัดการใหญ่"
+   },
+   "en": {
+    "name": "Ms. Rangsima Pakkoh",
+    "role": "President"
+   },
+   "photo": "web-assets/organization/77e40b7e2c2c54.png"
+  },
+  {
+   "group": "management",
+   "row": 2,
+   "sort": 1,
+   "th": {
+    "name": "นายธนารัตน์ สุวรรณศรี",
+    "role": "รองกรรมการผู้จัดการใหญ่ - พัฒนาธุรกิจ"
+   },
+   "en": {
+    "name": "Mr. Tanarat Suwanasree",
+    "role": "Senior Executive Vice President - Business Development"
+   },
+   "photo": "web-assets/organization/152e42bf93735a-transparent.png"
+  },
+  {
+   "group": "management",
+   "row": 2,
+   "sort": 2,
+   "th": {
+    "name": "นายปฏิพัทธ์ กอปรสุข",
+    "role": "รองกรรมการผู้จัดการใหญ่ - บริหารสินทรัพย์"
+   },
+   "en": {
+    "name": "Mr. Patipat Korbsook",
+    "role": "Senior Executive Vice President - Asset Management"
+   },
+   "photo": "web-assets/organization/a07b2184621e98-transparent.png"
+  },
+  {
+   "group": "management",
+   "row": 2,
+   "sort": 3,
+   "th": {
+    "name": "นางวิมลพรรณ ตันเจริญ",
+    "role": "รองกรรมการผู้จัดการใหญ่ - บริหาร"
+   },
+   "en": {
+    "name": "Mrs. Wimonphan Tancharoen",
+    "role": "Senior Executive Vice President - Corporate Management"
+   },
+   "photo": "web-assets/organization/d6578ec89acfab-transparent.png"
+  },
+  {
+   "group": "management",
+   "row": 3,
+   "sort": 1,
+   "th": {
+    "name": "นายเทวรุจน์ อินสมภักษร",
+    "role": "ผู้จัดการฝ่ายพัฒนาธุรกิจ 1"
+   },
+   "en": {
+    "name": "Mr. Tewarut Insompaksorn",
+    "role": "Vice President, Business Development Division 1"
+   },
+   "photo": "web-assets/organization/62e92eb3b76cf7-transparent.png"
+  },
+  {
+   "group": "management",
+   "row": 3,
+   "sort": 2,
+   "th": {
+    "name": "นายเศรษฐพรรณ แก้วนาโพธิ์",
+    "role": "ผู้จัดการฝ่ายพัฒนาธุรกิจ 2"
+   },
+   "en": {
+    "name": "Mr. Sethaphan Kavenapho",
+    "role": "Vice President, Business Development Division 2"
+   },
+   "photo": "web-assets/organization/9915dca117e029-transparent.png"
+  },
+  {
+   "group": "management",
+   "row": 3,
+   "sort": 3,
+   "th": {
+    "name": "นายธีระพันธุ์ พรหมใจรักษ์",
+    "role": "ผู้จัดการฝ่ายบริหารสินทรัพย์"
+   },
+   "en": {
+    "name": "Mr. Theeraphan Promjairak",
+    "role": "Vice President, Asset Management Division"
+   },
+   "photo": "web-assets/organization/d7723103683ceb-transparent.png"
+  },
+  {
+   "group": "management",
+   "row": 4,
+   "sort": 1,
+   "th": {
+    "name": "นางสาวธัญวรัตน์ มานพจันทโรจน์",
+    "role": "ผู้จัดการฝ่ายบัญชีและการเงิน"
+   },
+   "en": {
+    "name": "Ms.Tunwarat Manopchantaroj",
+    "role": "Vice President, Accounting and Finance Division"
+   },
+   "photo": "web-assets/organization/3f13b8ac7920c7-transparent.png"
+  },
+  {
+   "group": "management",
+   "row": 4,
+   "sort": 2,
+   "th": {
+    "name": "นางสาวสุนิสา ชนประเสริฐ",
+    "role": "ผู้จัดการฝ่ายบริหารองค์กร"
+   },
+   "en": {
+    "name": "Ms. Sunisa Chonprasert",
+    "role": "Vice President, Corporate Administration Division"
+   },
+   "photo": "web-assets/organization/7b7cb5ec5e3856-transparent.png"
+  },
+  {
+   "group": "management",
+   "row": 4,
+   "sort": 3,
+   "th": {
+    "name": "นางสาวสุภา มโนภิญโญภิญญะ",
+    "role": "ผู้จัดการฝ่ายกฎหมาย"
+   },
+   "en": {
+    "name": "Ms. Supa Manopinyopinya",
+    "role": "Vice President, Legal Division"
+   },
+   "photo": "web-assets/organization/ac13dc4a9197bb-transparent.png"
+  },
+  {
+   "group": "audit",
+   "row": 1,
+   "sort": 1,
+   "th": {
+    "name": "",
+    "role": "ประธานกรรมการ"
+   },
+   "en": {
+    "name": null,
+    "role": "Chairman of Audit Committee"
+   },
+   "photo": "web-assets/organization/37bcb9182653aa-transparent.png"
+  },
+  {
+   "group": "audit",
+   "row": 2,
+   "sort": 1,
+   "th": {
+    "name": "นายสุรยุทธ กอบกิจพานิชผล",
+    "role": "กรรมการ"
+   },
+   "en": {
+    "name": "Mr. Surayouth Kobkitpanichpol",
+    "role": "Member of Audit Committee"
+   },
+   "photo": "web-assets/organization/684323b73fd9c3.png"
+  },
+  {
+   "group": "audit",
+   "row": 2,
+   "sort": 2,
+   "th": {
+    "name": "นายชาตรี อรรจนานันท์",
+    "role": "กรรมการ"
+   },
+   "en": {
+    "name": "Mr.Chatri Archjananun",
+    "role": "Member of Audit Committee"
+   },
+   "photo": "web-assets/organization/9b1033b4a2ec05-transparent.png"
+  },
+  {
+   "group": "audit",
+   "row": 3,
+   "sort": 1,
+   "th": {
+    "name": "",
+    "role": "เลขานุการ"
+   },
+   "en": {
+    "name": null,
+    "role": "Secretary"
+   },
+   "photo": "web-assets/organization/37bcb9182653aa-transparent.png"
+  },
+  {
+   "group": "investment",
+   "row": 1,
+   "sort": 1,
+   "th": {
+    "name": "นายนรินทร์ เผ่าวณิช",
+    "role": "ประธานกรรมการ"
+   },
+   "en": {
+    "name": "Mr. Narin Phoawanich",
+    "role": "Chairman of Investment Committee"
+   },
+   "photo": "web-assets/organization/6130e471295109-transparent.png"
+  },
+  {
+   "group": "investment",
+   "row": 2,
+   "sort": 1,
+   "th": {
+    "name": "นายวรวรรธ ฉัตรแถม",
+    "role": "กรรมการ"
+   },
+   "en": {
+    "name": "Mr. Worawat Chattham",
+    "role": "Member of Investment Committee"
+   },
+   "photo": "web-assets/organization/1c606a268a819a-transparent.png"
+  },
+  {
+   "group": "investment",
+   "row": 2,
+   "sort": 2,
+   "th": {
+    "name": "นางจารุณี ดวงมณฑา",
+    "role": "กรรมการ"
+   },
+   "en": {
+    "name": "Mrs. Jarunee Duangmondha",
+    "role": "Member of Investment Committee"
+   },
+   "photo": "web-assets/organization/9fdbdc0574a2a9-transparent.png"
+  },
+  {
+   "group": "investment",
+   "row": 2,
+   "sort": 3,
+   "th": {
+    "name": "นางสาวรังสิมา พักเกาะ",
+    "role": "กรรมการและเลขานุการ​"
+   },
+   "en": {
+    "name": "Ms. Rangsima Pakkoh",
+    "role": "Member and Secretary of Investment Committee"
+   },
+   "photo": "web-assets/organization/77e40b7e2c2c54.png"
+  },
+  {
+   "group": "investment",
+   "row": 3,
+   "sort": 1,
+   "th": {
+    "name": "นายธนารัตน์ สุวรรณศรี",
+    "role": "ผู้ช่วยเลขานุการ"
+   },
+   "en": {
+    "name": "Mr. Tanarat Suwanasree",
+    "role": "Assistant Secretary of Investment Committee"
+   },
+   "photo": "web-assets/organization/152e42bf93735a-transparent.png"
+  },
+  {
+   "group": "planning",
+   "row": 1,
+   "sort": 1,
+   "th": {
+    "name": "นายนรินทร์ เผ่าวณิช",
+    "role": "ประธานกรรมการ"
+   },
+   "en": {
+    "name": "Mr. Narin Phoawanich",
+    "role": "Chairman of Planning, Evaluation and Risk Management Committee​"
+   },
+   "photo": "web-assets/organization/6130e471295109-transparent.png"
+  },
+  {
+   "group": "planning",
+   "row": 2,
+   "sort": 1,
+   "th": {
+    "name": "นายวุฒิทัต ตันติเวสส",
+    "role": "กรรมการ"
+   },
+   "en": {
+    "name": "Mr. Wutthitat Tantivess",
+    "role": "Member of Planning, Evaluation and Risk Management Committee"
+   },
+   "photo": "web-assets/organization/7a4201a26f5b2e.png"
+  },
+  {
+   "group": "planning",
+   "row": 2,
+   "sort": 2,
+   "th": {
+    "name": "นายวรวรรธ ฉัตรแถม",
+    "role": "กรรมการ"
+   },
+   "en": {
+    "name": "Mr. Worawat Chattham",
+    "role": "Member of Planning, Evaluation and Risk Management Committee"
+   },
+   "photo": "web-assets/organization/1c606a268a819a-transparent.png"
+  },
+  {
+   "group": "planning",
+   "row": 2,
+   "sort": 3,
+   "th": {
+    "name": "นางจารุณี ดวงมณฑา",
+    "role": "กรรมการ"
+   },
+   "en": {
+    "name": "Mrs. Jarunee Duangmondha",
+    "role": "Member of Planning, Evaluation and Risk Management Committee"
+   },
+   "photo": "web-assets/organization/9fdbdc0574a2a9-transparent.png"
+  },
+  {
+   "group": "planning",
+   "row": 3,
+   "sort": 1,
+   "th": {
+    "name": "นางสาวรังสิมา พักเกาะ",
+    "role": "เลขานุการ"
+   },
+   "en": {
+    "name": "Ms. Rangsima Pakkoh",
+    "role": "Secretary of Planning, Evaluation and Risk Management Committee"
+   },
+   "photo": "web-assets/organization/77e40b7e2c2c54.png"
+  },
+  {
+   "group": "planning",
+   "row": 3,
+   "sort": 2,
+   "th": {
+    "name": "นายปฏิพัทธ์ กอปรสุข",
+    "role": "ผู้ช่วยเลขานุการ"
+   },
+   "en": {
+    "name": "Mr. Patipat Korbsook",
+    "role": "Assistant Secretary of Planning, Evaluation and Risk Management Committee"
+   },
+   "photo": "web-assets/organization/a07b2184621e98-transparent.png"
+  },
+  {
+   "group": "nomination",
+   "row": 1,
+   "sort": 1,
+   "th": {
+    "name": "นายนรินทร์ เผ่าวณิช",
+    "role": "ประธานกรรมการ"
+   },
+   "en": {
+    "name": "Mr. Narin Phoawanich",
+    "role": "Chairman of Nomination of the Candidates for the Position of Division Managers and Higher Committee"
+   },
+   "photo": "web-assets/organization/6130e471295109-transparent.png"
+  },
+  {
+   "group": "nomination",
+   "row": 2,
+   "sort": 1,
+   "th": {
+    "name": "นายวรวรรธ ฉัตรแถม",
+    "role": "กรรมการ"
+   },
+   "en": {
+    "name": "Mr. Worawat Chattham",
+    "role": "Member of Nomination of the Candidates for the Position of Division Managers and Higher Committee"
+   },
+   "photo": "web-assets/organization/1c606a268a819a-transparent.png"
+  },
+  {
+   "group": "nomination",
+   "row": 2,
+   "sort": 2,
+   "th": {
+    "name": "นางจารุณี ดวงมณฑา",
+    "role": "กรรมการ"
+   },
+   "en": {
+    "name": "Mrs. Jarunee Duangmondha",
+    "role": "Member of Nomination of the Candidates for the Position of Division Managers and Higher Committee"
+   },
+   "photo": "web-assets/organization/9fdbdc0574a2a9-transparent.png"
+  },
+  {
+   "group": "nomination",
+   "row": 2,
+   "sort": 3,
+   "th": {
+    "name": "นางสาวรังสิมา พักเกาะ",
+    "role": "กรรมการและเลขานุการ"
+   },
+   "en": {
+    "name": "Ms. Rangsima Pakkoh",
+    "role": "Secretary And Member of Nomination of the Candidates for the Position of Division Managers and Higher Committee"
+   },
+   "photo": "web-assets/organization/77e40b7e2c2c54.png"
+  },
+  {
+   "group": "nomination",
+   "row": 3,
+   "sort": 1,
+   "th": {
+    "name": "นางวิมลพรรณ ตันเจริญ",
+    "role": "ผู้ช่วยเลขานุการ"
+   },
+   "en": {
+    "name": "Mrs. Wimonphan Tancharoen",
+    "role": "Assistant Secretary of Nomination of the Candidates for the Position of Division Managers and Higher Committee"
+   },
+   "photo": "web-assets/organization/d6578ec89acfab-transparent.png"
+  }
+ ],
+ "chart": "web-assets/organization/ca0d6a32a55710.png"
+}

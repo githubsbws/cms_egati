@@ -5,6 +5,7 @@ namespace App\Console\Commands;
 use App\Models\ProcurementAgency;
 use App\Models\ProcurementMethod;
 use App\Models\ProcurementRecord;
+use App\Models\ProcurementVendor;
 use App\Models\ProcurementWorkType;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
@@ -218,8 +219,7 @@ class ImportProcurementLegacy extends Command
             $record->fill([
                 'fiscal_year' => $year,
                 'title' => trim((string) $d['title']),
-                'vendor_name' => $this->clean($d['vendor'] ?? null),
-                'vendor_tax_id' => $this->clean($d['tax_id'] ?? null),
+                'vendor_id' => $this->clean($d['vendor'] ?? null) ? ProcurementVendor::findOrCreateByName($d['vendor'], $d['tax_id'] ?? null)->id : null,
                 'agency_id' => $this->ids['methodagency'][(int) ($d['agency'] ?? 0)] ?? null,
                 'work_type_id' => $this->ids['methodprocure'][(int) ($d['work_type'] ?? 0)] ?? null,
                 'method_id' => $this->ids['methodsupply'][(int) ($d['method'] ?? 0)] ?? null,
@@ -228,7 +228,6 @@ class ImportProcurementLegacy extends Command
                 'reference_no' => $this->clean($d['reference'] ?? null),
                 'reason' => $this->clean($d['reason'] ?? null),
                 'status' => 'published',
-                'legacy_user' => $this->clean($row['userCreate'] ?? null),
             ]);
             if ($created) {
                 $record->created_at = $created;

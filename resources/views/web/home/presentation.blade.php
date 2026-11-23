@@ -1,4 +1,5 @@
-{{-- Home: company video presentation --}}
+@use('App\Helpers\HomeContent')
+{{-- Home: company video presentation (managed in the back office, menu id 2) --}}
 <section class="presentation-section" id="presentation">
   <div class="presentation-artwork" aria-hidden="true">
     <svg viewBox="0 0 1600 800" preserveAspectRatio="xMidYMid slice" fill="none" focusable="false">
@@ -44,18 +45,18 @@
     </svg>
   </div>
   <div class="presentation-copy">
-    <div class="eyebrow">EGATi’S VIDEO PRESENTATION</div>
-    <h2>{!! __web('presentation.our_story_through_the_lens') !!}</h2>
-    <p>{{ __web('presentation.get_to_know_egat_international') }}</p>
-    <div class="presentation-language"><span>EN</span>{{ __web('presentation.english_audio_english_subtitles') }}</div>
-    <button class="presentation-watch" data-play-presentation>{{ __web('presentation.watch_presentation') }}<span aria-hidden="true">↗</span></button>
+    <div class="eyebrow">{{ HomeContent::text('presentation', 'eyebrow') }}</div>
+    <h2>{!! HomeContent::html('presentation', 'title') !!}</h2>
+    <p>{{ HomeContent::text('presentation', 'text') }}</p>
+    <div class="presentation-language"><span>EN</span>{{ HomeContent::text('presentation', 'language_note') }}</div>
+    <button class="presentation-watch" data-play-presentation>{{ HomeContent::text('presentation', 'button_label') }}<span aria-hidden="true">↗</span></button>
   </div>
   <div class="presentation-frame">
     <div class="presentation-player" id="presentation-player">
-      <video id="company-presentation" aria-hidden="true" playsinline preload="none" poster="{{ web_media('presentation.presentation_poster', 'presentation-poster.png') }}" aria-label="{{ __web('presentation.egati_corporate_presentation_in_english') }}"></video>
+      <video id="company-presentation" aria-hidden="true" playsinline preload="none" poster="{{ HomeContent::poster('presentation') }}" aria-label="{{ __web('presentation.egati_corporate_presentation_in_english') }}"></video>
       <button class="presentation-cover" data-play-presentation aria-label="{{ __web('presentation.play_egati_corporate_presentation') }}"><span class="presentation-play-icon" aria-hidden="true">▶</span><span class="presentation-cover-caption">EGAT INTERNATIONAL<span>OFFICIAL CORPORATE PRESENTATION</span></span></button>
     </div>
-    <div class="presentation-caption"><span>EGATi’s Video Presentation <strong class="presentation-duration">03:15</strong></span><a href="{{ web_media('presentation.egati_presentation_en', 'egati-presentation-en.mp4') }}" target="_blank" rel="noopener">{{ __web('presentation.open_original_video') }} ↗</a></div>
+    <div class="presentation-caption"><span>EGATi’s Video Presentation <strong class="presentation-duration">{{ HomeContent::plain('presentation', 'duration') }}</strong></span><a href="{{ HomeContent::video('presentation') }}" target="_blank" rel="noopener">{{ __web('presentation.open_original_video') }} ↗</a></div>
     <p class="presentation-status" id="presentation-status" role="status" hidden></p>
   </div>
   <button class="presentation-motion-toggle" type="button" aria-pressed="false"><span aria-hidden="true">Ⅱ</span>{{ __web('presentation.pause_background_motion') }}</button>

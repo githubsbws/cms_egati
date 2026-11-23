@@ -27,4 +27,16 @@ class WebDate
             'label' => $isThai ? "{$date->day} {$fullMonth} {$year}" : "{$fullMonth} {$date->day}, {$year}",
         ];
     }
+
+    /**
+     * Short written date: "13 ส.ค. 2569" in Thai (Buddhist year), "13 Aug 2026" in other languages.
+     */
+    public static function plain(CarbonInterface $date): string
+    {
+        $isThai = app()->getLocale() === 'th';
+        $month = __web('date.short_'.$date->month);
+        $month = $isThai ? $month : ucfirst(strtolower($month));
+
+        return $date->day.' '.$month.' '.($isThai ? $date->year + 543 : $date->year);
+    }
 }

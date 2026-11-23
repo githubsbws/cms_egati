@@ -1,18 +1,19 @@
+@use('App\Helpers\HomeContent')
 {{-- Home page: hero video, then the sections below in order --}}
 <section class="video-hero" aria-label="{{ __web('home.energy_beyond_borders') }}">
-  <video id="hero-video" autoplay muted loop playsinline preload="auto" poster="{{ web_media('home.clean_energy_flood_mitigation_poster', 'clean-energy-flood-mitigation-poster.jpg') }}" aria-label="{{ __web('home.clean_energy_and_flood_mitigation') }}">
-    <source src="{{ web_media('home.clean_energy_flood_mitigation', 'clean-energy-flood-mitigation.mp4') }}" type="video/mp4">
+  <video id="hero-video" autoplay muted loop playsinline preload="auto" poster="{{ HomeContent::poster('hero') }}" aria-label="{{ __web('home.clean_energy_and_flood_mitigation') }}">
+    <source src="{{ HomeContent::video('hero') }}" type="video/mp4">
   </video>
   <div class="video-shade"></div>
   <div class="video-hero-copy">
-    <div class="eyebrow">{{ __web('home.egat_international_energy_beyond_borders') }}</div>
-    <h1>{!! __web('home.thailand_s_gateway_to_global') !!}</h1>
-    <p>{!! __web('home.as_the_international_investment_arm') !!}</p>
-    <div class="video-hero-buttons"><a class="video-primary" href="{{ web_url('business') }}">{{ __web('home.explore_our_business') }} <span>↗</span></a><a class="video-secondary" href="{{ web_url('about') }}">{{ __web('home.discover_egati') }} <span>↗</span></a></div>
+    <div class="eyebrow">{{ HomeContent::text('hero', 'eyebrow') }}</div>
+    <h1>{!! HomeContent::html('hero', 'heading') !!}</h1>
+    <p>{!! HomeContent::html('hero', 'paragraph') !!}</p>
+    <div class="video-hero-buttons"><a class="video-primary" href="{{ HomeContent::url('hero', 'primary_url') }}">{{ HomeContent::text('hero', 'primary_label') }} <span>↗</span></a><a class="video-secondary" href="{{ HomeContent::url('hero', 'secondary_url') }}">{{ HomeContent::text('hero', 'secondary_label') }} <span>↗</span></a></div>
   </div>
   <div class="video-hero-bottom">
     <a href="#quick-access" class="hero-scroll"><span>↓</span>{{ __web('home.scroll_to_explore') }}</a>
-    <div class="hero-film-caption"><span>CLEAN ENERGY / FLOOD MITIGATION</span><strong>{{ __web('home.clean_energy_and_flood_mitigation_2') }}</strong><a href="https://www.youtube.com/watch?v=oBXLjTpzpbY" rel="noopener">{{ __web('home.watch_on_youtube') }} ↗</a></div>
+    <div class="hero-film-caption"><span>{{ HomeContent::text('hero', 'caption_label') }}</span><strong>{{ HomeContent::text('hero', 'caption_title') }}</strong><a href="{{ HomeContent::url('hero', 'caption_url') }}" rel="noopener">{{ HomeContent::text('hero', 'caption_link_label') }} ↗</a></div>
   </div>
 </section>
 @include('web.home.careers-banner')@include('web.home.quick-access')

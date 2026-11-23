@@ -15,8 +15,8 @@ class ProcurementRecord extends Model
     public const TYPES = ['plan', 'price', 'notice', 'winner_in', 'winner_out'];
 
     protected $fillable = [
-        'type', 'fiscal_year', 'title', 'vendor_name', 'vendor_tax_id', 'agency_id', 'work_type_id', 'method_id',
-        'amount', 'published_on', 'reference_no', 'reason', 'status', 'legacy_id', 'legacy_user', 'created_by', 'updated_by',
+        'type', 'fiscal_year', 'title', 'vendor_id', 'agency_id', 'work_type_id', 'method_id',
+        'amount', 'published_on', 'reference_no', 'reason', 'status', 'legacy_id', 'created_by', 'updated_by',
     ];
 
     /**
@@ -37,6 +37,40 @@ class ProcurementRecord extends Model
     public function scopePublished(Builder $query): Builder
     {
         return $query->where('status', 'published');
+    }
+
+    /**
+     * Which optional fields each type uses in the back office form.
+     *
+     * @var array<string, list<string>>
+     */
+    public const FIELDS = [
+        'plan' => ['amount'],
+        'price' => ['agency', 'method', 'date'],
+        'notice' => ['agency', 'work_type', 'method', 'date'],
+        'winner_in' => ['vendor', 'agency', 'method', 'amount', 'date', 'reference', 'reason'],
+        'winner_out' => ['vendor', 'agency', 'method', 'amount', 'date', 'reference', 'reason'],
+    ];
+
+    /**
+     * Attachment slots of each type: one file or one link per kind.
+     *
+     * @var array<string, list<string>>
+     */
+    public const ATTACHMENT_KINDS = [
+        'plan' => ['attachment', 'link'],
+        'price' => ['attachment'],
+        'notice' => ['middle_price', 'draft_announcement', 'announcement'],
+        'winner_in' => ['attachment'],
+        'winner_out' => ['attachment'],
+    ];
+
+    /**
+     * @return BelongsTo<ProcurementVendor, $this>
+     */
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(ProcurementVendor::class, 'vendor_id');
     }
 
     /**
