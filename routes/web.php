@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\EditorImageController;
+use App\Http\Controllers\Admin\LanguageController;
 use App\Http\Controllers\Admin\LocaleController;
 use App\Http\Controllers\Admin\NewsCategoryController;
 use App\Http\Controllers\Admin\NewsController as AdminNewsController;
@@ -27,6 +28,18 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     // Image upload used by the rich text editor in any admin form
     Route::post('/editor/image', EditorImageController::class)->middleware('throttle:60,1')->name('admin.editor.image');
 
+    // Website languages: only users who can see the settings menu (admin_menus id 5)
+    Route::prefix('settings/language')->name('admin.settings.language.')->middleware('menu.permission:5')->where(['language' => '[a-z]{2,3}'])->group(function () {
+        Route::get('/', [LanguageController::class, 'index'])->name('index');
+        Route::get('/create', [LanguageController::class, 'create'])->name('create');
+        Route::post('/', [LanguageController::class, 'store'])->name('store');
+        Route::get('/{language}/edit', [LanguageController::class, 'edit'])->name('edit');
+        Route::put('/{language}', [LanguageController::class, 'update'])->name('update');
+        Route::get('/{language}/strings', [LanguageController::class, 'strings'])->name('strings');
+        Route::put('/{language}/strings', [LanguageController::class, 'saveStrings'])->name('strings.save');
+        Route::post('/{language}/strings/upload', [LanguageController::class, 'uploadStrings'])->name('strings.upload');
+        Route::get('/{language}/download', [LanguageController::class, 'download'])->name('download');
+    });
     // News management: only users who can see the news menu (admin_menus id 8)
     Route::prefix('news')->name('admin.news.')->middleware('menu.permission:8')->group(function () {
         // Categories first so "category" is never read as a {post}

@@ -21,7 +21,7 @@
             @method('PUT')
         @endif
 
-        <div class="card" style="max-width: 720px;">
+        <div class="card mx-auto" style="max-width: 720px;">
             <div class="card-body">
                 {{-- One name per language; the default language is required --}}
                 @foreach ($languages as $language)

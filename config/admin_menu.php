@@ -33,7 +33,7 @@ return [
         'icon' => 'bi-gear',
         'route' => null,
         'children' => [
-            ['key' => 'language', 'route' => null],
+            ['key' => 'language', 'route' => 'admin.settings.language.index', 'active' => ['admin.settings.language.*']],
             ['key' => 'event_banner', 'route' => null],
             ['key' => 'cookie_consent', 'route' => null],
             // ['key' => 'seo_setting', 'route' => null],
