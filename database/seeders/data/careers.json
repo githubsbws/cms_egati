@@ -1,0 +1,658 @@
+{
+  "categories": [
+    {
+      "code": "legal",
+      "name": "กฎหมาย",
+      "name_en": "Legal",
+      "sort_order": 1
+    },
+    {
+      "code": "audit",
+      "name": "ตรวจสอบภายใน",
+      "name_en": "Internal audit",
+      "sort_order": 2
+    },
+    {
+      "code": "strategy",
+      "name": "แผนกลยุทธ์",
+      "name_en": "Strategy",
+      "sort_order": 3
+    },
+    {
+      "code": "assets",
+      "name": "บริหารสินทรัพย์",
+      "name_en": "Asset management",
+      "sort_order": 4
+    },
+    {
+      "code": "administration",
+      "name": "งานบริหาร",
+      "name_en": "Administration",
+      "sort_order": 5
+    },
+    {
+      "code": "finance",
+      "name": "บัญชีและการเงิน",
+      "name_en": "Accounting & finance",
+      "sort_order": 6
+    }
+  ],
+  "jobs": [
+    {
+      "slug": "senior-legal",
+      "category": "legal",
+      "vacancies": 1,
+      "start": "2026-10-22",
+      "deadline": "2026-11-20",
+      "updated": "2026-10-22",
+      "stage": "application",
+      "translations": {
+        "th": {
+          "title": "เจ้าหน้าที่กฎหมายอาวุโส",
+          "department": "ส่วนนิติการ",
+          "qualifications": [
+            "ปริญญาตรีขึ้นไปด้านนิติศาสตร์ จากสถาบันที่ ก.พ. รับรอง",
+            "ประสบการณ์ด้านกฎหมายและการให้คำปรึกษาทางกฎหมายไม่น้อยกว่า 5 ปี"
+          ]
+        },
+        "en": {
+          "title": "Senior Legal Officer",
+          "department": "Legal Affairs Section",
+          "qualifications": [
+            "A bachelor’s degree or higher in law from an institution recognized by the OCSC.",
+            "At least 5 years of experience in legal work and legal advice."
+          ]
+        }
+      },
+      "documents": [
+        {
+          "labels": {
+            "th": "ประกาศรับสมัครงาน",
+            "en": "Recruitment announcement"
+          },
+          "file": "web-assets/careers/d663c7cbda2cb1.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/10/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81_%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%81%E0%B8%8E%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2%E0%B8%AD%E0%B8%B2%E0%B8%A7%E0%B8%B8%E0%B9%82%E0%B8%AA.pdf",
+          "size": 4662647,
+          "is_notice": true
+        },
+        {
+          "labels": {
+            "th": "ใบสมัครงาน",
+            "en": "Application form"
+          },
+          "file": "web-assets/careers/d5fb0e74ea4965.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/10/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-2-%E0%B9%83%E0%B8%9A%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%A3%E0%B8%95%E0%B8%B3%E0%B9%81%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%87-2026-10.pdf",
+          "size": 399723,
+          "is_notice": false
+        },
+        {
+          "labels": {
+            "th": "แบบการให้ความยินยอมข้อมูลส่วนบุคคล",
+            "en": "Personal data consent form"
+          },
+          "file": "web-assets/careers/e519806e9ceb0a.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-3-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%A2%E0%B8%AD%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%84%E0%B8%A5.pdf",
+          "size": 218073,
+          "is_notice": false
+        },
+        {
+          "labels": {
+            "th": "แบบรับรองคุณสมบัติ",
+            "en": "Qualification certification form"
+          },
+          "file": "web-assets/careers/4e9e6b7411f5ae.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-4-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%AA%E0%B8%A1%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%93%E0%B8%B0%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B9%89%E0%B8%B2%E0%B8%A1.pdf",
+          "size": 153753,
+          "is_notice": false
+        }
+      ]
+    },
+    {
+      "slug": "asset-division-manager",
+      "category": "assets",
+      "vacancies": 1,
+      "start": "2026-09-08",
+      "deadline": "2026-09-22",
+      "updated": "2026-10-22",
+      "stage": "results",
+      "translations": {
+        "th": {
+          "title": "ผู้จัดการส่วนประจำฝ่ายบริหารสินทรัพย์",
+          "department": "ฝ่ายบริหารสินทรัพย์",
+          "qualifications": []
+        },
+        "en": {
+          "title": "Section Manager, Asset Management Division",
+          "department": "Asset Management Division",
+          "qualifications": []
+        }
+      },
+      "documents": [
+        {
+          "labels": {
+            "th": "ประกาศผลการสอบคัดเลือกเข้าทำงาน",
+            "en": "Selection results"
+          },
+          "file": "web-assets/careers/714424b7ea574a.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/10/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8_%E0%B8%9C%E0%B8%A5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%84%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B3%E0%B9%81%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%87-%E0%B8%AA%E0%B8%9B_%E0%B8%9D%E0%B8%9A%E0%B8%97.pdf",
+          "size": 500139,
+          "is_notice": false
+        },
+        {
+          "labels": {
+            "th": "ประกาศรายชื่อผู้มีสิทธิเข้ารับการสอบข้อเขียนความรู้เฉพาะตำแหน่งและการสอบสัมภาษณ์",
+            "en": "Eligible candidates: written test and interview"
+          },
+          "file": "web-assets/careers/6fc2a6c385766c.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/10/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8_%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%A1%E0%B8%B5%E0%B8%AA%E0%B8%B4%E0%B8%97%E0%B8%98%E0%B8%B4%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%93%E0%B9%8C-%E0%B8%AA%E0%B8%9B_%E0%B8%9D%E0%B8%9A%E0%B8%97.pdf",
+          "size": 512236,
+          "is_notice": false
+        },
+        {
+          "labels": {
+            "th": "ประกาศรายชื่อผู้มีสิทธิเข้ารับการทดสอบวัดคุณลักษณะนิสัย (Personality Test)",
+            "en": "Eligible candidates: personality test"
+          },
+          "file": "web-assets/careers/0a5a8cbe886a43.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%A1%E0%B8%B5%E0%B8%AA%E0%B8%B4%E0%B8%97%E0%B8%98%E0%B8%B4%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%94%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%93%E0%B8%B0%E0%B8%99%E0%B8%B4%E0%B8%AA%E0%B8%B1%E0%B8%A2_%E0%B8%9C%E0%B8%88%E0%B8%81_%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%9D%E0%B9%88%E0%B8%B2%E0%B8%A2.pdf",
+          "size": 360705,
+          "is_notice": false
+        },
+        {
+          "labels": {
+            "th": "ประกาศรับสมัครงาน",
+            "en": "Recruitment announcement"
+          },
+          "file": "web-assets/careers/2f0920455c86ff.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%AF_%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%A3%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%9D%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%B1%E0%B8%9E%E0%B8%A2%E0%B9%8C.pdf",
+          "size": 4654777,
+          "is_notice": true
+        }
+      ]
+    },
+    {
+      "slug": "board-administration",
+      "category": "administration",
+      "vacancies": 1,
+      "start": "2026-09-01",
+      "deadline": "2026-09-30",
+      "updated": "2026-10-09",
+      "stage": "assessment",
+      "translations": {
+        "th": {
+          "title": "เจ้าหน้าที่อำนวยการ",
+          "department": "ส่วนงานคณะกรรมการ",
+          "qualifications": []
+        },
+        "en": {
+          "title": "Administrative Officer",
+          "department": "Board Affairs Section",
+          "qualifications": []
+        }
+      },
+      "documents": [
+        {
+          "labels": {
+            "th": "ประกาศรายชื่อผู้มีสิทธิเข้าทดสอบข้อเขียน",
+            "en": "Eligible candidates: written test"
+          },
+          "file": "web-assets/careers/161a08d6aa4bec.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/10/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8_%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%A1%E0%B8%B5%E0%B8%AA%E0%B8%B4%E0%B8%97%E0%B8%98%E0%B8%B4%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B8%AD%E0%B8%81_%E0%B8%AA%E0%B8%87%E0%B8%81.pdf",
+          "size": 1037477,
+          "is_notice": false
+        },
+        {
+          "labels": {
+            "th": "ประกาศรับสมัครงาน",
+            "en": "Recruitment announcement"
+          },
+          "file": "web-assets/careers/9d69955133275d.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%AF_%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%A3%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%84%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%87%E0%B8%B2%E0%B8%99-%E0%B8%AD%E0%B8%81_%E0%B8%AA%E0%B8%87%E0%B8%81_Signed.pdf",
+          "size": 1404735,
+          "is_notice": true
+        }
+      ]
+    },
+    {
+      "slug": "internal-auditor",
+      "category": "audit",
+      "vacancies": 1,
+      "start": "2026-09-01",
+      "deadline": "2026-09-30",
+      "updated": "2026-10-09",
+      "stage": "assessment",
+      "translations": {
+        "th": {
+          "title": "เจ้าหน้าที่ตรวจสอบภายใน",
+          "department": "ส่วนตรวจสอบภายใน",
+          "qualifications": []
+        },
+        "en": {
+          "title": "Internal Audit Officer",
+          "department": "Internal Audit Section",
+          "qualifications": []
+        }
+      },
+      "documents": [
+        {
+          "labels": {
+            "th": "ประกาศรายชื่อผู้มีสิทธิเข้าทดสอบข้อเขียน",
+            "en": "Eligible candidates: written test"
+          },
+          "file": "web-assets/careers/5e1f71cfe98592.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/10/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8_%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%A1%E0%B8%B5%E0%B8%AA%E0%B8%B4%E0%B8%97%E0%B8%98%E0%B8%B4%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B8%95%E0%B8%AA_%E0%B8%AA%E0%B8%95%E0%B8%99.pdf",
+          "size": 968307,
+          "is_notice": false
+        },
+        {
+          "labels": {
+            "th": "ประกาศรับสมัครงาน",
+            "en": "Recruitment announcement"
+          },
+          "file": "web-assets/careers/677f94fd49fb3f.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%AF_%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%A3%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%84%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%87%E0%B8%B2%E0%B8%99_%E0%B8%95%E0%B8%AA_%E0%B8%AA%E0%B8%95%E0%B8%99_Signed-1.pdf",
+          "size": 1404603,
+          "is_notice": true
+        }
+      ]
+    },
+    {
+      "slug": "senior-internal-auditor",
+      "category": "audit",
+      "vacancies": 1,
+      "start": "2026-10-08",
+      "deadline": "2026-11-06",
+      "updated": "2026-10-05",
+      "stage": "application",
+      "translations": {
+        "th": {
+          "title": "เจ้าหน้าที่ตรวจสอบภายในอาวุโส",
+          "department": "ส่วนตรวจสอบภายใน",
+          "qualifications": [
+            "ปริญญาตรีขึ้นไปด้านบัญชี การเงิน บริหารธุรกิจ หรือสาขาที่เกี่ยวข้อง จากสถาบันที่ ก.พ. รับรอง",
+            "ประสบการณ์ด้านการตรวจสอบทั่วไปหรือระบบสารสนเทศอย่างน้อย 5 ปี",
+            "ประสบการณ์ด้านการบริหารความเสี่ยงและการควบคุมภายในอย่างน้อย 2 ปี"
+          ]
+        },
+        "en": {
+          "title": "Senior Internal Audit Officer",
+          "department": "Internal Audit Section",
+          "qualifications": [
+            "A bachelor’s degree or higher in accounting, finance, business administration or a related field from an OCSC-recognized institution.",
+            "At least 5 years of experience in general auditing or information systems auditing.",
+            "At least 2 years of experience in risk management and internal control."
+          ]
+        }
+      },
+      "documents": [
+        {
+          "labels": {
+            "th": "ประกาศรับสมัครงาน",
+            "en": "Recruitment announcement"
+          },
+          "file": "web-assets/careers/a0664a36e27130.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/10/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81_%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%A0%E0%B8%B2%E0%B8%A2%E0%B9%83%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%A7%E0%B8%B8%E0%B9%82%E0%B8%AA-%E0%B8%AA%E0%B8%95%E0%B8%99_Signed.pdf",
+          "size": 4604232,
+          "is_notice": true
+        },
+        {
+          "labels": {
+            "th": "ใบสมัครงาน",
+            "en": "Application form"
+          },
+          "file": "web-assets/careers/2d1e51e1d1948b.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-2-%E0%B9%83%E0%B8%9A%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%A3%E0%B8%95%E0%B8%B3%E0%B9%81%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%87.pdf",
+          "size": 276087,
+          "is_notice": false
+        },
+        {
+          "labels": {
+            "th": "แบบการให้ความยินยอมข้อมูลส่วนบุคคล",
+            "en": "Personal data consent form"
+          },
+          "file": "web-assets/careers/e519806e9ceb0a.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-3-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%A2%E0%B8%AD%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%84%E0%B8%A5.pdf",
+          "size": 218073,
+          "is_notice": false
+        },
+        {
+          "labels": {
+            "th": "แบบรับรองคุณสมบัติ",
+            "en": "Qualification certification form"
+          },
+          "file": "web-assets/careers/4e9e6b7411f5ae.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-4-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%AA%E0%B8%A1%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%93%E0%B8%B0%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B9%89%E0%B8%B2%E0%B8%A1.pdf",
+          "size": 153753,
+          "is_notice": false
+        }
+      ]
+    },
+    {
+      "slug": "strategy-analyst",
+      "category": "strategy",
+      "vacancies": 1,
+      "start": "2026-10-08",
+      "deadline": "2026-11-06",
+      "updated": "2026-10-05",
+      "stage": "application",
+      "translations": {
+        "th": {
+          "title": "เจ้าหน้าที่วิเคราะห์",
+          "department": "ส่วนแผนกลยุทธ์",
+          "qualifications": [
+            "ปริญญาตรีขึ้นไปด้านบริหารธุรกิจ การเงิน/บัญชี เศรษฐศาสตร์ วิศวกรรมศาสตร์ วิทยาศาสตร์ สถิติ หรือสาขาที่เกี่ยวข้อง จากสถาบันที่ ก.พ. รับรอง",
+            "ประสบการณ์ทำงานอย่างน้อย 2 ปี"
+          ]
+        },
+        "en": {
+          "title": "Analyst",
+          "department": "Strategic Planning Section",
+          "qualifications": [
+            "A bachelor’s degree or higher in business administration, finance/accounting, economics, engineering, science, statistics or a related field from an OCSC-recognized institution.",
+            "At least 2 years of work experience."
+          ]
+        }
+      },
+      "documents": [
+        {
+          "labels": {
+            "th": "ประกาศรับสมัครงาน",
+            "en": "Recruitment announcement"
+          },
+          "file": "web-assets/careers/4cf45872a535a8.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/10/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81_%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A7%E0%B8%B4%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%AB%E0%B9%8C-%E0%B8%AA%E0%B8%9C%E0%B8%81_Signed.pdf",
+          "size": 4417150,
+          "is_notice": true
+        },
+        {
+          "labels": {
+            "th": "ใบสมัครงาน",
+            "en": "Application form"
+          },
+          "file": "web-assets/careers/2d1e51e1d1948b.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-2-%E0%B9%83%E0%B8%9A%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%A3%E0%B8%95%E0%B8%B3%E0%B9%81%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%87.pdf",
+          "size": 276087,
+          "is_notice": false
+        },
+        {
+          "labels": {
+            "th": "แบบการให้ความยินยอมข้อมูลส่วนบุคคล",
+            "en": "Personal data consent form"
+          },
+          "file": "web-assets/careers/e519806e9ceb0a.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-3-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%A2%E0%B8%AD%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%84%E0%B8%A5.pdf",
+          "size": 218073,
+          "is_notice": false
+        },
+        {
+          "labels": {
+            "th": "แบบรับรองคุณสมบัติ",
+            "en": "Qualification certification form"
+          },
+          "file": "web-assets/careers/4e9e6b7411f5ae.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-4-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%AA%E0%B8%A1%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%93%E0%B8%B0%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B9%89%E0%B8%B2%E0%B8%A1.pdf",
+          "size": 153753,
+          "is_notice": false
+        }
+      ]
+    },
+    {
+      "slug": "asset-management-officer",
+      "category": "assets",
+      "vacancies": 1,
+      "start": "2026-10-08",
+      "deadline": "2026-11-06",
+      "updated": "2026-10-05",
+      "stage": "application",
+      "translations": {
+        "th": {
+          "title": "เจ้าหน้าที่บริหารสินทรัพย์",
+          "department": "ส่วนบริหารสินทรัพย์ 2",
+          "qualifications": [
+            "ปริญญาตรีขึ้นไปด้านวิศวกรรมศาสตร์ วิทยาศาสตร์ บริหารธุรกิจ เศรษฐศาสตร์ อุตสาหกรรมศาสตร์ นิติศาสตร์ หรือสาขาที่เกี่ยวข้อง จากสถาบันที่ ก.พ. รับรอง",
+            "ประสบการณ์ทำงานอย่างน้อย 2 ปี และประสบการณ์ด้านธุรกิจพลังงาน การลงทุน หรือธุรกิจเกี่ยวเนื่องไม่น้อยกว่า 1 ปี"
+          ]
+        },
+        "en": {
+          "title": "Asset Management Officer",
+          "department": "Asset Management Section 2",
+          "qualifications": [
+            "A bachelor’s degree or higher in engineering, science, business administration, economics, industrial technology, law or a related field from an OCSC-recognized institution.",
+            "At least 2 years of work experience, including at least 1 year in energy, investment or related business."
+          ]
+        }
+      },
+      "documents": [
+        {
+          "labels": {
+            "th": "ประกาศรับสมัครงาน",
+            "en": "Recruitment announcement"
+          },
+          "file": "web-assets/careers/288318be672a4a.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/10/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81_%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%B1%E0%B8%9E%E0%B8%A2%E0%B9%8C-%E0%B8%AA%E0%B8%9A%E0%B8%97.2_Signed.pdf",
+          "size": 4474051,
+          "is_notice": true
+        },
+        {
+          "labels": {
+            "th": "ใบสมัครงาน",
+            "en": "Application form"
+          },
+          "file": "web-assets/careers/2d1e51e1d1948b.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-2-%E0%B9%83%E0%B8%9A%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%A3%E0%B8%95%E0%B8%B3%E0%B9%81%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%87.pdf",
+          "size": 276087,
+          "is_notice": false
+        },
+        {
+          "labels": {
+            "th": "แบบการให้ความยินยอมข้อมูลส่วนบุคคล",
+            "en": "Personal data consent form"
+          },
+          "file": "web-assets/careers/e519806e9ceb0a.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-3-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%A2%E0%B8%AD%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%84%E0%B8%A5.pdf",
+          "size": 218073,
+          "is_notice": false
+        },
+        {
+          "labels": {
+            "th": "แบบรับรองคุณสมบัติ",
+            "en": "Qualification certification form"
+          },
+          "file": "web-assets/careers/4e9e6b7411f5ae.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-4-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%AA%E0%B8%A1%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%93%E0%B8%B0%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B9%89%E0%B8%B2%E0%B8%A1.pdf",
+          "size": 153753,
+          "is_notice": false
+        }
+      ]
+    },
+    {
+      "slug": "asset-section-manager",
+      "category": "assets",
+      "vacancies": 1,
+      "start": "2026-09-21",
+      "deadline": "2026-10-20",
+      "updated": "2026-09-21",
+      "stage": "application",
+      "translations": {
+        "th": {
+          "title": "ผู้จัดการส่วนบริหารสินทรัพย์ 2",
+          "department": "ฝ่ายบริหารสินทรัพย์",
+          "qualifications": []
+        },
+        "en": {
+          "title": "Manager, Asset Management Section 2",
+          "department": "Asset Management Division",
+          "qualifications": []
+        }
+      },
+      "documents": [
+        {
+          "labels": {
+            "th": "ประกาศรับสมัครงาน",
+            "en": "Recruitment announcement"
+          },
+          "file": "web-assets/careers/d21d73fa1ab08c.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81_%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%A3%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%B1%E0%B8%9E%E0%B8%A2%E0%B9%8C-2.pdf",
+          "size": 4606009,
+          "is_notice": true
+        },
+        {
+          "labels": {
+            "th": "ใบสมัครงาน",
+            "en": "Application form"
+          },
+          "file": "web-assets/careers/2d1e51e1d1948b.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-2-%E0%B9%83%E0%B8%9A%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%A3%E0%B8%95%E0%B8%B3%E0%B9%81%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%87.pdf",
+          "size": 276087,
+          "is_notice": false
+        },
+        {
+          "labels": {
+            "th": "แบบการให้ความยินยอมข้อมูลส่วนบุคคล",
+            "en": "Personal data consent form"
+          },
+          "file": "web-assets/careers/e519806e9ceb0a.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-3-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%A2%E0%B8%AD%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%84%E0%B8%A5.pdf",
+          "size": 218073,
+          "is_notice": false
+        },
+        {
+          "labels": {
+            "th": "แบบรับรองคุณสมบัติ",
+            "en": "Qualification certification form"
+          },
+          "file": "web-assets/careers/4e9e6b7411f5ae.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-4-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%AA%E0%B8%A1%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%93%E0%B8%B0%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B9%89%E0%B8%B2%E0%B8%A1.pdf",
+          "size": 153753,
+          "is_notice": false
+        }
+      ]
+    },
+    {
+      "slug": "contracts-manager",
+      "category": "legal",
+      "vacancies": 1,
+      "start": "2026-09-21",
+      "deadline": "2026-10-20",
+      "updated": "2026-09-21",
+      "stage": "application",
+      "translations": {
+        "th": {
+          "title": "ผู้จัดการส่วนสัญญา",
+          "department": "ฝ่ายกฎหมาย",
+          "qualifications": []
+        },
+        "en": {
+          "title": "Contracts Section Manager",
+          "department": "Legal Division",
+          "qualifications": []
+        }
+      },
+      "documents": [
+        {
+          "labels": {
+            "th": "ประกาศรับสมัครงาน",
+            "en": "Recruitment announcement"
+          },
+          "file": "web-assets/careers/b5ed96fde5ab85.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81_%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%A3%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2.pdf",
+          "size": 4501865,
+          "is_notice": true
+        },
+        {
+          "labels": {
+            "th": "ใบสมัครงาน",
+            "en": "Application form"
+          },
+          "file": "web-assets/careers/2d1e51e1d1948b.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-2-%E0%B9%83%E0%B8%9A%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%A3%E0%B8%95%E0%B8%B3%E0%B9%81%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%87.pdf",
+          "size": 276087,
+          "is_notice": false
+        },
+        {
+          "labels": {
+            "th": "แบบการให้ความยินยอมข้อมูลส่วนบุคคล",
+            "en": "Personal data consent form"
+          },
+          "file": "web-assets/careers/e519806e9ceb0a.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-3-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%A2%E0%B8%AD%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%84%E0%B8%A5.pdf",
+          "size": 218073,
+          "is_notice": false
+        },
+        {
+          "labels": {
+            "th": "แบบรับรองคุณสมบัติ",
+            "en": "Qualification certification form"
+          },
+          "file": "web-assets/careers/4e9e6b7411f5ae.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-4-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%AA%E0%B8%A1%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%93%E0%B8%B0%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B9%89%E0%B8%B2%E0%B8%A1.pdf",
+          "size": 153753,
+          "is_notice": false
+        }
+      ]
+    },
+    {
+      "slug": "accounting-manager",
+      "category": "finance",
+      "vacancies": 1,
+      "start": "2026-09-11",
+      "deadline": "2026-09-25",
+      "updated": "2026-09-11",
+      "stage": "application",
+      "translations": {
+        "th": {
+          "title": "ผู้จัดการส่วนบัญชี",
+          "department": "ฝ่ายบัญชีและการเงิน",
+          "qualifications": []
+        },
+        "en": {
+          "title": "Accounting Section Manager",
+          "department": "Accounting and Finance Division",
+          "qualifications": []
+        }
+      },
+      "documents": [
+        {
+          "labels": {
+            "th": "ประกาศรับสมัครงาน",
+            "en": "Recruitment announcement"
+          },
+          "file": "web-assets/careers/8b80c8c5285a31.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81_%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%A3%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8A%E0%B8%B5.pdf",
+          "size": 4413314,
+          "is_notice": true
+        },
+        {
+          "labels": {
+            "th": "ใบสมัครงาน (ตำแหน่งผู้จัดการส่วน)",
+            "en": "Application form"
+          },
+          "file": "web-assets/careers/02021bfc677ae1.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-2-%E0%B9%83%E0%B8%9A%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%A3%E0%B8%95%E0%B8%B3%E0%B9%81%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%87-%E0%B8%AA%E0%B8%9A%E0%B8%8A-.pdf",
+          "size": 279931,
+          "is_notice": false
+        },
+        {
+          "labels": {
+            "th": "แบบการให้ความยินยอมข้อมูลส่วนบุคคล",
+            "en": "Personal data consent form"
+          },
+          "file": "web-assets/careers/e519806e9ceb0a.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-3-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%A2%E0%B8%AD%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%84%E0%B8%A5.pdf",
+          "size": 218073,
+          "is_notice": false
+        },
+        {
+          "labels": {
+            "th": "แบบรับรองคุณสมบัติ",
+            "en": "Qualification certification form"
+          },
+          "file": "web-assets/careers/4e9e6b7411f5ae.pdf",
+          "url": "https://egati.co.th/wp-content/uploads/2026/09/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A-4-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%AA%E0%B8%A1%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%93%E0%B8%B0%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B9%89%E0%B8%B2%E0%B8%A1.pdf",
+          "size": 153753,
+          "is_notice": false
+        }
+      ]
+    }
+  ]
+}

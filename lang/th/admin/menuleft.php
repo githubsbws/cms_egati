@@ -24,6 +24,10 @@ return [
         'video_presentation' => 'วิดีโอ Presentation',
         'related_agencies' => 'หน่วยงานที่เกี่ยวข้อง',
     ],
+    'work_us_sub' => [
+        'career_jobs' => 'ตำแหน่งงาน',
+        'career_categories' => 'สายงาน',
+    ],
     'procurement_sub' => [
         'procurement' => 'ระบบจัดซื้อจัดจ้าง',
         'procurement_plan' => 'แผนจัดซื้อจัดจ้าง',

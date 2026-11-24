@@ -24,6 +24,10 @@ return [
         'video_presentation' => 'Video presentation',
         'related_agencies' => 'Related agencies',
     ],
+    'work_us_sub' => [
+        'career_jobs' => 'Positions',
+        'career_categories' => 'Job families',
+    ],
     'procurement_sub' => [
         'procurement' => 'Procurement',
         'procurement_plan' => 'Procurement plans',

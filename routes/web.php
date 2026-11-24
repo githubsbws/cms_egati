@@ -1,6 +1,9 @@
 <?php
 
 use App\Http\Controllers\Admin\AdminController;
+use App\Http\Controllers\Admin\CareerCategoryController;
+use App\Http\Controllers\Admin\CareerDocumentController;
+use App\Http\Controllers\Admin\CareerJobController;
 use App\Http\Controllers\Admin\EditorImageController;
 use App\Http\Controllers\Admin\HomeAgencyController;
 use App\Http\Controllers\Admin\HomeBlockController;
@@ -16,6 +19,7 @@ use App\Http\Controllers\Admin\ProcurementLookupController;
 use App\Http\Controllers\Admin\ProcurementRecordController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Web\AboutController;
+use App\Http\Controllers\Web\CareersController;
 use App\Http\Controllers\Web\HomeController;
 use App\Http\Controllers\Web\NewsController;
 use App\Http\Controllers\Web\ProcurementController;
@@ -48,6 +52,26 @@ Route::prefix('admin')->middleware('auth')->group(function () {
         Route::put('/{language}/strings', [LanguageController::class, 'saveStrings'])->name('strings.save');
         Route::post('/{language}/strings/upload', [LanguageController::class, 'uploadStrings'])->name('strings.upload');
         Route::get('/{language}/download', [LanguageController::class, 'download'])->name('download');
+    });
+    // Recruitment notices (admin_menus id 14): positions with their documents, job families
+    Route::prefix('careers')->name('admin.careers.')->middleware('menu.permission:14')->group(function () {
+        Route::prefix('jobs')->name('jobs.')->group(function () {
+            Route::get('/', [CareerJobController::class, 'index'])->name('index');
+            Route::get('/create', [CareerJobController::class, 'create'])->name('create');
+            Route::post('/', [CareerJobController::class, 'store'])->name('store');
+            Route::get('/{job}/edit', [CareerJobController::class, 'edit'])->name('edit');
+            Route::put('/{job}', [CareerJobController::class, 'update'])->name('update');
+            Route::delete('/{job}', [CareerJobController::class, 'destroy'])->name('destroy');
+            Route::post('/{job}/documents', [CareerDocumentController::class, 'store'])->name('documents.store');
+        });
+        Route::delete('/documents/{document}', [CareerDocumentController::class, 'destroy'])->name('documents.destroy');
+        Route::post('/documents/{document}/move', [CareerDocumentController::class, 'move'])->name('documents.move');
+        Route::prefix('categories')->name('categories.')->group(function () {
+            Route::get('/', [CareerCategoryController::class, 'index'])->name('index');
+            Route::post('/', [CareerCategoryController::class, 'store'])->name('store');
+            Route::put('/{category}', [CareerCategoryController::class, 'update'])->name('update');
+            Route::delete('/{category}', [CareerCategoryController::class, 'destroy'])->name('destroy');
+        });
     });
     // Home page content (admin_menus id 2): hero video, about story, video presentation, related agencies
     Route::prefix('content')->name('admin.content.')->middleware('menu.permission:2')->group(function () {
@@ -162,6 +186,8 @@ Route::prefix('{locale}')
         Route::get('/about/management', [AboutController::class, 'management'])->name('web.about.management');
         Route::get('/about/structure', [AboutController::class, 'structure'])->name('web.about.structure');
         Route::get('/procurement', [ProcurementController::class, 'index'])->name('web.procurement');
+        Route::get('/careers', [CareersController::class, 'index'])->name('web.careers');
+        Route::get('/careers/{slug}', [CareersController::class, 'show'])->name('web.careers.show');
         Route::get('/news', [NewsController::class, 'index'])->name('web.news.index');
         Route::get('/news/videos', [NewsController::class, 'videos'])->name('web.news.videos');
         Route::get('/news/{slug}', [NewsController::class, 'show'])->name('web.news.show');

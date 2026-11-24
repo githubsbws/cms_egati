@@ -121,6 +121,10 @@ return [
         'key' => 'work_us',
         'icon' => 'bi-person-arms-up',
         'route' => null,
+        'children' => [
+            ['key' => 'career_jobs', 'route' => 'admin.careers.jobs.index', 'active' => ['admin.careers.jobs.*', 'admin.careers.documents.*']],
+            ['key' => 'career_categories', 'route' => 'admin.careers.categories.index', 'active' => ['admin.careers.categories.*']],
+        ],
     ],
 
     [
