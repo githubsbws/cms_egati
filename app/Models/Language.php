@@ -20,6 +20,7 @@ class Language extends Model
         'name',
         'native_name',
         'direction',
+        'flag',
         'is_default',
         'is_active',
         'sort_order',

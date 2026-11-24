@@ -21,9 +21,10 @@ return [
         'icon' => 'bi-file-text',
         'route' => null,
         'children' => [
-            ['key' => 'landing_page_structure', 'route' => null],
-            ['key' => 'top_cover', 'route' => null],
-            ['key' => 'infographic', 'route' => null],
+            ['key' => 'hero_video', 'route' => 'admin.content.hero.edit', 'active' => ['admin.content.hero.*']],
+            ['key' => 'about_story', 'route' => 'admin.content.story.edit', 'active' => ['admin.content.story.*']],
+            ['key' => 'video_presentation', 'route' => 'admin.content.presentation.edit', 'active' => ['admin.content.presentation.*']],
+            ['key' => 'related_agencies', 'route' => 'admin.content.agencies.index', 'active' => ['admin.content.agencies.*']],
         ],
     ],
 
@@ -33,7 +34,7 @@ return [
         'icon' => 'bi-gear',
         'route' => null,
         'children' => [
-            ['key' => 'language', 'route' => null],
+            ['key' => 'language', 'route' => 'admin.settings.language.index', 'active' => ['admin.settings.language.*']],
             ['key' => 'event_banner', 'route' => null],
             ['key' => 'cookie_consent', 'route' => null],
             // ['key' => 'seo_setting', 'route' => null],
@@ -52,6 +53,16 @@ return [
         'key' => 'procurement',
         'icon' => 'bi-briefcase',
         'route' => null,
+        'children' => [
+            ['key' => 'procurement_plan', 'route' => 'admin.procurement.plan.index', 'active' => ['admin.procurement.plan.*']],
+            ['key' => 'procurement_price', 'route' => 'admin.procurement.price.index', 'active' => ['admin.procurement.price.*']],
+            ['key' => 'procurement_notice', 'route' => 'admin.procurement.notice.index', 'active' => ['admin.procurement.notice.*']],
+            ['key' => 'procurement_winner_in', 'route' => 'admin.procurement.winner_in.index', 'active' => ['admin.procurement.winner_in.*']],
+            ['key' => 'procurement_winner_out', 'route' => 'admin.procurement.winner_out.index', 'active' => ['admin.procurement.winner_out.*']],
+            ['key' => 'procurement_agency', 'route' => 'admin.procurement.agency.index', 'active' => ['admin.procurement.agency.*']],
+            ['key' => 'procurement_work_type', 'route' => 'admin.procurement.work_type.index', 'active' => ['admin.procurement.work_type.*']],
+            ['key' => 'procurement_method', 'route' => 'admin.procurement.method.index', 'active' => ['admin.procurement.method.*']],
+        ],
     ],
 
     [
@@ -118,9 +129,9 @@ return [
         'icon' => 'bi-building',
         'route' => null,
         'children' => [
-            ['key' => 'management_team', 'route' => null],
-            ['key' => 'director_board', 'route' => null],
-            ['key' => 'orgchart', 'route' => null],
+            ['key' => 'management_team', 'route' => 'admin.organization.management.index', 'active' => ['admin.organization.management.*']],
+            ['key' => 'director_board', 'route' => 'admin.organization.board.index', 'active' => ['admin.organization.board.*']],
+            ['key' => 'orgchart', 'route' => 'admin.organization.chart.index', 'active' => ['admin.organization.chart.*']],
         ],
     ],
 

@@ -1,6 +1,5 @@
 @php
     $locale = app()->getLocale();
-    $flags = ['th' => 'th', 'en' => 'gb'];
     $chevron = '<svg class="header-chevron" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 8 5 5 5-5"/></svg>';
 @endphp
 <header id="site-header">
@@ -12,9 +11,9 @@
     {{-- Language dropdown (switches by URL: /th/... <-> /en/...) --}}
     <div class="site-language">
         <button id="lang" type="button" aria-expanded="false" aria-controls="language-options" aria-label="{{ __web('header.language_english_choose_language') }}">
-            @isset($flags[$locale])
-                <img class="language-flag" src="{{ web_media('flag.'.$flags[$locale], 'flags/'.$flags[$locale].'.svg') }}" alt="">
-            @endisset
+            @if ($currentLanguage?->flag)
+                    <img class="language-flag" src="{{ web_file_url($currentLanguage->flag) }}" alt="">
+                @endif
             <span class="language-code">{{ strtoupper($locale) }}</span>
             {!! $chevron !!}
         </button>
@@ -22,9 +21,9 @@
             <span class="language-heading">{{ __web('header.language') }}</span>
             @foreach ($webLanguages as $language)
                 <button type="button" data-language="{{ $language->code }}" data-href="{{ web_locale_url($language->code) }}" aria-pressed="{{ $language->code === $locale ? 'true' : 'false' }}">
-                    @isset($flags[$language->code])
-                        <img class="language-flag" src="{{ web_media('flag.'.$flags[$language->code], 'flags/'.$flags[$language->code].'.svg') }}" alt="">
-                    @endisset
+                    @if ($language->flag)
+                        <img class="language-flag" src="{{ web_file_url($language->flag) }}" alt="">
+                    @endif
                     <span>{{ $language->native_name }}</span>
                     <span class="language-check" aria-hidden="true">{{ $language->code === $locale ? '✓' : '' }}</span>
                 </button>
