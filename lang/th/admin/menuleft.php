@@ -24,6 +24,11 @@ return [
         'video_presentation' => 'วิดีโอ Presentation',
         'related_agencies' => 'หน่วยงานที่เกี่ยวข้อง',
     ],
+    'document_sub' => [
+        'document_credit' => 'การจัดอันดับเครดิต',
+        'document_finance' => 'งบการเงิน',
+        'document_annual' => 'รายงานประจำปี',
+    ],
     'work_us_sub' => [
         'career_jobs' => 'ตำแหน่งงาน',
         'career_categories' => 'สายงาน',

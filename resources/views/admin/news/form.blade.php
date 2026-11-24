@@ -168,6 +168,36 @@
                         </div>
                     </div>
                 </div>
+
+                {{-- Event photos (gallery under the article) --}}
+                <div class="card mb-3">
+                    <div class="card-header">{{ __('admin/news.section_gallery') }}</div>
+                    <div class="card-body">
+                        @if ($post->exists && $post->images->isNotEmpty())
+                            <div class="row g-2 mb-3">
+                                @foreach ($post->images as $image)
+                                    <div class="col-4">
+                                        <img src="{{ $image->url }}" alt="" class="img-thumbnail w-100" style="height: 90px; object-fit: cover;">
+                                        <div class="form-check mt-1">
+                                            <input class="form-check-input" type="checkbox" name="remove_images[]" value="{{ $image->id }}" id="remove_image_{{ $image->id }}">
+                                            <label class="form-check-label small" for="remove_image_{{ $image->id }}">{{ __('admin/news.remove_image') }}</label>
+                                        </div>
+                                    </div>
+                                @endforeach
+                            </div>
+                        @endif
+                        <label class="form-label" for="gallery">{{ __('admin/news.gallery_add') }}</label>
+                        <input type="file" id="gallery" name="gallery[]" multiple accept="image/jpeg,image/png,image/webp"
+                               class="form-control @error('gallery') is-invalid @enderror @error('gallery.*') is-invalid @enderror">
+                        <div class="form-text">{{ __('admin/news.gallery_hint') }}</div>
+                        @error('gallery')
+                            <div class="invalid-feedback">{{ $message }}</div>
+                        @enderror
+                        @error('gallery.*')
+                            <div class="invalid-feedback">{{ $message }}</div>
+                        @enderror
+                    </div>
+                </div>
             </div>
         </div>
 

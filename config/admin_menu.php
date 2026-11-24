@@ -114,6 +114,11 @@ return [
         'key' => 'document',
         'icon' => 'bi-file-earmark-arrow-up',
         'route' => null,
+        'children' => [
+            ['key' => 'document_credit', 'route' => 'admin.documents.credit.index', 'active' => ['admin.documents.credit.*']],
+            ['key' => 'document_finance', 'route' => 'admin.documents.finance.index', 'active' => ['admin.documents.finance.*']],
+            ['key' => 'document_annual', 'route' => 'admin.documents.annual.index', 'active' => ['admin.documents.annual.*']],
+        ],
     ],
 
     [

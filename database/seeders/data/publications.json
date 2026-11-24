@@ -1,0 +1,455 @@
+{
+  "items": [
+    {
+      "type": "credit",
+      "year": 2025,
+      "agency": "S&P Global",
+      "rating": "BBB+",
+      "url": "https://egati.co.th/wp-content/uploads/2025/12/2025-International-Credit-Rating-of-EGATi-Foreign-BBB-and-Local-A-.pdf"
+    },
+    {
+      "type": "credit",
+      "year": 2024,
+      "agency": "S&P Global",
+      "rating": "BBB+",
+      "url": "https://egati.co.th/wp-content/uploads/2025/12/2024-International-Credit-Rating-of-EGATi-BBB.pdf"
+    },
+    {
+      "type": "credit",
+      "year": 2023,
+      "agency": "S&P Global",
+      "rating": "BBB+",
+      "url": "https://egati.co.th/wp-content/uploads/2024/09/2023-International-Credit-Rating-of-EGATi-BBB.pdf"
+    },
+    {
+      "type": "credit",
+      "year": 2022,
+      "agency": "S&P Global",
+      "rating": "BBB+",
+      "url": "https://egati.co.th/wp-content/uploads/2023/07/2022-International-Credit-Rating-of-EGATi-BBB.pdf"
+    },
+    {
+      "type": "credit",
+      "year": 2021,
+      "agency": "S&P Global",
+      "rating": "BBB+",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/c1.pdf"
+    },
+    {
+      "type": "credit",
+      "year": 2020,
+      "agency": "S&P Global",
+      "rating": "BBB+",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/c3.pdf"
+    },
+    {
+      "type": "credit",
+      "year": 2019,
+      "agency": "S&P Global",
+      "rating": "BBB+",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/c5.pdf"
+    },
+    {
+      "type": "credit",
+      "year": 2018,
+      "agency": "S&P Global",
+      "rating": "BBB+",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/c7.pdf"
+    },
+    {
+      "type": "credit",
+      "year": 2026,
+      "agency": "TRIS Rating",
+      "rating": "AAA",
+      "url": "https://egati.co.th/wp-content/uploads/2026/07/EGATi23Jul26-t.pdf"
+    },
+    {
+      "type": "credit",
+      "year": 2025,
+      "agency": "TRIS Rating",
+      "rating": "AAA",
+      "url": "https://egati.co.th/wp-content/uploads/2025/12/2025-Domestic-Credit-Rating-of-EGATi-AAA-TH.pdf"
+    },
+    {
+      "type": "credit",
+      "year": 2024,
+      "agency": "TRIS Rating",
+      "rating": "AAA",
+      "url": "https://egati.co.th/wp-content/uploads/2024/09/2024-Domestic-Credit-Rating-of-EGATi-AAA-TH.pdf"
+    },
+    {
+      "type": "credit",
+      "year": 2023,
+      "agency": "TRIS Rating",
+      "rating": "AAA",
+      "url": "https://egati.co.th/wp-content/uploads/2023/09/2023-Domestic-Credit-Rating-of-EGATi-AAA-TH.pdf"
+    },
+    {
+      "type": "credit",
+      "year": 2022,
+      "agency": "TRIS Rating",
+      "rating": "AAA",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/c2.pdf"
+    },
+    {
+      "type": "credit",
+      "year": 2021,
+      "agency": "TRIS Rating",
+      "rating": "AAA",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/c4.pdf"
+    },
+    {
+      "type": "credit",
+      "year": 2020,
+      "agency": "TRIS Rating",
+      "rating": "AAA",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/c6.pdf"
+    },
+    {
+      "type": "credit",
+      "year": 2019,
+      "agency": "TRIS Rating",
+      "rating": "AAA",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/c8.pdf"
+    },
+    {
+      "type": "credit",
+      "year": 2018,
+      "agency": "TRIS Rating",
+      "rating": "AAA",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/c8.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2026,
+      "period": "2",
+      "url": "https://egati.co.th/wp-content/uploads/2026/09/EGATi-FSAudit-report-Q226-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2026/09/EGATi-FSAudit-report-Q226-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2026,
+      "period": "1",
+      "url": "https://egati.co.th/wp-content/uploads/2026/05/EGATi-FSAudit-report-Q126-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2026/05/EGATi-FSAudit-report-Q126-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2025,
+      "period": "annual",
+      "url": "https://egati.co.th/wp-content/uploads/2026/04/%E0%B8%87%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%9B%E0%B8%B5-68-TH_Final.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2026/04/%E0%B8%87%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%9B%E0%B8%B5-68-EN_Final.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2025,
+      "period": "3",
+      "url": "https://egati.co.th/wp-content/uploads/2025/11/EGATi-FSAudit-report-Q325-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2025/11/EGATi-FSAudit-report-Q325-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2025,
+      "period": "2",
+      "url": "https://egati.co.th/wp-content/uploads/2025/09/EGATi-FSAudit-report-Q225-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2025/11/EGATi-FSAudit-report-Q225-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2025,
+      "period": "1",
+      "url": "https://egati.co.th/wp-content/uploads/2025/06/EGATi-FSAudit-report-Q125-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2025/09/EGATi-FSAudit-report-Q125-EN-1.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2024,
+      "period": "annual",
+      "url": "https://egati.co.th/wp-content/uploads/2025/05/EGATi_Financial-Statements-2024-TH-%E0%B8%AA%E0%B8%95%E0%B8%87.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2025/05/EGATi_Financial-Statements-2024-EN-%E0%B8%AA%E0%B8%95%E0%B8%87.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2024,
+      "period": "3",
+      "url": "https://egati.co.th/wp-content/uploads/2024/12/EGATi-FSAudit-report-Q324-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2024/12/EGATi-FSAudit-report-Q324-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2024,
+      "period": "2",
+      "url": "https://egati.co.th/wp-content/uploads/2024/09/EGATi-FSAudit-report-Q224-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2024/09/EGATi-FSAudit-report-Q224-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2024,
+      "period": "1",
+      "url": "https://egati.co.th/wp-content/uploads/2024/05/EGATi-FSAudit-report-Q124-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2024/05/EGATi-FSAudit-report-Q124-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2023,
+      "period": "annual",
+      "url": "https://egati.co.th/wp-content/uploads/2024/03/EGATi-FSAudit-report-Q423-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2024/03/EGATi-FSAudit-report-Q423-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2023,
+      "period": "3",
+      "url": "https://egati.co.th/wp-content/uploads/2023/11/EGATi-FSAudit-report-Q323-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2023/11/EGATi-FSAudit-report-Q323-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2023,
+      "period": "2",
+      "url": "https://egati.co.th/wp-content/uploads/2023/08/EGATi-FSAudit-report-Q223-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2023/08/EGATi-FSAudit-report-Q223-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2023,
+      "period": "1",
+      "url": "https://egati.co.th/wp-content/uploads/2023/05/EGATi-FS_Audit-report-Q123-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2023/08/EGATi-FSAudit-report-Q123-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2022,
+      "period": "annual",
+      "url": "https://egati.co.th/wp-content/uploads/2023/03/EGATi-FSAudit-report-Q422-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2023/03/EGATi-FSAudit-report-Q422-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2022,
+      "period": "3",
+      "url": "https://egati.co.th/wp-content/uploads/2022/11/EGATi-FSAudit-report-Q322-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/12/FSNote_Q32022-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2022,
+      "period": "2",
+      "url": "https://egati.co.th/wp-content/uploads/2022/11/EGATi-FSAudit-report-Q222-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/11/EGATi-FSAudit-report-Q222-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2022,
+      "period": "1",
+      "url": "https://egati.co.th/wp-content/uploads/2022/05/EGATi-FSAudit-report-Q122-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/06/EGATi-FSAudit-report-Q122-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2021,
+      "period": "annual",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-2021-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-2021-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2021,
+      "period": "3",
+      "url": "https://egati.co.th/wp-content/uploads/2022/02/%E0%B8%87%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%A1%E0%B8%B2%E0%B8%AA-3-%E0%B8%9B%E0%B8%B5-64-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/02/EGATi_FSAudit-report-Q121-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2021,
+      "period": "2",
+      "url": "https://egati.co.th/wp-content/uploads/2022/02/%E0%B8%87%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%A1%E0%B8%B2%E0%B8%AA-2-%E0%B8%9B%E0%B8%B5-64-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/02/EGATi_FSAudit-report-Q221-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2021,
+      "period": "1",
+      "url": "https://egati.co.th/wp-content/uploads/2022/02/%E0%B8%87%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%A1%E0%B8%B2%E0%B8%AA-1-%E0%B8%9B%E0%B8%B5-64-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/02/EGATi_FSAudit-report-Q121-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2020,
+      "period": "annual",
+      "url": "https://egati.co.th/wp-content/uploads/2022/02/%E0%B8%87%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%9B%E0%B8%B5-63-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/02/EGATi_FSAudit-report-20-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2020,
+      "period": "3",
+      "url": "https://egati.co.th/wp-content/uploads/2022/02/%E0%B8%87%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%A1%E0%B8%B2%E0%B8%AA-3-%E0%B8%9B%E0%B8%B5-63-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/02/EGATi_FSAudit-report-Q320-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2020,
+      "period": "2",
+      "url": "https://egati.co.th/wp-content/uploads/2022/02/%E0%B8%87%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%A1%E0%B8%B2%E0%B8%AA-2-%E0%B8%9B%E0%B8%B5-63-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/02/EGATi_FSAudit-report-Q320-EN-1.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2020,
+      "period": "1",
+      "url": "https://egati.co.th/wp-content/uploads/2022/02/Financial-Statements-1Q2020-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/02/EGATi_FSAudit-report-Q120-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2019,
+      "period": "annual",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/%E0%B8%87%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%9B%E0%B8%B5-2562.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-YE19-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2019,
+      "period": "3",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/%E0%B8%87%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%A1%E0%B8%B2%E0%B8%AA-3-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%9B%E0%B8%B5-2562.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-Q319-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2019,
+      "period": "2",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/%E0%B8%87%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%A1%E0%B8%B2%E0%B8%AA-2-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%9B%E0%B8%B5-2562.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-Q219-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2019,
+      "period": "1",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/%E0%B8%87%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%A1%E0%B8%B2%E0%B8%AA-1-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%9B%E0%B8%B5-2562.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-Q119-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2018,
+      "period": "annual",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-YE18-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-YE18-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2018,
+      "period": "3",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-Q318-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-Q318-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2018,
+      "period": "2",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-Q218-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-Q218-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2018,
+      "period": "1",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-Q118-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-Q118-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2017,
+      "period": "annual",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-YE17-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-YE17-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2017,
+      "period": "3",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-Q317-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-Q317-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2017,
+      "period": "2",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-Q217-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-Q217-EN.pdf"
+    },
+    {
+      "type": "finance",
+      "year": 2017,
+      "period": "1",
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-Q117-TH.pdf",
+      "url_en": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-FSAudit-report-Q117-EN.pdf"
+    },
+    {
+      "type": "annual",
+      "year": 2024,
+      "url": "https://egati.co.th/wp-content/uploads/2025/11/Egati_AR-Thai-final.pdf",
+      "cover": "web-assets/publications/annual-2024.webp"
+    },
+    {
+      "type": "annual",
+      "year": 2023,
+      "url": "https://egati.co.th/wp-content/uploads/2024/07/AR2023_Final.pdf",
+      "cover": "web-assets/publications/annual-2023.webp"
+    },
+    {
+      "type": "annual",
+      "year": 2022,
+      "url": "https://egati.co.th/wp-content/uploads/2023/08/EGATi-Annual-Report-2022_Final.pdf",
+      "cover": "web-assets/publications/annual-2022.webp"
+    },
+    {
+      "type": "annual",
+      "year": 2021,
+      "url": "https://egati.co.th/wp-content/uploads/2022/07/EGATi_AR2021_Final-1.pdf",
+      "cover": "web-assets/publications/annual-2021.webp"
+    },
+    {
+      "type": "annual",
+      "year": 2020,
+      "url": "https://egati.co.th/wp-content/uploads/2022/02/2020.pdf",
+      "cover": "web-assets/publications/annual-2020.webp"
+    },
+    {
+      "type": "annual",
+      "year": 2019,
+      "url": "https://egati.co.th/wp-content/uploads/2022/02/2019.pdf",
+      "cover": "web-assets/publications/annual-2019.webp"
+    },
+    {
+      "type": "annual",
+      "year": 2018,
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/EGATi-Annual-Report-2018.pdf",
+      "cover": "web-assets/publications/annual-2018.webp"
+    },
+    {
+      "type": "annual",
+      "year": 2017,
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/2017.pdf",
+      "cover": "web-assets/publications/annual-2017.webp"
+    },
+    {
+      "type": "annual",
+      "year": 2016,
+      "url": "https://egati.co.th/wp-content/uploads/2022/03/Annual-Report-EGATi-2016.pdf",
+      "cover": "web-assets/publications/annual-2016.webp"
+    },
+    {
+      "type": "annual",
+      "year": 2015,
+      "url": "https://egati.co.th/wp-content/uploads/2022/02/2015.pdf",
+      "cover": "web-assets/publications/annual-2015.webp"
+    },
+    {
+      "type": "annual",
+      "year": 2014,
+      "url": "https://egati.co.th/wp-content/uploads/2022/02/2014.pdf",
+      "cover": "web-assets/publications/annual-2014.webp"
+    }
+  ]
+}

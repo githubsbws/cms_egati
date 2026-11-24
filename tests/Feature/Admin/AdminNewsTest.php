@@ -105,6 +105,44 @@ class AdminNewsTest extends TestCase
         Storage::disk('public')->assertExists($post->cover_image);
     }
 
+    public function test_event_photos_are_added_shown_on_the_article_and_removed(): void
+    {
+        $this->post(route('admin.news.store'), $this->payload([
+            'gallery' => [UploadedFile::fake()->image('a.jpg'), UploadedFile::fake()->image('b.png')],
+        ]))->assertRedirect()->assertSessionHasNoErrors();
+
+        $post = PostTranslation::where('locale', 'en')->where('slug', 'test-news-item')->firstOrFail()->post;
+        $this->assertSame(2, $post->images()->count());
+        [$first, $second] = $post->images->all();
+        Storage::disk('public')->assertExists([$first->path, $second->path]);
+        $this->assertSame([1, 2], $post->images->pluck('sort_order')->all());
+
+        $this->get('/en/news/test-news-item')->assertOk()
+            ->assertSee('data-nr-image="0"', false)->assertSee('data-nr-image="1"', false)
+            ->assertSee(Storage::disk('public')->url($first->path), false);
+
+        $this->put(route('admin.news.update', $post), $this->payload([
+            'remove_images' => [$first->id],
+            'gallery' => [UploadedFile::fake()->image('c.webp')],
+        ]))->assertSessionHasNoErrors();
+
+        Storage::disk('public')->assertMissing($first->path);
+        $this->assertSame(2, $post->images()->count());
+        $this->assertSame(3, $post->images()->max('sort_order'));
+    }
+
+    public function test_event_photo_validation(): void
+    {
+        $this->post(route('admin.news.store'), $this->payload(['gallery' => [UploadedFile::fake()->create('a.pdf', 10, 'application/pdf')]]))
+            ->assertSessionHasErrors('gallery.0');
+    }
+
+    public function test_imported_photos_moved_out_of_the_text_into_the_gallery(): void
+    {
+        $this->assertSame(0, PostTranslation::where('content', 'like', '%<img%')->count());
+        $this->assertGreaterThan(0, Post::has('images')->count());
+    }
+
     public function test_destroy_soft_deletes_and_hides_from_the_website(): void
     {
         $this->post(route('admin.news.store'), $this->payload())->assertRedirect();

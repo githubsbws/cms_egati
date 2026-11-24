@@ -24,6 +24,11 @@ return [
         'video_presentation' => 'Video presentation',
         'related_agencies' => 'Related agencies',
     ],
+    'document_sub' => [
+        'document_credit' => 'Credit ratings',
+        'document_finance' => 'Financial statements',
+        'document_annual' => 'Annual reports',
+    ],
     'work_us_sub' => [
         'career_jobs' => 'Positions',
         'career_categories' => 'Job families',

@@ -61,6 +61,16 @@ class Post extends Model
     }
 
     /**
+     * Event photos shown as a gallery under the article.
+     *
+     * @return HasMany<PostImage, $this>
+     */
+    public function images(): HasMany
+    {
+        return $this->hasMany(PostImage::class)->orderBy('sort_order')->orderBy('id');
+    }
+
+    /**
      * @return BelongsTo<Category, $this>
      */
     public function category(): BelongsTo

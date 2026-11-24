@@ -116,6 +116,7 @@ class NewsController extends Controller
         // Translations first: a slug error must not leave uploaded files behind.
         $this->saveTranslations($post, $data['translations']);
         $this->saveCover($request, $post);
+        $this->saveGallery($request, $post);
         $post->save();
 
         return $post;
@@ -132,6 +133,22 @@ class NewsController extends Controller
         }
         if ($request->hasFile('cover')) {
             $post->cover_image = UploadHelper::store($request->file('cover'), 'news');
+        }
+    }
+
+    /**
+     * Event photos: the ticked ones are removed (file deleted), new uploads are added after the existing ones.
+     */
+    protected function saveGallery(SaveNewsRequest $request, Post $post): void
+    {
+        foreach ($post->images()->whereIn('id', (array) $request->input('remove_images', []))->get() as $image) {
+            UploadHelper::delete($image->path);
+            $image->delete();
+        }
+
+        $order = (int) $post->images()->max('sort_order');
+        foreach ((array) $request->file('gallery', []) as $file) {
+            $post->images()->create(['path' => UploadHelper::store($file, 'news'), 'sort_order' => ++$order]);
         }
     }
 

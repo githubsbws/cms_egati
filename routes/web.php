@@ -17,9 +17,11 @@ use App\Http\Controllers\Admin\OrgMemberController;
 use App\Http\Controllers\Admin\PermissionController;
 use App\Http\Controllers\Admin\ProcurementLookupController;
 use App\Http\Controllers\Admin\ProcurementRecordController;
+use App\Http\Controllers\Admin\PublicationController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Web\AboutController;
 use App\Http\Controllers\Web\CareersController;
+use App\Http\Controllers\Web\DocumentsController;
 use App\Http\Controllers\Web\HomeController;
 use App\Http\Controllers\Web\NewsController;
 use App\Http\Controllers\Web\ProcurementController;
@@ -52,6 +54,20 @@ Route::prefix('admin')->middleware('auth')->group(function () {
         Route::put('/{language}/strings', [LanguageController::class, 'saveStrings'])->name('strings.save');
         Route::post('/{language}/strings/upload', [LanguageController::class, 'uploadStrings'])->name('strings.upload');
         Route::get('/{language}/download', [LanguageController::class, 'download'])->name('download');
+    });
+    // Published documents (admin_menus id 13): credit ratings, financial statements, annual reports
+    Route::prefix('documents')->name('admin.documents.')->middleware('menu.permission:13')->group(function () {
+        foreach (['credit', 'finance', 'annual'] as $type) {
+            Route::prefix($type)->name("{$type}.")->group(function () use ($type) {
+                $r = fn (Illuminate\Routing\Route $route) => $route->defaults('type', $type);
+                $r(Route::get('/', [PublicationController::class, 'index'])->name('index'));
+                $r(Route::get('/create', [PublicationController::class, 'create'])->name('create'));
+                $r(Route::post('/', [PublicationController::class, 'store'])->name('store'));
+                $r(Route::get('/{publication}/edit', [PublicationController::class, 'edit'])->name('edit'));
+                $r(Route::put('/{publication}', [PublicationController::class, 'update'])->name('update'));
+                $r(Route::delete('/{publication}', [PublicationController::class, 'destroy'])->name('destroy'));
+            });
+        }
     });
     // Recruitment notices (admin_menus id 14): positions with their documents, job families
     Route::prefix('careers')->name('admin.careers.')->middleware('menu.permission:14')->group(function () {
@@ -186,6 +202,8 @@ Route::prefix('{locale}')
         Route::get('/about/management', [AboutController::class, 'management'])->name('web.about.management');
         Route::get('/about/structure', [AboutController::class, 'structure'])->name('web.about.structure');
         Route::get('/procurement', [ProcurementController::class, 'index'])->name('web.procurement');
+        Route::get('/documents', [DocumentsController::class, 'index'])->name('web.documents');
+        Route::get('/documents/{type}', [DocumentsController::class, 'show'])->whereIn('type', ['credit', 'finance', 'annual'])->name('web.documents.show');
         Route::get('/careers', [CareersController::class, 'index'])->name('web.careers');
         Route::get('/careers/{slug}', [CareersController::class, 'show'])->name('web.careers.show');
         Route::get('/news', [NewsController::class, 'index'])->name('web.news.index');

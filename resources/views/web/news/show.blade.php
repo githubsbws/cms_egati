@@ -41,6 +41,17 @@
                     <div class="nr-reading-rule" aria-hidden="true"></div>
                     <div class="nr-prose">{!! $translation->content !!}</div>
 
+                    {{-- Event photos --}}
+                    @if ($post->images->isNotEmpty())
+                        <div class="nr-gallery">
+                            <h2>{{ __web('news.photo_gallery') }}</h2>
+                            <div>
+                                @foreach ($post->images as $image)
+                                    <button type="button" data-nr-image="{{ $loop->index }}" aria-label="{{ __web('news.enlarge_image') }} {{ $loop->iteration }}"><img src="{{ $image->url }}" loading="lazy" alt="{{ __web('news.event_photo') }} {{ $loop->iteration }}"><span aria-hidden="true">＋</span></button>
+                                @endforeach
+                            </div>
+                        </div>
+                    @endif
 
 
                     <a href="{{ web_url('news') }}" class="nr-back">← {{ __web('news.back_to_news_activities') }}</a>

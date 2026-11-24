@@ -53,19 +53,24 @@ class NewsSeeder extends Seeder
             'published_at' => $item['date'].' 09:00:00',
         ]);
 
+        // Photos after the first (the cover) are the event photos of the gallery
+        foreach (array_slice($item['images'], 1) as $index => $path) {
+            $post->images()->create(['path' => $path, 'sort_order' => $index + 1]);
+        }
+
         $post->translations()->create([
             'locale' => 'th',
             'title' => $item['title'],
             'slug' => $slug,
             'excerpt' => $item['body'][0] ?? null,
-            'content' => $this->toHtml($item['body']).$this->imagesHtml($item),
+            'content' => $this->toHtml($item['body']),
         ]);
         $post->translations()->create([
             'locale' => 'en',
             'title' => $item['titleEn'],
             'slug' => $slug,
             'excerpt' => $item['summaryEn'] ?? null,
-            'content' => $this->toHtml($item['bodyEn'] ?? []).$this->imagesHtml($item),
+            'content' => $this->toHtml($item['bodyEn'] ?? []),
         ]);
     }
 
@@ -75,17 +80,5 @@ class NewsSeeder extends Seeder
     protected function toHtml(array $paragraphs): string
     {
         return collect($paragraphs)->map(fn (string $p): string => '<p>'.e($p).'</p>')->implode("\n");
-    }
-
-    /**
-     * Photos after the first (the cover) go inside the article body.
-     *
-     * @param  array<string, mixed>  $item
-     */
-    protected function imagesHtml(array $item): string
-    {
-        return collect(array_slice($item['images'], 1))
-            ->map(fn (string $path): string => '<p><img src="/'.e($path).'" alt=""></p>')
-            ->implode("\n");
     }
 }

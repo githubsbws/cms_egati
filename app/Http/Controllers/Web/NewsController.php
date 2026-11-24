@@ -21,6 +21,7 @@ class NewsController extends Controller
     {
         return view('web.news.videos');
     }
+
     public function index(Request $request, string $locale): View
     {
         // Invalid filter values are ignored (public page, no redirect back).
@@ -64,7 +65,7 @@ class NewsController extends Controller
     public function show(string $locale, string $slug): View
     {
         $translation = PostTranslation::where('locale', $locale)->where('slug', $slug)->firstOrFail();
-        $post = Post::published()->with(['translations', 'category.translations'])->findOrFail($translation->post_id);
+        $post = Post::published()->with(['translations', 'category.translations', 'images'])->findOrFail($translation->post_id);
 
         $related = Post::published()
             ->translatedIn($locale)
